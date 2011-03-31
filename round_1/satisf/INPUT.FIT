@@ -38,7 +38,7 @@
                      Root Mean Square Residual (RMR) = 0.0983
                              Standardized RMR = 0.109
                        Goodness of Fit Index (GFI) = 0.973
-                       Contribution to Chi-Square = 127.792
+                       Contribution to Chi-Square = 127.793
                   Percentage Contribution to Chi-Square = 2.191
                      Root Mean Square Residual (RMR) = 0.0216
                             Standardized RMR = 0.0675
@@ -187,7 +187,7 @@
                Minimum Fit Function Chi-Square = 5832.582 (P = 0.0)
        Normal Theory Weighted Least Squares Chi-Square = 6167.775 (P = 0.0)
                Estimated Non-centrality Parameter (NCP) = 4695.775
-          90 Percent Confidence Interval for NCP = (4456.903 ; 4942.008)
+          90 Percent Confidence Interval for NCP = (4456.902 ; 4942.008)
                         Minimum Fit Function Value = 0.241
                 Population Discrepancy Function Value (F0) = 0.194
              90 Percent Confidence Interval for F0 = (0.184 ; 0.204)
