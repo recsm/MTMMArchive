@@ -43,7 +43,7 @@ fr ph 5 5
 fr ph 6 6
 
 !start .5 all
-start .5 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 pd
 out mi iter= 300 adm=off sc
 
