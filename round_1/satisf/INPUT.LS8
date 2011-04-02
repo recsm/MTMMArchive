@@ -439,7 +439,7 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 11 3 1 ph 3 1
 eq ph 11 3 2 ph 3 2
 eq ph 11 2 1 ph 2 1 
-
+free ph 6 6 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
