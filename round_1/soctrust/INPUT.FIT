@@ -48,7 +48,7 @@
                      Root Mean Square Residual (RMR) = 0.197
                             Standardized RMR = 0.0472
                        Goodness of Fit Index (GFI) = 0.988
-                       Contribution to Chi-Square = 100.806
+                       Contribution to Chi-Square = 100.805
                   Percentage Contribution to Chi-Square = 2.805
                      Root Mean Square Residual (RMR) = 0.485
                              Standardized RMR = 0.158
@@ -64,7 +64,7 @@
                             Standardized RMR = 0.0382
                        Goodness of Fit Index (GFI) = 0.987
                        Contribution to Chi-Square = 31.855
-                  Percentage Contribution to Chi-Square = 0.886
+                  Percentage Contribution to Chi-Square = 0.887
                      Root Mean Square Residual (RMR) = 0.274
                             Standardized RMR = 0.0832
                        Goodness of Fit Index (GFI) = 0.973
@@ -83,12 +83,12 @@
                      Root Mean Square Residual (RMR) = 0.307
                             Standardized RMR = 0.0697
                        Goodness of Fit Index (GFI) = 0.986
-                       Contribution to Chi-Square = 57.433
+                       Contribution to Chi-Square = 57.434
                   Percentage Contribution to Chi-Square = 1.598
                      Root Mean Square Residual (RMR) = 0.283
                             Standardized RMR = 0.0995
                        Goodness of Fit Index (GFI) = 0.980
-                       Contribution to Chi-Square = 77.423
+                       Contribution to Chi-Square = 77.424
                   Percentage Contribution to Chi-Square = 2.155
                      Root Mean Square Residual (RMR) = 0.305
                             Standardized RMR = 0.0692
@@ -98,7 +98,7 @@
                      Root Mean Square Residual (RMR) = 0.282
                             Standardized RMR = 0.0992
                        Goodness of Fit Index (GFI) = 0.980
-                       Contribution to Chi-Square = 168.708
+                       Contribution to Chi-Square = 168.709
                   Percentage Contribution to Chi-Square = 4.695
                      Root Mean Square Residual (RMR) = 0.483
                              Standardized RMR = 0.167
@@ -173,7 +173,7 @@
                      Root Mean Square Residual (RMR) = 0.312
                             Standardized RMR = 0.0867
                        Goodness of Fit Index (GFI) = 0.986
-                       Contribution to Chi-Square = 90.638
+                       Contribution to Chi-Square = 90.637
                   Percentage Contribution to Chi-Square = 2.522
                      Root Mean Square Residual (RMR) = 0.341
                             Standardized RMR = 0.0945
@@ -187,7 +187,7 @@
                Minimum Fit Function Chi-Square = 3593.308 (P = 0.0)
        Normal Theory Weighted Least Squares Chi-Square = 3690.087 (P = 0.0)
                Estimated Non-centrality Parameter (NCP) = 2221.087
-          90 Percent Confidence Interval for NCP = (2045.981 ; 2403.786)
+          90 Percent Confidence Interval for NCP = (2045.981 ; 2403.787)
                         Minimum Fit Function Value = 0.149
                Population Discrepancy Function Value (F0) = 0.0919
             90 Percent Confidence Interval for F0 = (0.0847 ; 0.0995)
