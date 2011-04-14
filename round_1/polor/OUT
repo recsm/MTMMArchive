@@ -1,6 +1,6 @@
 
                                 DATE:  4/14/2011
-                                  TIME: 17:39
+                                  TIME: 17:42
 
 
                                 L I S R E L  8.72
@@ -1168,7 +1168,6 @@
  eq ph 23 3 1 ph 3 1
  eq ph 23 3 2 ph 3 2
  eq ph 23 2 1 ph 2 1
-  
  !extra
  eq ph 23 5 5 ph 5 5
   
@@ -39656,4 +39655,4 @@
             --------   --------   --------
                0.916      0.175      0.174
 
-                           Time used:    3.906 Seconds
+                           Time used:    3.891 Seconds
