@@ -1,6 +1,6 @@
 
                                 DATE:  4/14/2011
-                                  TIME: 15:01
+                                  TIME: 15:02
 
 
                          LISREL 8.80 (STUDENT EDITION)
@@ -347,7 +347,7 @@
   
  free ph 2 1 ph 3 1 ph 3 2
   
- !extra
+ ! extra
  fr ph 4 4
   
  start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
@@ -38514,4 +38514,4 @@
             --------   --------   --------
                3.781      2.879      1.606
 
-                           Time used:    5.172 Seconds
+                           Time used:    5.141 Seconds
