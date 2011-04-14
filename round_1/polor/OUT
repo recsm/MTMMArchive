@@ -1,6 +1,6 @@
 
                                 DATE:  4/14/2011
-                                  TIME: 12:55
+                                  TIME: 13:00
 
 
                                 L I S R E L  8.72
@@ -1121,7 +1121,7 @@
  free ph 2 1 ph 3 1 ph 3 2
   
  start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
- out mi iter= 300 adm=off sc
+ out mi iter= 600 adm=off sc
 
  Analysis of round 1 IE polor group 1  (gp23)                                   
 
@@ -1170,7 +1170,7 @@
  eq ph 23 2 1 ph 2 1
   
  start .7 te 7 7 te 8 8 te 9 9
- out mi iter= 300 adm=off sc
+ out mi iter= 600 adm=off sc
 
  Analysis of group 2 IE (gp24)                                                  
 
@@ -1830,7 +1830,7 @@
   
  pd
  start .7 te 7 7 te 8 8 te 9 9
- out mi iter= 500 adm=off sc
+ out mi iter=500 adm=off sc
 
  Analysis of group 2 SI (gp38)                                                  
 
@@ -39653,4 +39653,4 @@
             --------   --------   --------
                0.911      0.170      0.170
 
-                           Time used:    4.234 Seconds
+                           Time used:    4.297 Seconds
