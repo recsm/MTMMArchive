@@ -259,7 +259,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !extra
 !fr ga 4 5
-!fr ph 5 5
+fr ph 5 5
 !fr ga 6 5 
 fr ph 5 4
 
@@ -304,7 +304,7 @@ eq ph 7 2 1 ph 2 1
 
 !extra
 !eq ga 7 4 5 ga 4 5
-!eq ph 7 5 5 ph 5 5
+eq ph 7 5 5 ph 5 5
 !eq ga 7 6 5 ga 6 5
 eq ph 7 5 4 ph 5 4
 
