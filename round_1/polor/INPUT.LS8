@@ -1238,7 +1238,7 @@ fr ph 6 6
 fr ph 5 5
 
 !extra
-!fr ga 5 2
+fr ga 5 2
 fr ga 2 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -1284,7 +1284,7 @@ eq ph 31 6 6 ph 6 6
 eq ph 31 5 5 ph 5 5
 
 !extra
-!eq ga 31 5 2 ga 5 2
+eq ga 31 5 2 ga 5 2
 eq ga 31 2 2 ga 2 2
 
 start .7 te 7 7 te 8 8 te 9 9
