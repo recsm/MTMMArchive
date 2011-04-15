@@ -112,9 +112,6 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 
 free ph 2 1 ph 3 1 ph 3 2   
 
-!extra
-fr ph 6 6
-
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -152,10 +149,7 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 
 eq ph 3 3 1 ph 3 1
 eq ph 3 3 2 ph 3 2
-eq ph 3 2 1 ph 2 1
-
-!extra
-eq ph 3 6 6 ph 6 6 
+eq ph 3 2 1 ph 2 1 
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -189,10 +183,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 4 4
-fr ph 6 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -233,10 +223,6 @@ eq ph 5 3 1 ph 3 1
 eq ph 5 3 2 ph 3 2
 eq ph 5 2 1 ph 2 1 
 
-!extra
-eq ph 5 4 4 ph 4 4
-eq ph 5 6 6 ph 6 6
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -269,9 +255,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 4 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -312,9 +295,6 @@ eq ph 7 3 1 ph 3 1
 eq ph 7 3 2 ph 3 2
 eq ph 7 2 1 ph 2 1 
 
-!extra
-eq ph 7 4 4 ph 4 4
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -347,9 +327,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 4 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -389,9 +366,6 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 9 3 1 ph 3 1
 eq ph 9 3 2 ph 3 2
 eq ph 9 2 1 ph 2 1 
-
-!extra
-eq ph 9 4 4 ph 4 4
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -506,10 +480,6 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 
 free ph 2 1 ph 3 1 ph 3 2   
 
-!extra
-fr ph 4 4
-fr ph 5 5
-
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -550,10 +520,6 @@ eq ph 13 3 1 ph 3 1
 eq ph 13 3 2 ph 3 2
 eq ph 13 2 1 ph 2 1 
 
-!extra
-eq ph 13 4 4 ph 4 4
-eq ph 13 5 5 ph 5 5
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -586,9 +552,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 6 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc nd=3
@@ -629,9 +592,6 @@ eq ph 15 3 1 ph 3 1
 eq ph 15 3 2 ph 3 2
 eq ph 15 2 1 ph 2 1  
 
-!extra
-eq ph 15 6 6 ph 6 6
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -663,10 +623,7 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
-free ph 2 1 ph 3 1 ph 3 2  
-
-!extra
-fr ph 4 4 
+free ph 2 1 ph 3 1 ph 3 2   
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -707,9 +664,6 @@ eq ph 17 3 1 ph 3 1
 eq ph 17 3 2 ph 3 2
 eq ph 17 2 1 ph 2 1 
 
-!extra
-eq ph 17 4 4 ph 4 4
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
 
@@ -741,10 +695,7 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
-free ph 2 1 ph 3 1 ph 3 2  
-
-!extra
-fr ph 4 4 
+free ph 2 1 ph 3 1 ph 3 2   
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -785,9 +736,6 @@ eq ph 19 3 1 ph 3 1
 eq ph 19 3 2 ph 3 2
 eq ph 19 2 1 ph 2 1 
 
-!extra
-eq ph 19 4 4 ph 4 4
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -820,12 +768,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 4 4
-fr ph 5 4
-fr ph 5 5
-fr ph 6 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -866,12 +808,6 @@ eq ph 21 3 1 ph 3 1
 eq ph 21 3 2 ph 3 2
 eq ph 21 2 1 ph 2 1 
 
-!extra
-eq ph 21 4 4 ph 4 4
-eq ph 21 5 4 ph 5 4
-eq ph 21 5 5 ph 5 5
-eq ph 21 6 6 ph 6 6
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -904,10 +840,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 4 4
-!fr ph 5 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -948,10 +880,6 @@ eq ph 23 3 1 ph 3 1
 eq ph 23 3 2 ph 3 2
 eq ph 23 2 1 ph 2 1  
 
-!extra
-eq ph 23 4 4 ph 4 4
-eq ph 23 5 5 ph 5 5
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc  
 
@@ -984,10 +912,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 4 4
-fr ph 6 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1029,10 +953,6 @@ eq ph 25 3 1 ph 3 1
 eq ph 25 3 2 ph 3 2
 eq ph 25 2 1 ph 2 1 
 
-!extra
-eq ph 25 4 4 ph 4 4
-eq ph 25 6 6 ph 6 6
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -1065,9 +985,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 4 4 
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1107,9 +1024,6 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 27 3 1 ph 3 1
 eq ph 27 3 2 ph 3 2
 eq ph 27 2 1 ph 2 1   
-
-!extra
-eq ph 27 4 4 ph 4 4
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
@@ -1219,13 +1133,6 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 
 free ph 2 1 ph 3 1 ph 3 2    
 
-!extra
-fr ph 6 6
-!fr ph 4 4 
-fr ga 9 3
-!fr ga 9 6
-!fr ga 7 1
-
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -1265,13 +1172,6 @@ eq ph 31 3 1 ph 3 1
 eq ph 31 3 2 ph 3 2
 eq ph 31 2 1 ph 2 1 
 
-!extra
-eq ph 31 6 6 ph 6 6
-eq ph 31 4 4 ph 4 4
-eq ga 31 9 3 ga 9 3
-eq ga 31 9 6 ga 9 6
-eq ga 31 7 1 ga 7 1
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -1303,11 +1203,7 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
-free ph 2 1 ph 3 1 ph 3 2  
-
-!extra
-fr ph 6 6 
-fr ph 5 5
+free ph 2 1 ph 3 1 ph 3 2   
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1348,10 +1244,6 @@ eq ph 33 3 1 ph 3 1
 eq ph 33 3 2 ph 3 2
 eq ph 33 2 1 ph 2 1 
 
-!extra
-eq ph 33 6 6 ph 6 6
-eq ph 33 5 5 ph 5 5
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
 
@@ -1384,11 +1276,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 6 6
-fr ph 5 5
-fr ph 4 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1430,11 +1317,6 @@ eq ph 35 3 1 ph 3 1
 eq ph 35 3 2 ph 3 2
 eq ph 35 2 1 ph 2 1 
 
-!extra
-eq ph 35 6 6 ph 6 6
-eq ph 35 5 5 ph 5 5
-eq ph 35 4 4 ph 4 4
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
 
@@ -1467,14 +1349,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 6 6
-fr ph 5 5
-fr ph 4 4
-
-fr ga 9 3
-fr ph 5 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1514,14 +1388,6 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 37 3 1 ph 3 1
 eq ph 37 3 2 ph 3 2
 eq ph 37 2 1 ph 2 1 
-
-!extra
-eq ph 37 6 6 ph 6 6
-eq ph 37 5 5 ph 5 5
-eq ph 37 4 4 ph 4 4
-
-eq ga 37 9 3 ga 9 3
-eq ph 37 5 4 ph 5 4
 
 pd
 start .7 te 7 7 te 8 8 te 9 9
