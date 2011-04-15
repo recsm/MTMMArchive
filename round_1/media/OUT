@@ -1,6 +1,6 @@
 
                                 DATE:  4/15/2011
-                                  TIME: 20:11
+                                  TIME: 20:17
 
 
                                 L I S R E L  8.72
@@ -1768,7 +1768,7 @@
  !fr ga 6 1 ga 2 5 te 9 3 te 5 4
  !fr ga 4 5 fr te 6 5 ph 4 4 ga 5 5
  !fr ph 5 2
- !ph 3 3
+ fr ph 3 3
   
  start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
  out mi iter= 300 adm=off sc
@@ -1831,7 +1831,7 @@
  !eq ga 35 6 1 ga 6 1
  eq ga 35 2 5 ga 2 5
  !eq ga 35 9 3 ga 9 3
- !eq ph 35 3 3 ph 3 3
+ eq ph 35 3 3 ph 3 3
  !eq ga 35 9 3 ga 9 3
  !eq ph 35 5 2 ph 5 2
  eq ga 35 4 1 ga 4 1
@@ -40252,4 +40252,4 @@
             --------   --------   --------
                0.356      0.250      0.311
 
-                           Time used:    4.297 Seconds
+                           Time used:    4.313 Seconds
