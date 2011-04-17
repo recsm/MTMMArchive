@@ -1475,10 +1475,10 @@ free te 6 4
 free ph 5 5 ga 6 5 ga 9 3 !ga 8 2
 !free ga 6 3 !ga 7 6
 free ga 4 1 ga 3 3
-free te 6 3
+free te 6 3 te 6 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
-st .0 te 6 3
+st .0 te 6 3 te 6 1
 out mi iter= 300 adm=off sc
 
 Analysis of group 2 SE (gp36)
