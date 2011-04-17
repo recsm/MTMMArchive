@@ -1476,6 +1476,8 @@ free ph 5 5 ga 6 5 ga 9 3 !ga 8 2
 !free ga 6 3 !ga 7 6
 free ga 4 1 ga 3 3
 free te 6 3 
+fi te 1 1
+va 0.0001 te 1 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 st .0 te 6 3 
@@ -1527,9 +1529,8 @@ eq ga 35 6 3 ga 6 3
 eq ga 35 4 1 ga 4 1
 eq ga 35 3 3 ga 3 3 
 !free te 9 3
-fre te 7 1
+eq te 35 1 1 te 1 1
 start .7 te 7 7 te 8 8 te 9 9
-st .00 te 7 1
 out mi iter= 300 adm=off sc
 
 Analysis of round 1 SI media group 1 (gp37)
