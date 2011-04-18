@@ -434,7 +434,7 @@ free ph 6 6
 fr ga 3 4
 fr ga 9 3
 fr ga 8 2
-!fr ga 7 1
+fr ga 7 1
 fr ga 4 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
