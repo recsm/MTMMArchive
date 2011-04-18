@@ -194,7 +194,7 @@ free ph 2 1 ph 3 1 ph 3 2
 fr ph 4 4
 fr ph 6 6
 fr ga 6 3
-fr ga 8 2
+!fr ga 8 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -433,6 +433,12 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !extra 
 free ph 6 6
+fr ga 3 4
+fr ga 9 3
+fr ga 8 2
+fr ga 7 1
+fr ga 4 1
+!fr ph 5 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -475,6 +481,12 @@ eq ph 11 2 1 ph 2 1
 
 !extra 
 eq ph 11 6 6 ph 6 6
+eq ga 11 3 4 ga 3 4
+eq ga 11 9 3 ga 9 3
+eq ga 11 8 2 ga 8 2
+eq ga 11 7 1 ga 7 1
+eq ga 11 4 1 ga 4 1
+eq ph 11 5 5 ph 5 5
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -513,6 +525,7 @@ free ph 2 1 ph 3 1 ph 3 2
 !extra
 fr ph 4 4
 fr ph 5 5
+fr ga 9 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -557,6 +570,7 @@ eq ph 13 2 1 ph 2 1
 !extra
 eq ph 13 4 4 ph 4 4
 eq ph 13 5 5 ph 5 5
+eq ga 13 9 3 ga 9 3
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -593,6 +607,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !extra
 fr ph 6 6
+fr ga 8 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc nd=3
@@ -635,6 +650,7 @@ eq ph 15 2 1 ph 2 1
 
 !extra
 eq ph 15 6 6 ph 6 6
+eq ga 15 8 2 ga 8 2
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -671,6 +687,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !extra
 fr ph 4 4 
+!fr ph 5 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -713,6 +730,7 @@ eq ph 17 2 1 ph 2 1
 
 !extra
 eq ph 17 4 4 ph 4 4
+eq ph 17 5 5 ph 5 5
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
@@ -749,6 +767,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !extra
 fr ph 4 4 
+fr ph 5 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -791,6 +810,7 @@ eq ph 19 2 1 ph 2 1
 
 !extra
 eq ph 19 4 4 ph 4 4
+eq ph 19 5 5 ph 5 5
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -830,6 +850,10 @@ fr ph 4 4
 fr ph 5 4
 fr ph 5 5
 fr ph 6 6
+
+fr ga 9 6
+fr ga 9 3
+!fr ga 3 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -875,6 +899,10 @@ eq ph 21 4 4 ph 4 4
 eq ph 21 5 4 ph 5 4
 eq ph 21 5 5 ph 5 5
 eq ph 21 6 6 ph 6 6
+
+eq ga 21 9 6 ga 9 6
+eq ga 21 9 3 ga 9 3
+eq ga 21 3 4 ga 3 4
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -1072,6 +1100,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !extra
 fr ph 4 4 
+!fr ph 5 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1114,6 +1143,7 @@ eq ph 27 2 1 ph 2 1
 
 !extra
 eq ph 27 4 4 ph 4 4
+eq ph 27 5 4 ph 5 4
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
@@ -1147,7 +1177,11 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
-free ph 2 1 ph 3 1 ph 3 2   
+free ph 2 1 ph 3 1 ph 3 2  
+
+!extra
+!fr ga 3 4 
+fr ga 8 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1189,6 +1223,10 @@ eq ph 29 3 1 ph 3 1
 eq ph 29 3 2 ph 3 2
 eq ph 29 2 1 ph 2 1 
 
+!extra
+eq ga 29 3 4 ga 3 4
+eq ga 29 8 2 ga 8 2
+
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
 
@@ -1228,7 +1266,8 @@ fr ph 6 6
 !fr ph 4 4 
 fr ga 9 3
 !fr ga 9 6
-!fr ga 7 1
+fr ga 7 1
+!fr ga 2 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1275,6 +1314,7 @@ eq ph 31 4 4 ph 4 4
 eq ga 31 9 3 ga 9 3
 eq ga 31 9 6 ga 9 6
 eq ga 31 7 1 ga 7 1
+eq ga 31 2 2 ga 2 2
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -1393,6 +1433,7 @@ free ph 2 1 ph 3 1 ph 3 2
 fr ph 6 6
 fr ph 5 5
 fr ph 4 4
+fr ga 8 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1438,6 +1479,7 @@ eq ph 35 2 1 ph 2 1
 eq ph 35 6 6 ph 6 6
 eq ph 35 5 5 ph 5 5
 eq ph 35 4 4 ph 4 4
+eq ga 35 8 2 ga 8 2
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
@@ -1473,7 +1515,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-!fr ph 6 6
+fr ph 6 6
 !fr ph 5 5
 !fr ph 4 4
 
