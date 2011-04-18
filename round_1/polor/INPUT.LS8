@@ -764,6 +764,7 @@ free ph 4 4
 free ph 6 6
 fr ga 5 2
 fr ga 7 6
+fr ga 1 4
 
 !extra
 !fr te 5 2
@@ -798,6 +799,7 @@ value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
 
 !extra2
 !eq ga 19 4 1 ga 4 1
+eq ga 19 1 4 ga 1 4
 
 equal te 19 1 1 te 1 1
 equal te 19 2 2 te 2 2
