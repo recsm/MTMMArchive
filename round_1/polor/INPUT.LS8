@@ -1538,7 +1538,7 @@ free ga 1 4
 !ga 2 4 
 free ga 7 1 !ga 5 4 
 !free ga 8 2 ga 3 3
-free te 5 2
+free te 5 2 ga 5 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1586,6 +1586,7 @@ eq ga 37 7 1 ga 7 1
 !eq ga 37 5 4 ga 5 4
 !eq ga 37 8 2 ga 8 2
 !eq ga 37 3 3 ga 3 3
+eq ga 37 5 2 ga 5 2
 
 pd
 start .7 te 7 7 te 8 8 te 9 9
