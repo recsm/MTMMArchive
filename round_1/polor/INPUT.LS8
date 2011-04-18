@@ -917,7 +917,8 @@ fr ph 6 6
 !extra
 !fr te 6 3
 !fr te 8 2
-fr te 4 1
+!fr te 4 1
+
 
 
 !extra
@@ -989,6 +990,7 @@ eq ga 21 3 3 ga 3 3
 !extra
 !eq te 21 6 3 te 6 3
 !eq te 21 8 2 te 8 2
+fr te 6 6
 
 
 start .7 te 7 7 te 8 8 te 9 9
