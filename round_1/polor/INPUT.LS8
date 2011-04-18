@@ -870,7 +870,7 @@ fr ga 9 3
 fr ga 7 6
 fr ga 3 3
 !fr ga 2 2 (non.con)
-
+fr ga 2 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -924,6 +924,7 @@ eq ga 21 9 3 ga 9 3
 eq ga 21 7 6 ga 7 6
 eq ga 21 3 3 ga 3 3
 !eq ga 21 2 2 ga 2 2 (non.con)
+eq ga 21 2 4 ga 2 4
 
 !extra
 eq te 21 6 3 te 6 3
