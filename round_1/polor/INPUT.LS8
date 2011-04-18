@@ -436,6 +436,8 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 !extra
 free ga 7 6
 fr ga 6 5
+fr ga 1 1
+
 !extra2
 free ph 6 6
 
@@ -474,6 +476,7 @@ value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
 !extra 
 eq ga 11 7 6 ga 7 6
 eq ga 11 6 5 ga 6 5
+eq ga 11 1 1 ga 1 1
 
 equal te 11 1 1 te 1 1
 equal te 11 2 2 te 2 2
