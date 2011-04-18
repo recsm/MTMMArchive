@@ -1216,8 +1216,9 @@ free ph 2 1 ph 3 1 ph 3 2
 fr ph 4 4
 
 !extra
-!fr ga 3 3
+fr ga 3 3
 fr ga 9 3
+!fr ga 1 1 (non.conv)
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1264,8 +1265,9 @@ eq ph 29 2 1 ph 2 1
 eq ph 29 4 4 ph 4 4 
 
 !extra
-!eq ga 29 3 3 ga 3 3 
+eq ga 29 3 3 ga 3 3 
 eq ga 29 9 3 ga 9 3 
+!eq ga 29 1 1 ga 1 1 (non conv)
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
