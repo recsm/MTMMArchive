@@ -864,7 +864,7 @@ fr ph 4 4
 !fr ph 5 4
 fr ph 6 6
 !extra
-fr te 6 3
+!fr te 6 3
 !fr te 8 2
 
 
@@ -935,7 +935,7 @@ eq ga 21 2 4 ga 2 4
 eq ga 21 5 2 ga 5 2
 
 !extra
-eq te 21 6 3 te 6 3
+!eq te 21 6 3 te 6 3
 !eq te 21 8 2 te 8 2
 
 
