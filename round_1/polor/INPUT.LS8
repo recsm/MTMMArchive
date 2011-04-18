@@ -910,24 +910,24 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-fr ph 4 4
+!fr ph 4 4
 !fr ph 5 4
-fr ph 6 6
+!fr ph 6 6
 !extra
 !fr te 6 3
 !fr te 8 2
 
 
 !extra
-fr ga 1 4
-fr ga 9 3
-fr ga 8 2
+!fr ga 1 4
+!fr ga 9 3
+!fr ga 8 2
 !fr ga 6 3
-fr ga 7 6
+!fr ga 7 6
 !fr ga 3 3
 !fr ga 2 2 (non.con)
-fr ga 2 4
-fr ga 5 2
+!fr ga 2 4
+!fr ga 5 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -969,20 +969,20 @@ eq ph 21 3 2 ph 3 2
 eq ph 21 2 1 ph 2 1 
 
 !extra
-eq ph 21 4 4 ph 4 4
+!eq ph 21 4 4 ph 4 4
 !eq ph 21 5 4 ph 5 4
-eq ph 21 6 6 ph 6 6
+!eq ph 21 6 6 ph 6 6
 
 !extra
-eq ga 21 1 4 ga 1 4
-eq ga 21 9 3 ga 9 3
-eq ga 21 8 2 ga 8 2
+!eq ga 21 1 4 ga 1 4
+!eq ga 21 9 3 ga 9 3
+!eq ga 21 8 2 ga 8 2
 !eq ga 21 6 3 ga 6 3
-eq ga 21 7 6 ga 7 6
+!eq ga 21 7 6 ga 7 6
 !eq ga 21 3 3 ga 3 3
 !eq ga 21 2 2 ga 2 2 (non.con)
-eq ga 21 2 4 ga 2 4
-eq ga 21 5 2 ga 5 2
+!eq ga 21 2 4 ga 2 4
+!eq ga 21 5 2 ga 5 2
 
 !extra
 !eq te 21 6 3 te 6 3
