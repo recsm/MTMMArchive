@@ -1536,7 +1536,8 @@ free ph 2 1 ph 3 1 ph 3 2
 !extra
 free ga 1 4 
 !ga 2 4 
-free ga 7 1 ga 5 4 ga 8 2 ga 3 3
+free ga 7 1 !ga 5 4 
+free ga 8 2 ga 3 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1581,7 +1582,7 @@ eq ph 37 2 1 ph 2 1
 eq ga 37 1 4 ga 1 4 
 !eq ga 37 2 4 ga 2 4
 eq ga 37 7 1 ga 7 1
-eq ga 37 5 4 ga 5 4
+!eq ga 37 5 4 ga 5 4
 eq ga 37 8 2 ga 8 2
 eq ga 37 3 3 ga 3 3
 
