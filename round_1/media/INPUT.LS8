@@ -1411,7 +1411,12 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-fr ph 5 5 ga 6 5 ga 9 3 ga 4 1 ga 3 3 te 6 4 ga 5 5 ga 1 1
+fr ph 5 5 ga 6 5 ga 9 3 ga 3 3 te 6 4 
+!ga 5 5 
+!ga 7 1
+!te 4 1
+!ga 4 1
+!ga 1 1
 !te 6 2 ga 2 5 
 !ph 4 4 
 !ga 4 1 ga 4 3 
@@ -1424,6 +1429,7 @@ fr ph 5 5 ga 6 5 ga 9 3 ga 4 1 ga 3 3 te 6 4 ga 5 5 ga 1 1
 !fr ph 3 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+!start .0001 te 4 1
 out mi iter= 300 adm=off sc
 
 Analysis of group 2 SE (gp36)
@@ -1470,15 +1476,16 @@ eq ga 35 6 5 ga 6 5
 !eq ga 35 4 5 ga 4 5
 !eq te 35 6 2 te 6 2
 !eq ph 35 4 4 ph 4 4
-eq ga 35 5 5 ga 5 5
+!eq ga 35 5 5 ga 5 5
 !eq ga 35 6 1 ga 6 1
 !eq ga 35 2 5 ga 2 5
 eq ga 35 9 3 ga 9 3
 eq ga 35 3 3 ga 3 3
 !eq ga 35 4 3 ga 4 3
 !eq ph 35 4 4 ph 4 4
-eq ga 35 4 1 ga 4 1
-eq ga 35 1 1 ga 1 1
+!eq ga 35 4 1 ga 4 1
+!eq ga 35 1 1 ga 1 1
+!eq ga 
 
 
 
