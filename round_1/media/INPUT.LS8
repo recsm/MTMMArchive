@@ -1464,7 +1464,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !extra
 fr ph 5 5 ga 4 1 ga 4 5 te 9 3 te 8 2
-fr ga 6 3 ga 9 3
+!fr ga 6 3 ga 9 3
 
 !ga 6 5 te 9 3 
 !ga 4 4
@@ -1522,12 +1522,12 @@ eq ph 35 5 5 ph 5 5
 !eq te 35 6 4 te 6 4
 !eq ga 35 6 5 ga 6 5
 eq ga 35 4 5 ga 4 5
-eq ga 35 6 3 ga 6 3
+!eq ga 35 6 3 ga 6 3
 !eq ph 35 4 4 ph 4 4
 !eq ga 35 5 5 ga 5 5
 !eq ga 35 6 1 ga 6 1
 !eq ga 35 2 5 ga 2 5
-eq ga 35 9 3 ga 9 3
+!eq ga 35 9 3 ga 9 3
 !eq ga 35 3 3 ga 3 3
 !eq ga 35 4 3 ga 4 3
 !eq ph 35 4 4 ph 4 4
