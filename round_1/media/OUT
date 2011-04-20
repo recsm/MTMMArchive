@@ -1,6 +1,6 @@
 
                                 DATE:  4/20/2011
-                                  TIME: 11:14
+                                  TIME: 11:16
 
 
                                 L I S R E L  8.72
@@ -1844,7 +1844,7 @@
  free ga 4 1 ga 3 3
  free te 6 3
  !fr ga 7 1
- fr ga 4 1
+ !fr ga 4 1
   
  start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
  st .0 te 6 3
@@ -1907,7 +1907,8 @@
  eq ga 35 3 3 ga 3 3
  !free te 9 3
  !eq ga 35 7 1 ga 7 1
- eq ga 35 4 1 ga 4 1
+ !eq ga 35 4 1 ga 4 1
+  
  start .7 te 7 7 te 8 8 te 9 9
  out mi iter= 300 adm=off sc
 
@@ -40662,4 +40663,4 @@
             --------   --------   --------
                0.511      0.358      0.297
 
-                           Time used:   19.687 Seconds
+                           Time used:   19.765 Seconds
