@@ -1,0 +1,1403 @@
+Analysis of round 1 poleff group 1 GB
+Data ng=38 ni=9 no=885 ma=cm
+Km
+*
+1.00
+-.317 1.00
+-.381 .301 1.00
+ .538 -.328 -.373   1.00
+-.330  .646  .303  -.362    1.00
+-.390  .310  .489  -.401    .358     1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+3.21  2.32  3.13  3.19  2.36  3.15   0.00  .000   .000
+sd
+*
+1.122  1.355  1.069  1.049  1.121  .983   1.00  1.00  1.00
+
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=fu,fi ga=fu,fi ph=sy,fi
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ga 1 1 ga 2 2 ga 3 3
+free ga 4 1 ga 5 2 ga 6 3 
+free ga 7 1 ga 8 2 ga 9 3
+
+value 1 ga 1 4 ga 2 4 ga 3 4
+value 1 ga 4 5 ga 5 5 ga 6 5 
+value 1 ga 7 6 ga 8 6 ga 9 6
+
+free ph 2 1 ph 3 1 ph 3 2     
+value 1 ph 1 1 ph 2 2 ph 3 3
+
+fi ph 4 4 
+fr ph 5 5 
+fr ph 6 6
+
+va .001 ph 4 4
+
+!start .5 all
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+pd
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 GB
+Data ni=9 no=901 ma=cm
+Km
+*
+1.00
+-.294    1.00
+-.344     .225  1.00
+.0        .0   .0     1.00
+.0        .0   .0     .000 1.00
+.0        .0   .0     .000  .00 1.00
+-.606     .350 .368   .000  .00  .00 1.00
+ .214    -.583 -.203  .000  .00  .00  -.307 1.00
+.367     -.262  -.549 .000  .00  .00 -.444 .312 1.00
+me
+*
+3.26  2.28 3.12   .00  .00  .00   2.63 3.60  2.83
+sd
+*
+1.131 1.394 1.087 1.00 1.00 1.00 1.084 1.024 .974
+
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 1 1 1 te 1 1
+equal te 1 2 2 te 2 2
+equal te 1 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc 
+
+Analysis of round 1 BE poleff group 1 (gp3)
+Data ni=9 no=300 ma=cm
+Km
+ *
+ 1.00
+ -.316 1.00
+ -.325  .338 1.00
+ .621 -.299 -.385   1.00
+ -.269  .768  .291  -.339    1.00
+ -.310  .315 .666  -.398  .367  1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+ me
+ *
+ 3.14 1.99 2.73  3.23 2.04 2.92  .00 .00 .00
+ sd
+ *
+ 1.138 1.184 .969  1.165 1.120 1.141  1.00 1.00 1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 BE(gp4)
+Data ni=9 no=290 ma=cm
+ Km
+ *
+ 1.00
+ -.278    1.00
+ -.378  .350  1.00
+ .0    .0   .0     1.00
+ .0    .0   .0     .000 1.00
+ .0    .0   .0     .000  .00 1.00
+ -.677  .347  .423   .000  .00  .00 1.00
+ .173 -.742 -.161   .000  .00  .00  -.286 1.00
+ .396 -.248 -.577    .000  .00  .00  -.416 .274 1.00
+ me
+ *
+ 3.14 1.99 2.73   .00  .00  .00   2.64 3.89 3.04
+ sd
+ *
+ 1.142 1.217 1.026   1.00 1.00 1.00 1.143 1.174 1.111
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 3 1 1 te 1 1
+equal te 3 2 2 te 2 2
+equal te 3 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6 
+
+eq ph 3 3 1 ph 3 1
+eq ph 3 3 2 ph 3 2
+eq ph 3 2 1 ph 2 1 
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc 
+
+Analysis of round 1 CH poleff group 1 (gp5)
+Data ni=9 no=360 ma=cm
+Km
+*
+1.00
+-.334 1.00
+-.340  .358 1.00
+ .552 -.350 -.453   1.00
+-.303  .816  .333   -.337    1.00
+-.354  .413  .617   -.480     .387     1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+2.95   2.40  3.15    3.03  2.48  3.26  0.00  .000   .000
+sd
+*
+1.042   1.402  1.008   1.127 1.291  1.045  1.00  1.00  1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 (gp6)
+Data ni=9 no=326 ma=cm
+Km
+*
+1.00
+-.298    1.00
+-.375    .319  1.00
+.0    .0   .0     1.00
+.0    .0   .0     .000 1.00
+.0    .0   .0     .000  .00 1.00
+-.611  .337  .427  .000  .00  .00 1.00
+ .317  -.773  -.327  .000  .00  .00  -.340 1.00
+ .519  -.361  -.569 .000  .00  .00 -.552  .400 1.00
+me
+*
+2.86 2.23 3.17    .00  .00  .00  2.90  3.60  2.60
+sd
+*
+1.038 1.307  .949 1.00 1.00 1.00 1.084  1.229  1.033
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 5 1 1 te 1 1
+equal te 5 2 2 te 2 2
+equal te 5 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 5 3 1 ph 3 1
+eq ph 5 3 2 ph 3 2
+eq ph 5 2 1 ph 2 1 
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc 
+
+Analysis of round 1 CZ poleff group 1 (gp7)
+Data ni=9 no=640 ma=cm
+ Km
+*
+1.00
+-.343 1.00
+-.514  .385 1.00
+ .521 -.321 -.450   1.00
+-.281  .656  .318   -.353 1.00
+-.433  .319  .578   -.385  .365      1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+3.25  1.94  2.95  3.27  2.03    3.01   0.00  .000   .000
+sd
+*
+1.135 1.175 .953  1.100  1.232  1.107   1.00  1.00  1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 (gp8)
+Data ni=9 no=620 ma=cm
+Km
+*
+1.00
+-.272    1.00
+-.496    .362  1.00
+.0        .0   .0     1.00
+.0        .0   .0     .000 1.00
+.0        .0   .0     .000  .00 1.00
+-.592     .324 .465   .000  .00  .00 1.00
+ .195    -.673 -.267  .000  .00  .00  -.262 1.00
+ .470    -.348 -.646  .000  .00  .00 -.459  .307 1.00
+me
+*
+3.28  1.84  2.85   .00  .00  .00  2.59  4.09  2.98
+sd
+*
+1.163 1.121  .984  1.00 1.00 1.00 1.078 1.114  1.093
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 7 1 1 te 1 1
+equal te 7 2 2 te 2 2
+equal te 7 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 7 3 1 ph 3 1
+eq ph 7 3 2 ph 3 2
+eq ph 7 2 1 ph 2 1 
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc 
+
+Analysis of round 1 DE poleff group 1  (gp9)
+Data ni=9 no=430 ma=cm
+Km
+*
+1.00
+ -.242 1.00
+ -.455  .297 1.00
+ .491 -.131 -.311   1.00
+ -.315  .601  .364 -.256    1.00
+ -.416  .272  .651 -.319  .375  1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+2.86 2.57 3.43  2.97 2.53 3.55  .00 .00 .00
+sd
+*
+.992 1.319 .879  1.009 1.117 .907  1.00 1.00 1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 (gp10)
+Data ni=9 no=430 ma=cm
+Km
+*
+1.00
+-.226    1.00
+-.440  .279  1.00
+.0    .0   .0     1.00
+.0    .0   .0     .000 1.00
+.0    .0   .0     .000  .00 1.00
+-.646 .185 .375   .000  .00  .00 1.00
+ .289 -.624 -.283   .000  .00  .00  -.296 1.00
+ .427 -.227 -.558   .000  .00  .00  -.444 .396 1.00
+me
+*
+2.94 2.53 3.41    .00  .00  .00   2.89 3.37 2.35
+sd
+*
+1.009 1.307 .889  1.00 1.00 1.00 1.072  1.122 .833
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 9 1 1 te 1 1
+equal te 9 2 2 te 2 2
+equal te 9 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6 
+
+eq ph 9 3 1 ph 3 1
+eq ph 9 3 2 ph 3 2
+eq ph 9 2 1 ph 2 1 
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc 
+
+Analysis of round 1 DK poleff group 1 (gp11)
+Data ni=9 no=725 ma=cm
+Km
+*
+1 
+-0.403418560518942 1 
+-0.471292576114274 0.365154739367925 1 
+0.59951335492742 -0.365707711744547 -0.438486284317004 1 
+-0.393558352079016 0.670872666236975 0.403336022647566 -0.433436072297878 1 
+-0.458023171569356 0.429219872476011 0.618001204506349 -0.487310838861661 0.483370649424879 1 
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+2.99598393574297 3.22860962566845 3.46380697050938 3.07869742198100 3.10777626193724 3.36475409836066 0.0 0.0 0.0
+sd
+*
+1.08548055344772 1.49604912708223 1.05010244831223 1.10792326140356 1.26452526530481 1.10811621848827 1.0 1.0 1.0
+
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+!extra
+!free ga 9 6
+free ph 6 6
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 (gp12)
+Data ni=9 no=715 ma=cm
+Km
+*
+1 
+-0.353188127583054 1 
+-0.443693908091794 0.455808886541449 1 
+0 0 0 1 
+0 0 0 0 1 
+0 0 0 0 0 1 
+-0.611802650503643 0.379445378026718 0.422703403555282 0 0 0 1 
+0.36691083264681 -0.700380962370295 -0.416260631126424 0 0 0 -0.271866057182698 1 
+0.426652482792794 -0.45019026299603 -0.609257589968808 0 0 0 -0.298897291624098 0.629446084950777 1
+me
+*
+2.94878706199461 3.24086603518268 3.47282608695652 0.0 0.0 0.0 2.92689655172414 2.93184979137691 2.67267683772538
+sd
+*
+1.07357783928245 1.51376961125485 1.08386843199549 1.0 1.0 1.0 1.21859755300499 1.34125696657518 1.19184248918731
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 11 1 1 te 1 1
+equal te 11 2 2 te 2 2
+equal te 11 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 11 3 1 ph 3 1
+eq ph 11 3 2 ph 3 2
+eq ph 11 2 1 ph 2 1 
+
+!extra
+!eq ga 11 9 6 ga 9 6
+eq ph 11 6 6  ph 6 6 
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc 
+
+Analysis of round 1 ES poleff group 1 (gp13)
+Data ni=9 no=280 ma=cm
+ Km
+ *
+ 1.00
+ -.306 1.00
+ -.508  .403 1.00
+ .562 -.289 -.551   1.00
+ -.301  .643  .379   -.289    1.00
+ -.457  .311  .530   -.486     .297     1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+ me
+ *
+ 3.44  1.65  2.64   3.31  1.83  2.83  0.00  .000   .000
+ sd
+ *
+ 1.200 1.044 1.175 1.094  1.084  1.167   1.00  1.00  1.00
+
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 ES (gp14)
+Data ni=9 no=275 ma=cm
+Km
+ *
+ 1.00
+ -.386    1.00
+ -.476    .372  1.00
+ .0    .0   .0     1.00
+ .0    .0   .0     .000 1.00
+ .0    .0   .0     .000  .00 1.00
+ -.616 .389 .541   .000  .00  .00 1.00
+ .231 -.508 -.206  .000  .00  .00  -.289 1.00
+ .353 -.310 -.513   .000  .00  .00 -.475  .225 1.00
+ me
+ *
+ 3.40  1.69  2.72    .00  .00  .00  2.45 3.94 2.99
+ sd
+ *
+ 1.218 1.072 1.069  1.00 1.00 1.00 1.083 1.184 1.175
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 13 1 1 te 1 1
+equal te 13 2 2 te 2 2
+equal te 13 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 13 3 1 ph 3 1
+eq ph 13 3 2 ph 3 2
+eq ph 13 2 1 ph 2 1 
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc 
+
+Analysis of round 1 FI poleff group 1 (gp15)
+Data ni=9 no=880 ma=cm
+ Km
+ *
+ 1.00
+ -.210 1.00
+ -.405  .282 1.00
+ .605  -.246 -.380   1.00
+ -.192 .569  .272   -.230    1.00
+ -.373 .307  .573   -.432    .339     1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+ me
+ *
+ 3.47  2.20  3.06  3.38  2.03  3.09   0.00  .000   .000
+ sd
+ *
+ 1.184 1.177 .992   1.191  1.182  1.198   1.00  1.00  1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc nd=3
+
+Analysis of group 2 FI(gp 16)
+Data ni=9 no=879 ma=cm
+Km
+ *
+ 1.00
+ -.241    1.00
+ -.422     .299  1.00
+ .0        .0   .0     1.00
+ .0        .0   .0     .000 1.00
+ .0        .0   .0     .000  .00 1.00
+ -.606     .272 .480   .000  .00  .00 1.00
+ .210    -.670 -.243  .000  .00  .00  -.253 1.00
+ .393     -.330 -.591 .000  .00  .00 -.463 .362 1.00
+ me
+ *
+ 3.42  2.18   3.05   .00  .00  .00   2.47  3.99  2.84
+ sd
+ *
+ 1.131  1.179  .970 1.00 1.00 1.00 1.118  1.134  1.163
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 15 1 1 te 1 1
+equal te 15 2 2 te 2 2
+equal te 15 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6 
+
+eq ph 15 3 1 ph 3 1
+eq ph 15 3 2 ph 3 2
+eq ph 15 2 1 ph 2 1  
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc 
+
+Analysis of round 1 FR poleff group 1 (gp17)
+Data ni=9 no=690 ma=cm
+Km
+*
+1.00
+ -.306 1.00
+ -.432  .299 1.00
+ .397 -.188 -.272   1.00
+ -.234  .542  .284  -.231    1.00
+ -.415  .303  .476  -.293  .351  1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+3.29 1.88  2.46  3.15 2.11 2.78  .00 .00 .00
+sd
+*
+1.164 1.231 1.014  1.248 1.260 1.198  1.00 1.00 1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 FR (gp18)
+Data ni=9 no=650 ma=cm
+Km
+*
+1.00
+-.299    1.00
+-.440  .322  1.00
+.0    .0   .0     1.00
+.0    .0   .0     .000 1.00
+.0    .0   .0     .000  .00 1.00
+-.597  .317  .451   .000  .00  .00 1.00
+ .278 -.518 -.309   .000  .00  .00  -.348 1.00
+ .416 -.268 -.456    .000  .00  .00  -.482 .400 1.00
+me
+*
+3.30 1.88 2.44    .00  .00  .00   2.34 3.88 3.04
+sd
+*
+1.148 1.236 1.021  1.00 1.00 1.00 1.166 1.257 1.22
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 17 1 1 te 1 1
+equal te 17 2 2 te 2 2
+equal te 17 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 17 3 1 ph 3 1
+eq ph 17 3 2 ph 3 2
+eq ph 17 2 1 ph 2 1 
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc
+
+Analysis of round 1 AT poleff group 1 (gp19)
+Data ni=9 no=1270 ma=cm
+Km
+*
+1.00
+ -.327 1.00
+ -.406  .292 1.00
+ .679 -.302 -.429   1.00
+ -.329  .777 .283 -.327    1.00
+ -.413 .335 .646 -.447 .326  1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+3.03 2.10 3.34    3.11 2.22 3.56  .00 .00 .00
+sd
+*
+1.188 1.248 1.126    1.144 1.227 1.036  1.00 1.00 1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 (gp20)
+Data ni=9 no=945 ma=cm
+Km
+*
+1.00
+-.254    1.00
+-.414  .298  1.00
+.0    .0   .0     1.00
+.0    .0   .0     .000 1.00
+.0    .0   .0     .000  .00 1.00
+-.60 .277 .477   .000  .00  .00 1.00
+ .223 -.743 -.262   .000  .00  .00  -.254 1.00
+ .332 -.298 -.561    .000  .00  .00  -.343 .312 1.00
+me
+*
+2.92 2.03 3.40    .00  .00  .00   2.90 3.76 2.41
+sd
+*
+1.145 1.221 1.078  1.00 1.00 1.00 1.145 1.194 1.024
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 19 1 1 te 1 1
+equal te 19 2 2 te 2 2
+equal te 19 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 19 3 1 ph 3 1
+eq ph 19 3 2 ph 3 2
+eq ph 19 2 1 ph 2 1 
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc 
+
+Analysis of round 1 GR poleff group 1 (gp 21)
+Data ni=9 no=1240 ma=cm
+Km
+*
+1.00
+-.379 1.00
+-.442  .648 1.00
+ .751 -.436 -.499   1.00
+-.385  .773  .649   -.457    1.00
+-.392  .549  .723   -.440     .614     1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+3.63  2.89  3.11   3.51  2.97  3.22  0.00  .000   .000
+sd
+*
+1.225 1.343  1.183  1.121 1.238 1.134   1.00  1.00  1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+!extra
+free ga 3 3 ph 6 6 ga 4 1
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 GR (gp22)
+Data ni=9 no=1280 ma=cm
+Km
+*
+1.00
+-.368    1.00
+-.430    .666  1.00
+.0    .0   .0     1.00
+.0    .0   .0     .000 1.00
+.0    .0   .0     .000  .00 1.00
+-.706  .439  .481   .000  .00  .00 1.00
+ .379 -.756 -.664  .000  .00  .00  -.455 1.00
+.369  -.579 -.735   .000  .00  .00 -.404  .684 1.00
+me
+*
+3.69  2.85  3.03    .00  .00  .00  2.37  3.00  2.86
+sd
+*
+1.185  1.323  1.179  1.00 1.00 1.00 1.065 1.217 1.128
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 21 1 1 te 1 1
+equal te 21 2 2 te 2 2
+equal te 21 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 21 3 1 ph 3 1
+eq ph 21 3 2 ph 3 2
+eq ph 21 2 1 ph 2 1 
+
+!extra
+eq ga 21 3 3 ga 3 3
+eq ph 21 6 6 ph 6 6
+eq ga 21 4 1 ga 4 1
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc 
+
+Analysis of round 1 IE poleff group 1  (gp23)
+Data ni=9 no=340 ma=cm
+Km
+*
+1.00
+-.368 1.00
+-.395  .238 1.00
+ .652 -.288 -.434   1.00
+-.327  .692  .233   -.334    1.00
+-.342  .284  .598   -.413     .280     1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+3.27 2.14  3.08  3.26 2.23 3.08  0.00  .000   .000
+sd
+*
+1.185  1.296 1.078  1.100  1.121  1.058   1.00  1.00  1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 IE (gp24)
+Data ni=9 no=260 ma=cm
+Km
+*
+1.00
+-.237    1.00
+-.314    .264  1.00
+.0    .0   .0     1.00
+.0    .0   .0     .000 1.00
+.0    .0   .0     .000  .00 1.00
+-.572  .182  .421  .000  .00  .00 1.00
+ .207  -.609 -.302  .000  .00  .00  -.290 1.00
+.320 -.351  -.482   .000  .00  .00 -.425  .528 1.00
+me
+*
+3.07  2.12  3.13    .00  .00  .00  2.69  3.58  2.99
+sd
+*
+1.092 1.299  1.090 1.00 1.00 1.00  1.069  1.097  1.084
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 23 1 1 te 1 1
+equal te 23 2 2 te 2 2
+equal te 23 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6 
+
+eq ph 23 3 1 ph 3 1
+eq ph 23 3 2 ph 3 2
+eq ph 23 2 1 ph 2 1  
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc  
+
+Analysis of round 1 IL poleffaction expt group 1 (gp25)
+Data ni=9 no=400 ma=cm
+Km
+*
+1.00
+-.251 1.00
+-.345  .279 1.00
+ .567 -.240 -.368   1.00
+-.258  .702  .274   -.321    1.00
+-.324  .300  .593   -.412    .356     1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+3.02  2.22  3.04  2.95  2.44  3.13  0.00  .000   .000
+sd
+*
+1.291  1.372 1.131 1.145 1.182 1.118   1.00  1.00  1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 IL (gp26)
+Data ni=9 no=400 ma=cm
+Km
+*
+1.00
+-.261    1.00
+-.401    .255  1.00
+.0    .0   .0     1.00
+.0    .0   .0     .000 1.00
+.0    .0   .0     .000  .00 1.00
+-.567 .246  .435  .000  .00  .00 1.00
+ .243 -.573 -.286  .000  .00  .00  -.242 1.00
+ .309 -.297 -.598 .000  .00  .00 -.466  .342 1.00
+me
+*
+2.90 2.26 3.17    .00  .00  .00  2.88  3.48  2.62
+sd
+*
+1.262 1.420  1.090 1.00 1.00 1.00 1.136  1.176  1.087
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 25 1 1 te 1 1
+equal te 25 2 2 te 2 2
+equal te 25 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 25 3 1 ph 3 1
+eq ph 25 3 2 ph 3 2
+eq ph 25 2 1 ph 2 1 
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc 
+
+Analysis of round 1 NL poleff group 1 (gp27)
+Data ni=9 no=1190 ma=cm
+Km
+*
+1.00
+-.334 1.00
+-.465  .389 1.00
+ .624 -.296 -.399   1.00
+-.355  .671  .370   -.349    1.00
+-.454  .341  .586   -.424     .420     1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+3.00   2.18  2.96    2.89  2.25  2.98  0.00  .000   .000
+sd
+*
+1.09   1.30  .986   1.07  1.133 1.055   1.00  1.00  1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 nl (gp28)
+Data ni=9 no=1148 ma=cm
+Km
+*
+1.00
+-.364    1.00
+-.443    .394  1.00
+.0    .0   .0     1.00
+.0    .0   .0     .000 1.00
+.0    .0   .0     .000  .00 1.00
+-.653 .408 .513   .000  .00  .00 1.00
+ .377 -.718 -.348  .000  .00  .00  -.399 1.00
+.474 -.392  -.630   .000  .00  .00 -.564  .421 1.00
+me
+*
+3.03 2.11 2.94    .00  .00  .00  2.93  3.76  2.88
+sd
+*
+1.122 1.264  1.012 1.00 1.00 1.00 1.126  1.125  1.061
+
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 27 1 1 te 1 1
+equal te 27 2 2 te 2 2
+equal te 27 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6
+
+eq ph 27 3 1 ph 3 1
+eq ph 27 3 2 ph 3 2
+eq ph 27 2 1 ph 2 1   
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc
+
+Analysis of round 1 NO poleff group 1 (gp29)
+Data ni=9 no=315 ma=cm
+Km
+*
+1.00
+-.237 1.00
+-.178  .333 1.00
+ .583 -.379 -.325   1.00
+-.259  .693  .276   -.361    1.00
+-.269  .247  .526   -.327     .274     1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+2.96  2.84  3.14  2.99  2.97 3.28  0.00  .000   .000
+sd
+*
+.982  1.305  .922  1.102  1.181  .964   1.00  1.00  1.00
+
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 (gp30)
+Data ni=9 no=300 ma=cm
+Km
+*
+1.00
+-.432    1.00
+-.141    .215  1.00
+.0    .0   .0     1.00
+.0    .0   .0     .000 1.00
+.0    .0   .0     .000  .00 1.00
+-.635  .427  .229   .000  .00  .00 1.00
+ .415 -.751 -.235  .000  .00  .00  -.417 1.00
+.165 -.215 -.448   .000  .00  .00 -.288  .336 1.00
+me
+*
+3.01 2.68 3.03    .00  .00  .00  2.81  3.18  2.71
+sd
+*
+.956  1.370  .899 1.00 1.00 1.00 1.057  1.201  .946
+
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 29 1 1 te 1 1
+equal te 29 2 2 te 2 2
+equal te 29 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 29 3 1 ph 3 1
+eq ph 29 3 2 ph 3 2
+eq ph 29 2 1 ph 2 1 
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc
+
+
+Analysis of round 1 PL poleff group 1 (gp31)
+Data ni=9 no=1000 ma=cm
+Km
+*
+1.00
+-.325 1.00
+-.453  .390 1.00
+ .610 -.326 -.451   1.00
+-.285  .679  .326   -.313    1.00
+-.424  .354  .589   -.463     .360     1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+3.28 2.10  2.91  3.33 2.30 3.02  0.00  .000   .000
+sd
+*
+1.114  1.303 1.019  1.046  1.137  1.050   1.00  1.00  1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9
+
+free ph 2 1 ph 3 1 ph 3 2    
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 PL(gp32)
+Data ni=9 no=1015 ma=cm
+Km
+*
+1.00
+-.329    1.00
+-.467    .341  1.00
+.0    .0   .0     1.00
+.0    .0   .0     .000 1.00
+.0    .0   .0     .000  .00 1.00
+-.630  .314  .512  .000  .00  .00 1.00
+ .290  -.699 -.296  .000  .00  .00  -.282 1.00
+.455  -.330  -.672   .000  .00  .00 -.488  .362 1.00
+me
+*
+3.31  2.06  2.96    .00  .00  .00  2.59  3.70  2.88
+sd
+*
+1.093 1.249  .996 1.00 1.00 1.00  1.001  1.128  1.004
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 31 1 1 te 1 1
+equal te 31 2 2 te 2 2
+equal te 31 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 31 3 1 ph 3 1
+eq ph 31 3 2 ph 3 2
+eq ph 31 2 1 ph 2 1 
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc 
+
+Analysis of round 1 PT poleff group 1 (gp33)
+Data ni=9 no=235 ma=cm
+Km
+*
+1.00
+-.347 1.00
+-.565  .490 1.00
+ .757 -.469 -.646   1.00
+-.373  .734  .416   -.460    1.00
+-.602  .434  .727   -.698     .485     1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+3.42  1.79  2.49  3.60  2.03  2.72   0.00  .000   .000
+sd
+*
+1.167  1.147  1.092  1.178  1.173  1.182   1.00  1.00  1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 PT (gp34)
+Data ni=9 no=247 ma=cm
+Km
+*
+1.00
+-.344    1.00
+-.502    .338  1.00
+.0    .0   .0     1.00
+.0    .0   .0     .000 1.00
+.0    .0   .0     .000  .00 1.00
+-.705 .357 .575   .000  .00  .00 1.00
+ .410 -.769 -.361  .000  .00  .00  -.460 1.00
+.520 -.291 -.621   .000  .00  .00 -.516  .482 1.00
+me
+*
+3.29 1.81  2.59    .00  .00  .00  2.47  3.99  3.34
+sd
+*
+1.141  1.123 1.063 1.00 1.00 1.00 1.141  1.153  1.064
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 33 1 1 te 1 1
+equal te 33 2 2 te 2 2
+equal te 33 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 33 3 1 ph 3 1
+eq ph 33 3 2 ph 3 2
+eq ph 33 2 1 ph 2 1 
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc
+
+Analysis of round 1 SE poleff group 1 (gp35)
+Data ni=9 no=860 ma=cm
+km
+*
+1 
+-0.280831571094683 1 
+-0.389451146753636 0.304239086725658 1 
+0.629731488944104 -0.306662252281168 -0.369282119988861 1 
+-0.253770336630407 0.624811192008622 0.286770006659845 -0.325317069377710 1 
+-0.363638494071801 0.353073209753534 0.565102643189728 -0.428839975476468 0.445467633792381 1 
+0 0 0 0 0 0 1  
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1
+me
+*
+2.95087719298246 2.78139534883721 2.85948477751756 2.94929245283019 2.73231132075472 3.09090909090909 0.0 0.0 0.0
+sd
+*
+1.11616651265123 1.37282045506358 1.00125254106991 0.995159225286983 1.08125308268736 0.92124902365939 1.0 1.0 1.0
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 SE (gp36)
+Data ni=9 no=839 ma=cm
+km
+*
+1 
+-0.304968540894178 1 
+-0.435202658351514 0.322435050501356 1 
+0 0 0 1 
+0 0 0 0 1 
+0 0 0 0 0 1 
+-0.66001455817141 0.362443260083195 0.466686841584355 0 0 0 1 
+0.318313838197309 -0.688966558514312 -0.347764687609059 0 0 0 -0.378989935540728 1 
+0.449638913639587 -0.325542534617211 -0.62249360698661 0 0 0 -0.500662389986517 0.435622576803872 1
+me
+*
+2.96535244922342 2.70525059665871 2.85594237695078 0.0 0.0 0.0 2.85834333733493 3.2673860911271 2.91706730769231
+sd
+*
+1.09369398477340 1.37140837417710 1.01237124373282 1.0 1.0 1.0 0.997162147458449 1.06869281074773 0.892054541342718
+
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 35 1 1 te 1 1
+equal te 35 2 2 te 2 2
+equal te 35 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 35 3 1 ph 3 1
+eq ph 35 3 2 ph 3 2
+eq ph 35 2 1 ph 2 1 
+
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc
+
+Analysis of round 1 SI poleff group 1 (gp37)
+Data ni=9 no=253 ma=cm
+Km
+*
+1.00
+-.339 1.00
+-.449  .357 1.00
+ .597 -.243 -.416   1.00
+-.347  .720  .374   -.290    1.00
+-.450  .339  .566   -.412     .418     1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
+me
+*
+3.24  2.04 2.83  3.23  2.04  2.79  0.00  .000   .000
+sd
+*
+1.046  1.184  1.034   1.033 1.059 1.118   1.00  1.00  1.00
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 SI (gp38)
+Data ni=9 no=250 ma=cm
+Km
+*
+1.00
+-.332    1.00
+-.417    .429  1.00
+.0    .0   .0     1.00
+.0    .0   .0     .000 1.00
+.0    .0   .0     .000  .00 1.00
+-.642  .370  .491   .000  .00  .00 1.00
+ .377 -.682 -.405  .000  .00  .00  -.399 1.00
+.533 -.416  -.638   .000  .00  .00 -.564  .421 1.00
+me
+*
+3.26 2.08 2.77    .00  .00  .00  2.59  3.71  3.05
+sd
+*
+1.129 1.250  1.092 1.00 1.00 1.00 1.037  1.084  1.048
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 37 1 1 te 1 1
+equal te 37 2 2 te 2 2
+equal te 37 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 37 3 1 ph 3 1
+eq ph 37 3 2 ph 3 2
+eq ph 37 2 1 ph 2 1 
+
+pd
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 500 adm=off sc 
