@@ -33,7 +33,7 @@ va 1 ga 1 1 ga 2 2 ga 3 3
 va 1 ga 4 1 ga 5 2 ga 6 3 
 va 1 ga 7 1 ga 8 2 ga 9 3
 
-fr ga 5 2 ga 8 2
+fr ga 5 5  ga 8 6
 
 value 1 ga 1 4 ga 2 4 ga 3 4
 value 1 ga 4 5 ga 5 5 ga 6 5 
