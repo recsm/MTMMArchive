@@ -111,7 +111,9 @@ Km
 model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 
-fr ly 4 4 ly 5 5 ly 6 6
+eq ly 1 4 4 ly 4 4 
+eq ly 1 5 5 ly 5 5 
+eq ly 1 6 6 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 
 value 1 te 7 7 te 8 8 te 9 9 
@@ -151,7 +153,9 @@ model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 
-fr ly 7 7 ly 8 8 ly 9 9
+eq ly 2 7 7 ly 7 7 
+eq ly 2 8 8 ly 8 8
+eq ly 2 9 9 ly 9 9
 
 equal te 3 1 1 te 1 1
 equal te 3 2 2 te 2 2
@@ -194,7 +198,9 @@ sd
 model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3
-fr  ly 4 4 ly 5 5 ly 6 6
+eq ly 1 4 4 ly 4 4 
+eq ly 1 5 5 ly 5 5 
+eq ly 1 6 6 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 
 value 1 te 7 7 te 8 8 te 9 9 
@@ -230,7 +236,10 @@ model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 
-fr ly 7 7 ly 8 8 ly 9 9
+
+eq ly 2 7 7 ly 7 7 
+eq ly 2 8 8 ly 8 8
+eq ly 2 9 9 ly 9 9
 
 equal te 5 1 1 te 1 1
 equal te 5 2 2 te 2 2
@@ -271,7 +280,9 @@ Data ni=9 no=655 ma=cm
 model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3
-fr  ly 4 4 ly 5 5 ly 6 6
+eq ly 1 4 4 ly 4 4 
+eq ly 1 5 5 ly 5 5 
+eq ly 1 6 6 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 
 value 1 te 7 7 te 8 8 te 9 9 
@@ -308,7 +319,10 @@ model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 
-fr ly 7 7 ly 8 8 ly 9 9
+
+eq ly 2 7 7 ly 7 7 
+eq ly 2 8 8 ly 8 8
+eq ly 2 9 9 ly 9 9
 
 equal te 7 1 1 te 1 1
 equal te 7 2 2 te 2 2
