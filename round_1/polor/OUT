@@ -1,6 +1,6 @@
 
                                 DATE:  4/26/2011
-                                  TIME: 17:56
+                                  TIME: 17:59
 
 
                                 L I S R E L  8.51
@@ -1145,7 +1145,7 @@
  !fr te 8 2
  !fr te 4 1
  !fr te 9 3
- fr te 6 6
+ !fr te 6 6
  fr te 3 3
   
  !extra
@@ -1239,7 +1239,7 @@
  !eq te 21 6 3 te 6 3
  !eq te 21 8 2 te 8 2
  !eq te 21 9 3 te 9 3
- fr te 6 6
+ !fr te 6 6
  eq te 21 3 3 te 3 3
   
  start .7 te 7 7 te 8 8 te 9 9
@@ -3717,13 +3717,13 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 168        169        170          0          0        174
+                 168        169        170          0          0          0
 
          THETA-EPS   
 
                VAR 7      VAR 8      VAR 9
             --------   --------   --------
-                 175        176        177
+                 174        175        176
 
 
  Analysis of round 1 IE polor group 1  (gp23)                                   
@@ -3738,7 +3738,7 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 183        184        185        186        187        188
+                 182        183        184        185        186        187
 
          THETA-EPS   
 
@@ -3759,7 +3759,7 @@
     ETA 2          0          2          0          0          0          0
     ETA 3          0          0          3          0          0          0
     ETA 4          4          0          0          0          0          0
-    ETA 5          0        178          0          0          0          0
+    ETA 5          0        177          0          0          0          0
     ETA 6          0          0          6          0          0          0
     ETA 7          7          0          0          0          0          0
     ETA 8          0          8          0          0          0          0
@@ -3770,9 +3770,9 @@
                KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6
             --------   --------   --------   --------   --------   --------
     KSI 1          0
-    KSI 2        179          0
-    KSI 3        180        181          0
-    KSI 4          0          0          0        182
+    KSI 2        178          0
+    KSI 3        179        180          0
+    KSI 4          0          0          0        181
     KSI 5          0          0          0          0         14
     KSI 6          0          0          0          0          0         15
 
@@ -3780,13 +3780,13 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 183        184        185          0          0          0
+                 182        183        184          0          0          0
 
          THETA-EPS   
 
                VAR 7      VAR 8      VAR 9
             --------   --------   --------
-                 189        190        191
+                 188        189        190
 
 
  Analysis of round 1 IL poloraction expt group 1 (gp25)                         
@@ -3801,7 +3801,7 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 199        200        201        202        203        204
+                 198        199        200        201        202        203
 
          THETA-EPS   
 
@@ -3818,14 +3818,14 @@
 
                KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6
             --------   --------   --------   --------   --------   --------
-    ETA 1          1          0          0        192          0          0
+    ETA 1          1          0          0        191          0          0
     ETA 2          0          2          0          0          0          0
-    ETA 3          0          0        193          0          0          0
+    ETA 3          0          0        192          0          0          0
     ETA 4          4          0          0          0          0          0
     ETA 5          0          5          0          0          0          0
     ETA 6          0          0          6          0          0          0
     ETA 7          7          0          0          0          0          0
-    ETA 8          0        194          0          0          0          0
+    ETA 8          0        193          0          0          0          0
     ETA 9          0          0          9          0          0          0
 
          PHI         
@@ -3833,9 +3833,9 @@
                KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6
             --------   --------   --------   --------   --------   --------
     KSI 1          0
-    KSI 2        195          0
-    KSI 3        196        197          0
-    KSI 4          0          0          0        198
+    KSI 2        194          0
+    KSI 3        195        196          0
+    KSI 4          0          0          0        197
     KSI 5          0          0          0          0         14
     KSI 6          0          0          0          0          0         15
 
@@ -3843,13 +3843,13 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 199        200        201          0          0          0
+                 198        199        200          0          0          0
 
          THETA-EPS   
 
                VAR 7      VAR 8      VAR 9
             --------   --------   --------
-                 205        206        207
+                 204        205        206
 
 
  Analysis of round 1 NL polor group 1 (gp27)                                    
@@ -3864,7 +3864,7 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 213        214        215        216        217        218
+                 212        213        214        215        216        217
 
          THETA-EPS   
 
@@ -3881,7 +3881,7 @@
 
                KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6
             --------   --------   --------   --------   --------   --------
-    ETA 1        208          0          0          0          0          0
+    ETA 1        207          0          0          0          0          0
     ETA 2          0          2          0          0          0          0
     ETA 3          0          0          3          0          0          0
     ETA 4          4          0          0          0          0          0
@@ -3896,9 +3896,9 @@
                KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6
             --------   --------   --------   --------   --------   --------
     KSI 1          0
-    KSI 2        209          0
-    KSI 3        210        211          0
-    KSI 4          0          0          0        212
+    KSI 2        208          0
+    KSI 3        209        210          0
+    KSI 4          0          0          0        211
     KSI 5          0          0          0          0         14
     KSI 6          0          0          0          0          0         15
 
@@ -3906,13 +3906,13 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 213        214        215          0          0          0
+                 212        213        214          0          0          0
 
          THETA-EPS   
 
                VAR 7      VAR 8      VAR 9
             --------   --------   --------
-                 219        220        221
+                 218        219        220
 
 
  Analysis of round 1 NO polor group 1 (gp29)                                    
@@ -3927,7 +3927,7 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 228        229        230        231        232        233
+                 227        228        229        230        231        232
 
          THETA-EPS   
 
@@ -3946,22 +3946,22 @@
             --------   --------   --------   --------   --------   --------
     ETA 1          1          0          0          0          0          0
     ETA 2          0          2          0          0          0          0
-    ETA 3          0          0        222          0          0          0
+    ETA 3          0          0        221          0          0          0
     ETA 4          4          0          0          0          0          0
     ETA 5          0          5          0          0          0          0
     ETA 6          0          0          6          0          0          0
     ETA 7          7          0          0          0          0          0
     ETA 8          0          8          0          0          0          0
-    ETA 9          0          0        223          0          0          0
+    ETA 9          0          0        222          0          0          0
 
          PHI         
 
                KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6
             --------   --------   --------   --------   --------   --------
     KSI 1          0
-    KSI 2        224          0
-    KSI 3        225        226          0
-    KSI 4          0          0          0        227
+    KSI 2        223          0
+    KSI 3        224        225          0
+    KSI 4          0          0          0        226
     KSI 5          0          0          0          0         14
     KSI 6          0          0          0          0          0         15
 
@@ -3969,13 +3969,13 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 228        229        230          0          0          0
+                 227        228        229          0          0          0
 
          THETA-EPS   
 
                VAR 7      VAR 8      VAR 9
             --------   --------   --------
-                 234        235        236
+                 233        234        235
 
 
  Analysis of round 1 PL polor group 1 (gp31)                                    
@@ -3990,7 +3990,7 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 247        248        249        250        251        252
+                 246        247        248        249        250        251
 
          THETA-EPS   
 
@@ -4007,38 +4007,38 @@
 
                KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6
             --------   --------   --------   --------   --------   --------
-    ETA 1        237          0          0          0          0          0
-    ETA 2          0        238          0          0          0          0
+    ETA 1        236          0          0          0          0          0
+    ETA 2          0        237          0          0          0          0
     ETA 3          0          0          3          0          0          0
-    ETA 4          4          0          0          0        239          0
-    ETA 5          0        240          0          0          0          0
+    ETA 4          4          0          0          0        238          0
+    ETA 5          0        239          0          0          0          0
     ETA 6          0          0          6          0          0          0
     ETA 7          7          0          0          0          0          0
     ETA 8          0          8          0          0          0          0
-    ETA 9          0          0        241          0          0          0
+    ETA 9          0          0        240          0          0          0
 
          PHI         
 
                KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6
             --------   --------   --------   --------   --------   --------
     KSI 1          0
-    KSI 2        242          0
-    KSI 3        243        244          0
+    KSI 2        241          0
+    KSI 3        242        243          0
     KSI 4          0          0          0         13
-    KSI 5          0          0          0          0        245
-    KSI 6          0          0          0          0          0        246
+    KSI 5          0          0          0          0        244
+    KSI 6          0          0          0          0          0        245
 
          THETA-EPS   
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 247        248        249          0          0          0
+                 246        247        248          0          0          0
 
          THETA-EPS   
 
                VAR 7      VAR 8      VAR 9
             --------   --------   --------
-                 253        254        255
+                 252        253        254
 
 
  Analysis of round 1 PT polor group 1 (gp33)                                    
@@ -4053,7 +4053,7 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 261        262        263        264        265        266
+                 260        261        262        263        264        265
 
          THETA-EPS   
 
@@ -4073,23 +4073,23 @@
                KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6
             --------   --------   --------   --------   --------   --------
     KSI 1          0
-    KSI 2        256          0
-    KSI 3        257        258          0
-    KSI 4          0          0          0        259
+    KSI 2        255          0
+    KSI 3        256        257          0
+    KSI 4          0          0          0        258
     KSI 5          0          0          0          0         14
-    KSI 6          0          0          0          0          0        260
+    KSI 6          0          0          0          0          0        259
 
          THETA-EPS   
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 261        262        263          0          0          0
+                 260        261        262          0          0          0
 
          THETA-EPS   
 
                VAR 7      VAR 8      VAR 9
             --------   --------   --------
-                 267        268        269
+                 266        267        268
 
 
  Analysis of round 1 SE polor group 1 (gp35)                                    
@@ -4104,7 +4104,7 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 274        275        276        277        278        279
+                 273        274        275        276        277        278
 
          THETA-EPS   
 
@@ -4124,9 +4124,9 @@
                KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6
             --------   --------   --------   --------   --------   --------
     KSI 1          0
-    KSI 2        270          0
-    KSI 3        271        272          0
-    KSI 4          0          0          0        273
+    KSI 2        269          0
+    KSI 3        270        271          0
+    KSI 4          0          0          0        272
     KSI 5          0          0          0          0         14
     KSI 6          0          0          0          0          0         15
 
@@ -4134,13 +4134,13 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 274        275        276          0          0          0
+                 273        274        275          0          0          0
 
          THETA-EPS   
 
                VAR 7      VAR 8      VAR 9
             --------   --------   --------
-                 280        281        282
+                 279        280        281
 
 
  Analysis of round 1 SI polor group 1 (gp37)                                    
@@ -4155,7 +4155,7 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 287        288        289        290        291        292
+                 286        287        288        289        290        291
 
          THETA-EPS   
 
@@ -4187,9 +4187,9 @@
                KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6
             --------   --------   --------   --------   --------   --------
     KSI 1          0
-    KSI 2        283          0
-    KSI 3        284        285          0
-    KSI 4          0          0          0        286
+    KSI 2        282          0
+    KSI 3        283        284          0
+    KSI 4          0          0          0        285
     KSI 5          0          0          0          0         14
     KSI 6          0          0          0          0          0         15
 
@@ -4197,13 +4197,13 @@
 
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6
             --------   --------   --------   --------   --------   --------
-                 287        288        289          0          0          0
+                 286        287        288          0          0          0
 
          THETA-EPS   
 
                VAR 7      VAR 8      VAR 9
             --------   --------   --------
-                 293        294        295
+                 292        293        294
  
 
 
@@ -20445,8 +20445,8 @@
                VAR 1      VAR 2      VAR 3      VAR 4      VAR 5      VAR 6   
             --------   --------   --------   --------   --------   --------
                0.543      0.233      0.290      1.000      1.000      1.000
-             (0.031)    (0.017)    (0.013)                          (0.041)
-              17.325     13.564     21.757                           24.485
+             (0.031)    (0.017)    (0.013)
+              17.325     13.564     21.757
  
 
          THETA-EPS   
@@ -32659,30 +32659,30 @@
 
                         Global Goodness of Fit Statistics
 
-                            Degrees of Freedom = 1415
-            Minimum Fit Function Chi-Square = 1601.954 (P = 0.000359)
-     Normal Theory Weighted Least Squares Chi-Square = 1558.429 (P = 0.00436)
-                Estimated Non-centrality Parameter (NCP) = 143.429
-           90 Percent Confidence Interval for NCP = (51.626 ; 243.583)
+                            Degrees of Freedom = 1416
+            Minimum Fit Function Chi-Square = 1601.954 (P = 0.000383)
+     Normal Theory Weighted Least Squares Chi-Square = 1558.429 (P = 0.00461)
+                Estimated Non-centrality Parameter (NCP) = 142.429
+           90 Percent Confidence Interval for NCP = (50.654 ; 242.556)
  
                        Minimum Fit Function Value = 0.0690
-               Population Discrepancy Function Value (F0) = 0.00618
-            90 Percent Confidence Interval for F0 = (0.00222 ; 0.0105)
-             Root Mean Square Error of Approximation (RMSEA) = 0.0129
-          90 Percent Confidence Interval for RMSEA = (0.00773 ; 0.0168)
+               Population Discrepancy Function Value (F0) = 0.00614
+            90 Percent Confidence Interval for F0 = (0.00218 ; 0.0105)
+             Root Mean Square Error of Approximation (RMSEA) = 0.0128
+          90 Percent Confidence Interval for RMSEA = (0.00765 ; 0.0167)
                P-Value for Test of Close Fit (RMSEA < 0.05) = 1.000
  
-                 Expected Cross-Validation Index (ECVI) = 0.0926
-           90 Percent Confidence Interval for ECVI = (0.0886 ; 0.0969)
+                 Expected Cross-Validation Index (ECVI) = 0.0925
+           90 Percent Confidence Interval for ECVI = (0.0885 ; 0.0968)
                         ECVI for Saturated Model = 0.00388
                        ECVI for Independence Model = 1.896
  
     Chi-Square for Independence Model with 1368 Degrees of Freedom = 43976.865
                            Independence AIC = 44660.865
-                               Model AIC = 2148.429
+                               Model AIC = 2146.429
                              Saturated AIC = 3420.000
                           Independence CAIC = 47757.309
-                              Model CAIC = 4819.339
+                              Model CAIC = 4808.285
                             Saturated CAIC = 18902.223
  
                           Normed Fit Index (NFI) = 0.964
@@ -32692,7 +32692,7 @@
                        Incremental Fit Index (IFI) = 0.996
                          Relative Fit Index (RFI) = 0.965
  
-                           Critical N (CN) = 22336.904
+                           Critical N (CN) = 22352.025
  
 
 
@@ -40446,4 +40446,4 @@
             --------   --------   --------
                0.919      0.115      0.173
 
-                           Time used:   10.436 Seconds
+                           Time used:    9.922 Seconds
