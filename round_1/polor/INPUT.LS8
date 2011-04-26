@@ -930,7 +930,7 @@ fr ga 1 4
 
 fr ga 8 2
 
-!fr ga 6 3
+fr ga 6 3
 !fr ga 7 6
 
 fr ga 3 3
@@ -991,7 +991,7 @@ eq ga 21 1 4 ga 1 4
 
 eq ga 21 8 2 ga 8 2
 
-!eq ga 21 6 3 ga 6 3
+eq ga 21 6 3 ga 6 3
 !eq ga 21 7 6 ga 7 6
 
 eq ga 21 3 3 ga 3 3
