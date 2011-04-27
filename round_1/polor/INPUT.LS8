@@ -942,7 +942,7 @@ fr ph 5 4
 !fr te 6 6
 fr te 3 3
 !fr te 4 1
-fr te 8 8
+
 
 !fr te 5 5
 
@@ -1030,7 +1030,6 @@ eq ga 21 6 5 ga 6 5
 !eq te 21 8 2 te 8 2
 !eq te 21 9 3 te 9 3
 !fr te 6 6
-fr te 8 8
 eq te 21 3 3 te 3 3
 
 
