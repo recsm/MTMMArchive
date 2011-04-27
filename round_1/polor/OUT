@@ -1,6 +1,6 @@
 
                                 DATE:  4/27/2011
-                                  TIME: 18:36
+                                  TIME: 18:39
 
 
                                 L I S R E L  8.72
@@ -1167,7 +1167,7 @@
  !fr te 6 6
  !fr te 3 3
  !fr te 4 1
- fr te 2 2
+ !fr te 2 2
   
  !fr te 5 5
   
@@ -1264,7 +1264,7 @@
  !eq te 21 9 3 te 9 3
  !fr te 6 6
  !eq te 21 3 3 te 3 3
-  
+ !fr te 2 2
   
   
  start .7 te 7 7 te 8 8 te 9 9
@@ -40555,4 +40555,4 @@
             --------   --------   --------
                1.047      0.234     -0.033
 
-                           Time used:    6.156 Seconds
+                           Time used:    6.188 Seconds
