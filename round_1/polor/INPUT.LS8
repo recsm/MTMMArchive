@@ -960,7 +960,7 @@ fr ga 2 2
 fr ga 6 3
 !fr ga 7 6
 !fr ga 2 4
-fr te 4 1
+fr te 4 1 GA 4 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1030,7 +1030,7 @@ eq ga 21 5 2 ga 5 2
 !fr te 6 6
 !eq te 21 3 3 te 3 3
 !fr te 2 2
-
+EQ GA 21 4 1 GA 4 1
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
