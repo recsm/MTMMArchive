@@ -23,7 +23,7 @@ model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=fu,fi ga=fu,fi ph=sy,fi
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
-
+
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
@@ -256,9 +256,6 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 
 free ph 2 1 ph 3 1 ph 3 2   
 
-!extra
-eq ph 8 6 6 ph 6 6
-
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -297,8 +294,6 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 7 3 1 ph 3 1
 eq ph 7 3 2 ph 3 2
 eq ph 7 2 1 ph 2 1 
-!extra
-free ph 6 6 
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -404,8 +399,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-!extra
-free ph 4 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -446,8 +439,6 @@ eq ph 11 3 1 ph 3 1
 eq ph 11 3 2 ph 3 2
 eq ph 11 2 1 ph 2 1 
 
-!extra
-eq ph 11 4 4 ph 4 4
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -709,10 +700,7 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-!extra 1
-free ph 5 5
-!extra 2
-free ph 5 4
+
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -751,9 +739,6 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 19 3 1 ph 3 1
 eq ph 19 3 2 ph 3 2
 eq ph 19 2 1 ph 2 1 
-
-!extra 1
-eq ph 19 5 5 ph 5 5
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
