@@ -1,6 +1,6 @@
 
                                 DATE:  4/28/2011
-                                  TIME:  8:58
+                                  TIME:  9:07
 
 
                                 L I S R E L  8.72
@@ -708,7 +708,7 @@
  *
  1.049 1.019 1.021  .910 1.012 1.040   1.00  1.00  1.00
   
- model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+ model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=sp
   
  value 1 ly 1 1 ly 4 4
  value -1.0 ly 2 2 ly 3 3  ly 5 5 ly 6 6
@@ -45575,4 +45575,4 @@
             --------   --------   --------
                0.488      0.188      0.239
 
-                           Time used:   10.405 Seconds
+                           Time used:   10.280 Seconds
