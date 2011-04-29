@@ -1,6 +1,6 @@
 
                                 DATE:  4/29/2011
-                                  TIME: 14:28
+                                  TIME: 14:35
 
 
                                 L I S R E L  8.72
@@ -1750,7 +1750,7 @@
  !Extra
  eq ga 35 5 2 ga 5 2
  !eq te 35 6 5 te 6 5
- eq ph 5 5 ga 5 5
+ eq ph 5 5 ph 5 5
  eq ga 35 4 5 ga 4 5
   
  start .7 te 7 7 te 8 8 te 9 9
@@ -3831,19 +3831,7 @@
 
  Parameter Specifications
 
-         GAMMA       
-
-               KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6
-            --------   --------   --------   --------   --------   --------
-    ETA 1          1          0          0          0          0          0
-    ETA 2          0          2          0          0          0          0
-    ETA 3          0          0          3          0          0          0
-    ETA 4          4          0          0          0        233          0
-    ETA 5          0        234          0          0          0          0
-    ETA 6          0          0          6          0          0          0
-    ETA 7          7          0          0          0          0          0
-    ETA 8          0          8          0          0          0          0
-    ETA 9          0          0          9          0          0          0
+ GAMMA EQUALS GAMMA IN THE FOLLOWING GROUP
 
          PHI         
 
@@ -3881,7 +3869,7 @@
     ETA 2          0          2          0          0          0          0
     ETA 3          0          0          3          0          0          0
     ETA 4          4          0          0          0        233          0
-    ETA 5          0        234          0          0         13          0
+    ETA 5          0        234          0          0          0          0
     ETA 6          0          0          6          0          0          0
     ETA 7          7          0          0          0          0          0
     ETA 8          0          8          0          0          0          0
@@ -3895,7 +3883,7 @@
     KSI 2        235          0
     KSI 3        236        237          0
     KSI 4          0          0          0          0
-    KSI 5          0          0          0          0         13
+    KSI 5          0          0          0          0     -13566
     KSI 6          0          0          0          0          0         14
 
          THETA-EPS   
@@ -3977,7 +3965,7 @@
 
  Analysis of round 1 poleff group 1 GB                                          
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -4709,7 +4697,7 @@
 
  Analysis of group 2 GB                                                         
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -5466,7 +5454,7 @@
 
  Analysis of round 1 BE poleff group 1 (gp3)                                    
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -6240,7 +6228,7 @@
 
  Analysis of group 2 BE(gp4)                                                    
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -7037,7 +7025,7 @@
 
  Analysis of round 1 CH poleff group 1 (gp5)                                    
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -7769,7 +7757,7 @@
 
  Analysis of group 2 (gp6)                                                      
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -8526,7 +8514,7 @@
 
  Analysis of round 1 CZ poleff group 1 (gp7)                                    
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -9258,7 +9246,7 @@
 
  Analysis of group 2 (gp8)                                                      
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -10054,7 +10042,7 @@
 
  Analysis of round 1 DE poleff group 1  (gp9)                                   
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -10828,7 +10816,7 @@
 
  Analysis of group 2 (gp10)                                                     
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -11662,7 +11650,7 @@
 
  Analysis of round 1 DK poleff group 1 (gp11)                                   
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -12394,7 +12382,7 @@
 
  Analysis of group 2 (gp12)                                                     
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -12600,7 +12588,7 @@
 
                ETA 1      ETA 2      ETA 3      ETA 4      ETA 5      ETA 6   
             --------   --------   --------   --------   --------   --------
-    VAR 1      2.327      6.263      3.329      2.324      6.271      3.339
+    VAR 1      2.327      6.263      3.329      2.324      6.271      3.338
     VAR 2      0.030      0.611      2.796      0.034      0.602      2.767
     VAR 3      0.160      0.021      1.079      0.162      0.021      1.073
     VAR 4       - -        - -        - -        - -        - -        - - 
@@ -12712,7 +12700,7 @@
 
                ETA 1      ETA 2      ETA 3      ETA 4      ETA 5      ETA 6   
             --------   --------   --------   --------   --------   --------
-    ETA 1      2.327      6.263      3.329      2.324      6.271      3.339
+    ETA 1      2.327      6.263      3.329      2.324      6.271      3.338
     ETA 2      0.030      0.611      2.796      0.034      0.602      2.767
     ETA 3      0.160      0.021      1.079      0.162      0.021      1.073
     ETA 4       - -        - -        - -        - -        - -        - - 
@@ -12796,7 +12784,7 @@
 
                KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6   
             --------   --------   --------   --------   --------   --------
-    ETA 1      2.323      6.271      3.339       - -        - -       5.608
+    ETA 1      2.323      6.271      3.338       - -        - -       5.608
     ETA 2      0.034      0.602      2.767       - -        - -       0.118
     ETA 3      0.162      0.021      1.073       - -        - -       0.327
     ETA 4       - -        - -        - -        - -        - -        - - 
@@ -13190,7 +13178,7 @@
 
  Analysis of round 1 ES poleff group 1 (gp13)                                   
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -13922,7 +13910,7 @@
 
  Analysis of group 2 ES (gp14)                                                  
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -14143,7 +14131,7 @@
                ETA 7      ETA 8      ETA 9   
             --------   --------   --------
     VAR 1      0.822      1.534      0.267
-    VAR 2      0.002      1.447      0.021
+    VAR 2      0.002      1.446      0.021
     VAR 3      0.301      0.049      0.268
     VAR 4       - -        - -        - - 
     VAR 5       - -        - -        - - 
@@ -14255,7 +14243,7 @@
                ETA 7      ETA 8      ETA 9   
             --------   --------   --------
     ETA 1      0.822      1.534      0.267
-    ETA 2      0.002      1.447      0.021
+    ETA 2      0.002      1.446      0.021
     ETA 3      0.301      0.049      0.268
     ETA 4       - -        - -        - - 
     ETA 5       - -        - -        - - 
@@ -14718,7 +14706,7 @@
 
  Analysis of round 1 FI poleff group 1 (gp15)                                   
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -15450,7 +15438,7 @@
 
  Analysis of group 2 FI(gp 16)                                                  
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -16246,7 +16234,7 @@
 
  Analysis of round 1 FR poleff group 1 (gp17)                                   
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -16684,7 +16672,7 @@
     KSI 2      0.017     -0.134
     KSI 3      0.016      0.001     -0.032
     KSI 4      0.282     -0.817     -0.816    -19.965
-    KSI 5      0.800     -0.108      0.911      7.910      5.209
+    KSI 5      0.800     -0.108      0.911      7.910      5.208
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Modification Indices for PSI            
@@ -17020,7 +17008,7 @@
 
  Analysis of group 2 FR (gp18)                                                  
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -17854,7 +17842,7 @@
 
  Analysis of round 1 AT poleff group 1 (gp19)                                   
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -18586,7 +18574,7 @@
 
  Analysis of group 2 (gp20)                                                     
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -19382,7 +19370,7 @@
 
  Analysis of round 1 GR poleff group 1 (gp 21)                                  
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -19559,7 +19547,7 @@
     VAR 1      2.393      0.410      1.887      2.639      0.319      0.000
     VAR 2      0.163      7.725      3.261      0.281      6.950      0.175
     VAR 3      0.896      0.730      0.018      0.919      0.707      0.016
-    VAR 4       - -       0.287      0.286     11.924      0.107      4.712
+    VAR 4       - -       0.287      0.286     11.925      0.107      4.712
     VAR 5      0.818      4.994      1.457      0.621      5.563      7.202
     VAR 6      6.243      1.532      2.296      6.241      1.540      2.306
     VAR 7       - -        - -        - -        - -        - -        - - 
@@ -19587,7 +19575,7 @@
     VAR 1      0.065     -0.022     -0.051      0.063     -0.020      0.000
     VAR 2     -0.011      0.073      0.048     -0.014      0.073     -0.009
     VAR 3      0.029     -0.025     -0.004      0.027     -0.026      0.004
-    VAR 4       - -       0.020      0.023     -2.347      0.013     -0.069
+    VAR 4       - -       0.020      0.023     -2.348      0.013     -0.069
     VAR 5     -0.024      0.058      0.030     -0.019      0.064      0.064
     VAR 6     -0.071      0.031      0.039     -0.065      0.033      0.048
     VAR 7       - -        - -        - -        - -        - -        - - 
@@ -19671,7 +19659,7 @@
     ETA 1      2.393      0.410      1.887      2.639      0.319      0.000
     ETA 2      0.163      7.725      3.261      0.281      6.950      0.175
     ETA 3      0.896      0.730      0.018      0.919      0.707      0.016
-    ETA 4       - -       0.287      0.286     11.924      0.107      4.712
+    ETA 4       - -       0.287      0.286     11.925      0.107      4.712
     ETA 5      0.818      4.994      1.457      0.621      5.563      7.202
     ETA 6      6.243      1.532      2.296      6.241      1.540      2.306
     ETA 7       - -        - -        - -        - -        - -        - - 
@@ -19699,7 +19687,7 @@
     ETA 1      0.065     -0.022     -0.051      0.063     -0.020      0.000
     ETA 2     -0.011      0.073      0.048     -0.014      0.073     -0.009
     ETA 3      0.029     -0.025     -0.004      0.027     -0.026      0.004
-    ETA 4       - -       0.020      0.023     -2.347      0.013     -0.069
+    ETA 4       - -       0.020      0.023     -2.348      0.013     -0.069
     ETA 5     -0.024      0.058      0.030     -0.019      0.064      0.064
     ETA 6     -0.071      0.031      0.039     -0.065      0.033      0.048
     ETA 7       - -        - -        - -        - -        - -        - - 
@@ -19798,7 +19786,7 @@
     KSI 2      1.990     18.844
     KSI 3      1.062      2.405      1.629
     KSI 4      3.050      2.458      0.003      0.070
-    KSI 5      5.076      0.035      0.131      0.762      1.103
+    KSI 5      5.076      0.035      0.131      0.762      1.102
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Expected Change for PHI         
@@ -19820,7 +19808,7 @@
     KSI 2      0.019      0.137
     KSI 3     -0.014     -0.017      0.039
     KSI 4      0.807      0.637     -0.020      2.828
-    KSI 5     -0.074     -0.006      0.011     -0.506     -6.898
+    KSI 5     -0.074     -0.006      0.011     -0.506     -6.894
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Modification Indices for PSI            
@@ -20156,7 +20144,7 @@
 
  Analysis of group 2 GR (gp22)                                                  
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -20230,8 +20218,8 @@
                         (0.011)
                          94.734
  
-    ETA 6       - -        - -       0.829       - -      15.486       - - 
-                                   (0.009)              (26.162)
+    ETA 6       - -        - -       0.829       - -      15.485       - - 
+                                   (0.009)              (26.161)
                                     90.356                 0.592
  
     ETA 7     -0.924       - -        - -        - -        - -       1.000
@@ -20663,7 +20651,7 @@
             --------   --------   --------   --------   --------   --------
     ETA 1      0.240
     ETA 2      0.098      0.181
-    ETA 3      1.523      5.037      0.568
+    ETA 3      1.523      5.036      0.568
     ETA 4       - -        - -        - -        - - 
     ETA 5       - -        - -        - -        - -        - - 
     ETA 6       - -        - -        - -        - -        - -        - - 
@@ -20729,7 +20717,7 @@
             --------   --------   --------   --------   --------   --------
     VAR 1      0.240
     VAR 2      0.098      0.181
-    VAR 3      1.523      5.037      0.568
+    VAR 3      1.523      5.036      0.568
     VAR 4       - -        - -        - -        - - 
     VAR 5       - -        - -        - -        - -        - - 
     VAR 6       - -        - -        - -        - -        - -        - - 
@@ -20990,7 +20978,7 @@
 
  Analysis of round 1 IE poleff group 1  (gp23)                                  
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -21722,7 +21710,7 @@
 
  Analysis of group 2 IE (gp24)                                                  
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -22479,7 +22467,7 @@
 
  Analysis of round 1 IL poleffaction expt group 1 (gp25)                        
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -23211,7 +23199,7 @@
 
  Analysis of group 2 IL (gp26)                                                  
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -23968,7 +23956,7 @@
 
  Analysis of round 1 NL poleff group 1 (gp27)                                   
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -24325,7 +24313,7 @@
     ETA 3      0.023      0.002     -0.020       - -        - -        - - 
     ETA 4     -0.019      0.046      0.065       - -        - -        - - 
     ETA 5      0.005     -0.060     -0.004       - -      10.122       - - 
-    ETA 6      0.009      0.014     -0.003       - -      18.727       - - 
+    ETA 6      0.009      0.014     -0.003       - -      18.726       - - 
     ETA 7       - -        - -        - -        - -        - -        - - 
     ETA 8       - -        - -        - -        - -        - -        - - 
     ETA 9       - -        - -        - -        - -        - -        - - 
@@ -24700,7 +24688,7 @@
 
  Analysis of group 2 nl (gp28)                                                  
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -25457,7 +25445,7 @@
 
  Analysis of round 1 NO poleff group 1 (gp29)                                   
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -26189,7 +26177,7 @@
 
  Analysis of group 2 (gp30)                                                     
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -26946,7 +26934,7 @@
 
  Analysis of round 1 PL poleff group 1 (gp31)                                   
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -27329,7 +27317,7 @@
     KSI 1      0.001
     KSI 2      0.044      1.534
     KSI 3      0.044      2.628      0.131
-    KSI 4      0.162      0.442      1.868      1.442
+    KSI 4      0.162      0.442      1.869      1.442
     KSI 5      0.390      0.291      0.934      0.483      0.047
     KSI 6       - -        - -        - -        - -        - -        - - 
 
@@ -27678,7 +27666,7 @@
 
  Analysis of group 2 PL(gp32)                                                   
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -28435,7 +28423,7 @@
 
  Analysis of round 1 PT poleff group 1 (gp33)                                   
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -29167,7 +29155,7 @@
 
  Analysis of group 2 PT (gp34)                                                  
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -29963,7 +29951,7 @@
 
  Analysis of round 1 SE poleff group 1 (gp35)                                   
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -30013,46 +30001,7 @@
     VAR 9       - -        - -        - - 
  
 
-         GAMMA       
-
-               KSI 1      KSI 2      KSI 3      KSI 4      KSI 5      KSI 6   
-            --------   --------   --------   --------   --------   --------
-    ETA 1      0.845       - -        - -       1.000       - -        - - 
-             (0.008)
-             109.022
- 
-    ETA 2       - -       1.048       - -       1.000       - -        - - 
-                        (0.009)
-                        119.969
- 
-    ETA 3       - -        - -       0.772      1.000       - -        - - 
-                                   (0.007)
-                                   110.374
- 
-    ETA 4      0.847       - -        - -        - -      -0.230       - - 
-             (0.012)                                     (0.151)
-              73.143                                      -1.530
- 
-    ETA 5       - -       0.879       - -        - -       1.000       - - 
-                        (0.037)
-                         23.913
- 
-    ETA 6       - -        - -       0.829       - -       1.000       - - 
-                                   (0.009)
-                                    90.356
- 
-    ETA 7     -0.924       - -        - -        - -        - -       1.000
-             (0.010)
-             -96.500
- 
-    ETA 8       - -      -0.963       - -        - -        - -       1.000
-                        (0.010)
-                        -95.665
- 
-    ETA 9       - -        - -      -0.852       - -        - -       1.000
-                                   (0.010)
-                                   -89.355
- 
+ GAMMA EQUALS GAMMA IN THE FOLLOWING GROUP
 
          Covariance Matrix of ETA and KSI        
 
@@ -30757,7 +30706,7 @@
 
  Analysis of group 2 SE (gp36)                                                  
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -30827,9 +30776,9 @@
              (0.012)                                     (0.151)
               73.143                                      -1.530
  
-    ETA 5       - -       0.879       - -        - -       0.002       - - 
-                        (0.037)                          (0.004)
-                         23.913                            0.599
+    ETA 5       - -       0.879       - -        - -       1.000       - - 
+                        (0.037)
+                         23.913
  
     ETA 6       - -        - -       0.829       - -       1.000       - - 
                                    (0.009)
@@ -30857,7 +30806,7 @@
     ETA 3     -0.444      0.445      0.597
     ETA 4      0.716     -0.448     -0.446      0.718
     ETA 5     -0.374      0.921      0.372     -0.375      0.773
-    ETA 6     -0.478      0.476      0.640     -0.480      0.400      0.690
+    ETA 6     -0.478      0.476      0.640     -0.479      0.400      0.688
     ETA 7     -0.781      0.488      0.486     -0.783      0.409      0.522
     ETA 8      0.410     -1.010     -0.408      0.411     -0.847     -0.438
     ETA 9      0.491     -0.489     -0.658      0.492     -0.410     -0.706
@@ -30865,7 +30814,7 @@
     KSI 2     -0.426      1.048      0.423     -0.427      0.879      0.455
     KSI 3     -0.576      0.574      0.772     -0.578      0.482      0.829
     KSI 4      0.001      0.001      0.001       - -        - -        - - 
-    KSI 5       - -        - -        - -      -0.001      0.000      0.002
+    KSI 5       - -        - -        - -        - -        - -        - - 
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Covariance Matrix of ETA and KSI        
@@ -30887,7 +30836,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      0.001
-    KSI 5       - -       0.002
+    KSI 5       - -        - - 
     KSI 6       - -        - -       0.021
 
          PHI         
@@ -30906,9 +30855,7 @@
  
     KSI 4       - -        - -        - -       0.001
  
-    KSI 5       - -        - -        - -        - -       0.002
-                                                         (0.004)
-                                                           0.599
+    KSI 5       - -        - -        - -        - -        - - 
  
     KSI 6       - -        - -        - -        - -        - -       0.021
                                                                     (0.004)
@@ -30949,7 +30896,7 @@
                          Group Goodness of Fit Statistics
 
                        Contribution to Chi-Square = 29.575
-                  Percentage Contribution to Chi-Square = 2.381
+                  Percentage Contribution to Chi-Square = 2.382
  
                      Root Mean Square Residual (RMR) = 0.0365
                             Standardized RMR = 0.0349
@@ -31401,9 +31348,9 @@
     ETA 1      0.999       - -        - -       0.037       - -        - - 
     ETA 2       - -       1.000       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.999      0.041       - -        - - 
-    ETA 4      1.000       - -        - -        - -      -0.013       - - 
-    ETA 5       - -       1.000       - -        - -       0.000       - - 
-    ETA 6       - -        - -       0.998       - -       0.058       - - 
+    ETA 4      1.000       - -        - -        - -      -0.272       - - 
+    ETA 5       - -       1.000       - -        - -       1.138       - - 
+    ETA 6       - -        - -       1.000       - -       1.206       - - 
     ETA 7     -0.988       - -        - -        - -        - -       0.154
     ETA 8       - -      -0.989       - -        - -        - -       0.148
     ETA 9       - -        - -      -0.986       - -        - -       0.167
@@ -31417,15 +31364,15 @@
     ETA 3     -0.679      0.549      1.000
     ETA 4      0.999     -0.504     -0.681      1.000
     ETA 5     -0.504      1.000      0.548     -0.504      1.000
-    ETA 6     -0.680      0.547      0.997     -0.681      0.547      1.000
-    ETA 7     -0.987      0.498      0.673     -0.988      0.498      0.673
-    ETA 8      0.498     -0.989     -0.542      0.498     -0.989     -0.541
-    ETA 9      0.672     -0.540     -0.985      0.672     -0.540     -0.984
-    KSI 1      0.999     -0.504     -0.681      1.000     -0.504     -0.681
-    KSI 2     -0.504      1.000      0.548     -0.504      1.000      0.547
-    KSI 3     -0.681      0.548      0.999     -0.682      0.548      0.998
+    ETA 6     -0.681      0.548      0.999     -0.682      0.548      1.000
+    ETA 7     -0.987      0.498      0.673     -0.988      0.498      0.674
+    ETA 8      0.498     -0.989     -0.542      0.499     -0.989     -0.542
+    ETA 9      0.672     -0.540     -0.985      0.672     -0.540     -0.986
+    KSI 1      0.999     -0.504     -0.681      1.000     -0.504     -0.682
+    KSI 2     -0.504      1.000      0.548     -0.504      1.000      0.548
+    KSI 3     -0.681      0.548      0.999     -0.682      0.548      1.000
     KSI 4      0.037      0.030      0.041       - -        - -        - - 
-    KSI 5       - -        - -        - -      -0.013      0.000      0.058
+    KSI 5       - -        - -        - -        - -        - -        - - 
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Correlation Matrix of ETA and KSI       
@@ -31447,7 +31394,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       1.000
+    KSI 5       - -        - - 
     KSI 6       - -        - -       1.000
 
  Analysis of group 2 SE (gp36)                                                  
@@ -31489,9 +31436,9 @@
     ETA 1      0.999       - -        - -       0.037       - -        - - 
     ETA 2       - -       1.000       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.999      0.041       - -        - - 
-    ETA 4      1.000       - -        - -        - -      -0.013       - - 
-    ETA 5       - -       1.000       - -        - -       0.000       - - 
-    ETA 6       - -        - -       0.998       - -       0.058       - - 
+    ETA 4      1.000       - -        - -        - -      -0.272       - - 
+    ETA 5       - -       1.000       - -        - -       1.138       - - 
+    ETA 6       - -        - -       1.000       - -       1.206       - - 
     ETA 7     -0.988       - -        - -        - -        - -       0.154
     ETA 8       - -      -0.989       - -        - -        - -       0.148
     ETA 9       - -        - -      -0.986       - -        - -       0.167
@@ -31505,15 +31452,15 @@
     ETA 3     -0.679      0.549      1.000
     ETA 4      0.999     -0.504     -0.681      1.000
     ETA 5     -0.504      1.000      0.548     -0.504      1.000
-    ETA 6     -0.680      0.547      0.997     -0.681      0.547      1.000
-    ETA 7     -0.987      0.498      0.673     -0.988      0.498      0.673
-    ETA 8      0.498     -0.989     -0.542      0.498     -0.989     -0.541
-    ETA 9      0.672     -0.540     -0.985      0.672     -0.540     -0.984
-    KSI 1      0.999     -0.504     -0.681      1.000     -0.504     -0.681
-    KSI 2     -0.504      1.000      0.548     -0.504      1.000      0.547
-    KSI 3     -0.681      0.548      0.999     -0.682      0.548      0.998
+    ETA 6     -0.681      0.548      0.999     -0.682      0.548      1.000
+    ETA 7     -0.987      0.498      0.673     -0.988      0.498      0.674
+    ETA 8      0.498     -0.989     -0.542      0.499     -0.989     -0.542
+    ETA 9      0.672     -0.540     -0.985      0.672     -0.540     -0.986
+    KSI 1      0.999     -0.504     -0.681      1.000     -0.504     -0.682
+    KSI 2     -0.504      1.000      0.548     -0.504      1.000      0.548
+    KSI 3     -0.681      0.548      0.999     -0.682      0.548      1.000
     KSI 4      0.037      0.030      0.041       - -        - -        - - 
-    KSI 5       - -        - -        - -      -0.013      0.000      0.058
+    KSI 5       - -        - -        - -        - -        - -        - - 
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Correlation Matrix of ETA and KSI       
@@ -31535,7 +31482,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       1.000
+    KSI 5       - -        - - 
     KSI 6       - -        - -       1.000
 
          THETA-EPS   
@@ -31553,7 +31500,7 @@
 
  Analysis of round 1 SI poleff group 1 (gp37)                                   
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -32285,7 +32232,7 @@
 
  Analysis of group 2 SI (gp38)                                                  
 
- Number of Iterations =131
+ Number of Iterations =117
 
  LISREL Estimates (Maximum Likelihood)                           
 
@@ -33182,9 +33129,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -33198,13 +33145,13 @@
     ETA 3     -0.673      0.491      0.929
     ETA 4      0.957     -0.523     -0.661      0.941
     ETA 5     -0.547      1.007      0.502     -0.533      1.035
-    ETA 6     -0.670      0.487      0.921     -0.654      0.501      0.918
+    ETA 6     -0.670      0.487      0.921     -0.654      0.502      0.918
     ETA 7     -0.969      0.529      0.670     -0.950      0.543      0.665
     ETA 8      0.524     -0.965     -0.481      0.513     -0.989     -0.478
     ETA 9      0.699     -0.507     -0.961      0.685     -0.520     -0.954
     KSI 1      0.988     -0.540     -0.683      0.968     -0.553     -0.678
     KSI 2     -0.538      0.991      0.494     -0.527      1.016      0.491
-    KSI 3     -0.701      0.509      0.963     -0.687      0.521      0.956
+    KSI 3     -0.701      0.509      0.963     -0.687      0.521      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -33228,7 +33175,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 poleff group 1 GB                                          
@@ -33270,9 +33217,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -33286,13 +33233,13 @@
     ETA 3     -0.673      0.491      0.929
     ETA 4      0.957     -0.523     -0.661      0.941
     ETA 5     -0.547      1.007      0.502     -0.533      1.035
-    ETA 6     -0.670      0.487      0.921     -0.654      0.501      0.918
+    ETA 6     -0.670      0.487      0.921     -0.654      0.502      0.918
     ETA 7     -0.969      0.529      0.670     -0.950      0.543      0.665
     ETA 8      0.524     -0.965     -0.481      0.513     -0.989     -0.478
     ETA 9      0.699     -0.507     -0.961      0.685     -0.520     -0.954
     KSI 1      0.988     -0.540     -0.683      0.968     -0.553     -0.678
     KSI 2     -0.538      0.991      0.494     -0.527      1.016      0.491
-    KSI 3     -0.701      0.509      0.963     -0.687      0.521      0.956
+    KSI 3     -0.701      0.509      0.963     -0.687      0.521      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -33316,7 +33263,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -33370,9 +33317,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -33386,13 +33333,13 @@
     ETA 3     -0.673      0.491      0.929
     ETA 4      0.957     -0.523     -0.661      0.941
     ETA 5     -0.547      1.007      0.502     -0.533      1.035
-    ETA 6     -0.670      0.487      0.921     -0.654      0.501      0.918
+    ETA 6     -0.670      0.487      0.921     -0.654      0.502      0.918
     ETA 7     -0.969      0.529      0.670     -0.950      0.543      0.665
     ETA 8      0.524     -0.965     -0.481      0.513     -0.989     -0.478
     ETA 9      0.699     -0.507     -0.961      0.685     -0.520     -0.954
     KSI 1      0.988     -0.540     -0.683      0.968     -0.553     -0.678
     KSI 2     -0.538      0.991      0.494     -0.527      1.016      0.491
-    KSI 3     -0.701      0.509      0.963     -0.687      0.521      0.956
+    KSI 3     -0.701      0.509      0.963     -0.687      0.521      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -33416,7 +33363,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 GB                                                         
@@ -33458,9 +33405,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -33474,13 +33421,13 @@
     ETA 3     -0.673      0.491      0.929
     ETA 4      0.957     -0.523     -0.661      0.941
     ETA 5     -0.547      1.007      0.502     -0.533      1.035
-    ETA 6     -0.670      0.487      0.921     -0.654      0.501      0.918
+    ETA 6     -0.670      0.487      0.921     -0.654      0.502      0.918
     ETA 7     -0.969      0.529      0.670     -0.950      0.543      0.665
     ETA 8      0.524     -0.965     -0.481      0.513     -0.989     -0.478
     ETA 9      0.699     -0.507     -0.961      0.685     -0.520     -0.954
     KSI 1      0.988     -0.540     -0.683      0.968     -0.553     -0.678
     KSI 2     -0.538      0.991      0.494     -0.527      1.016      0.491
-    KSI 3     -0.701      0.509      0.963     -0.687      0.521      0.956
+    KSI 3     -0.701      0.509      0.963     -0.687      0.521      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -33504,7 +33451,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -33558,9 +33505,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -33580,7 +33527,7 @@
     ETA 9      0.574     -0.426     -0.961      0.563     -0.436     -0.954
     KSI 1      0.988     -0.406     -0.561      0.968     -0.416     -0.557
     KSI 2     -0.405      0.991      0.415     -0.396      1.016      0.412
-    KSI 3     -0.576      0.427      0.963     -0.564      0.438      0.956
+    KSI 3     -0.576      0.427      0.963     -0.564      0.438      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -33604,7 +33551,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 BE poleff group 1 (gp3)                                    
@@ -33646,9 +33593,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -33668,7 +33615,7 @@
     ETA 9      0.574     -0.426     -0.961      0.563     -0.436     -0.954
     KSI 1      0.988     -0.406     -0.561      0.968     -0.416     -0.557
     KSI 2     -0.405      0.991      0.415     -0.396      1.016      0.412
-    KSI 3     -0.576      0.427      0.963     -0.564      0.438      0.956
+    KSI 3     -0.576      0.427      0.963     -0.564      0.438      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -33692,7 +33639,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -33756,9 +33703,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -33778,7 +33725,7 @@
     ETA 9      0.574     -0.426     -0.961      0.563     -0.436     -0.954
     KSI 1      0.988     -0.406     -0.561      0.968     -0.416     -0.557
     KSI 2     -0.405      0.991      0.415     -0.396      1.016      0.412
-    KSI 3     -0.576      0.427      0.963     -0.564      0.438      0.956
+    KSI 3     -0.576      0.427      0.963     -0.564      0.438      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -33802,7 +33749,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 BE(gp4)                                                    
@@ -33844,9 +33791,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -33866,7 +33813,7 @@
     ETA 9      0.574     -0.426     -0.961      0.563     -0.436     -0.954
     KSI 1      0.988     -0.406     -0.561      0.968     -0.416     -0.557
     KSI 2     -0.405      0.991      0.415     -0.396      1.016      0.412
-    KSI 3     -0.576      0.427      0.963     -0.564      0.438      0.956
+    KSI 3     -0.576      0.427      0.963     -0.564      0.438      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -33890,7 +33837,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -33954,9 +33901,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -33976,7 +33923,7 @@
     ETA 9      0.741     -0.489     -0.961      0.726     -0.501     -0.954
     KSI 1      0.988     -0.451     -0.724      0.968     -0.462     -0.719
     KSI 2     -0.450      0.991      0.476     -0.441      1.016      0.473
-    KSI 3     -0.743      0.490      0.963     -0.728      0.502      0.956
+    KSI 3     -0.743      0.490      0.963     -0.728      0.502      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -34000,7 +33947,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 CH poleff group 1 (gp5)                                    
@@ -34042,9 +33989,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -34064,7 +34011,7 @@
     ETA 9      0.741     -0.489     -0.961      0.726     -0.501     -0.954
     KSI 1      0.988     -0.451     -0.724      0.968     -0.462     -0.719
     KSI 2     -0.450      0.991      0.476     -0.441      1.016      0.473
-    KSI 3     -0.743      0.490      0.963     -0.728      0.502      0.956
+    KSI 3     -0.743      0.490      0.963     -0.728      0.502      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -34088,7 +34035,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -34142,9 +34089,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -34164,7 +34111,7 @@
     ETA 9      0.741     -0.489     -0.961      0.726     -0.501     -0.954
     KSI 1      0.988     -0.451     -0.724      0.968     -0.462     -0.719
     KSI 2     -0.450      0.991      0.476     -0.441      1.016      0.473
-    KSI 3     -0.743      0.490      0.963     -0.728      0.502      0.956
+    KSI 3     -0.743      0.490      0.963     -0.728      0.502      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -34188,7 +34135,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 (gp6)                                                      
@@ -34230,9 +34177,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -34252,7 +34199,7 @@
     ETA 9      0.741     -0.489     -0.961      0.726     -0.501     -0.954
     KSI 1      0.988     -0.451     -0.724      0.968     -0.462     -0.719
     KSI 2     -0.450      0.991      0.476     -0.441      1.016      0.473
-    KSI 3     -0.743      0.490      0.963     -0.728      0.502      0.956
+    KSI 3     -0.743      0.490      0.963     -0.728      0.502      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -34276,7 +34223,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -34330,9 +34277,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -34352,7 +34299,7 @@
     ETA 9      0.779     -0.527     -0.961      0.763     -0.541     -0.954
     KSI 1      0.988     -0.500     -0.761      0.968     -0.512     -0.756
     KSI 2     -0.498      0.991      0.514     -0.488      1.016      0.510
-    KSI 3     -0.781      0.529      0.963     -0.765      0.542      0.956
+    KSI 3     -0.781      0.529      0.963     -0.765      0.542      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -34376,7 +34323,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 CZ poleff group 1 (gp7)                                    
@@ -34418,9 +34365,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -34440,7 +34387,7 @@
     ETA 9      0.779     -0.527     -0.961      0.763     -0.541     -0.954
     KSI 1      0.988     -0.500     -0.761      0.968     -0.512     -0.756
     KSI 2     -0.498      0.991      0.514     -0.488      1.016      0.510
-    KSI 3     -0.781      0.529      0.963     -0.765      0.542      0.956
+    KSI 3     -0.781      0.529      0.963     -0.765      0.542      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -34464,7 +34411,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -34518,9 +34465,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -34540,7 +34487,7 @@
     ETA 9      0.779     -0.527     -0.961      0.763     -0.541     -0.954
     KSI 1      0.988     -0.500     -0.761      0.968     -0.512     -0.756
     KSI 2     -0.498      0.991      0.514     -0.488      1.016      0.510
-    KSI 3     -0.781      0.529      0.963     -0.765      0.542      0.956
+    KSI 3     -0.781      0.529      0.963     -0.765      0.542      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -34564,7 +34511,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 (gp8)                                                      
@@ -34606,9 +34553,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -34628,7 +34575,7 @@
     ETA 9      0.779     -0.527     -0.961      0.763     -0.541     -0.954
     KSI 1      0.988     -0.500     -0.761      0.968     -0.512     -0.756
     KSI 2     -0.498      0.991      0.514     -0.488      1.016      0.510
-    KSI 3     -0.781      0.529      0.963     -0.765      0.542      0.956
+    KSI 3     -0.781      0.529      0.963     -0.765      0.542      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -34652,7 +34599,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -34706,9 +34653,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.758       - -        - -       0.214
@@ -34728,7 +34675,7 @@
     ETA 9      0.530     -0.395     -0.730      0.519     -0.405     -0.725
     KSI 1      0.988     -0.460     -0.681      0.968     -0.471     -0.677
     KSI 2     -0.458      0.991      0.507     -0.449      1.016      0.503
-    KSI 3     -0.699      0.522      0.963     -0.685      0.535      0.956
+    KSI 3     -0.699      0.522      0.963     -0.685      0.535      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -34752,7 +34699,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 DE poleff group 1  (gp9)                                   
@@ -34794,9 +34741,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.758       - -        - -       0.214
@@ -34816,7 +34763,7 @@
     ETA 9      0.530     -0.395     -0.730      0.519     -0.405     -0.725
     KSI 1      0.988     -0.460     -0.681      0.968     -0.471     -0.677
     KSI 2     -0.458      0.991      0.507     -0.449      1.016      0.503
-    KSI 3     -0.699      0.522      0.963     -0.685      0.535      0.956
+    KSI 3     -0.699      0.522      0.963     -0.685      0.535      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -34840,7 +34787,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -34904,9 +34851,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.758       - -        - -       0.214
@@ -34926,7 +34873,7 @@
     ETA 9      0.530     -0.395     -0.730      0.519     -0.405     -0.725
     KSI 1      0.988     -0.460     -0.681      0.968     -0.471     -0.677
     KSI 2     -0.458      0.991      0.507     -0.449      1.016      0.503
-    KSI 3     -0.699      0.522      0.963     -0.685      0.535      0.956
+    KSI 3     -0.699      0.522      0.963     -0.685      0.535      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -34950,7 +34897,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 (gp10)                                                     
@@ -34992,9 +34939,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.758       - -        - -       0.214
@@ -35014,7 +34961,7 @@
     ETA 9      0.530     -0.395     -0.730      0.519     -0.405     -0.725
     KSI 1      0.988     -0.460     -0.681      0.968     -0.471     -0.677
     KSI 2     -0.458      0.991      0.507     -0.449      1.016      0.503
-    KSI 3     -0.699      0.522      0.963     -0.685      0.535      0.956
+    KSI 3     -0.699      0.522      0.963     -0.685      0.535      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -35038,7 +34985,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -35102,9 +35049,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       1.125       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -1.116       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -35124,7 +35071,7 @@
     ETA 9      0.723     -0.739     -0.961      0.709     -0.668     -0.954
     KSI 1      0.988     -0.667     -0.706      0.968     -0.603     -0.702
     KSI 2     -0.586      1.125      0.635     -0.575      1.016      0.630
-    KSI 3     -0.725      0.741      0.963     -0.710      0.670      0.956
+    KSI 3     -0.725      0.741      0.963     -0.710      0.670      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -35148,7 +35095,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       6.969
 
  Analysis of round 1 DK poleff group 1 (gp11)                                   
@@ -35190,9 +35137,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       1.125       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -1.116       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -35212,7 +35159,7 @@
     ETA 9      0.723     -0.739     -0.961      0.709     -0.668     -0.954
     KSI 1      0.988     -0.667     -0.706      0.968     -0.603     -0.702
     KSI 2     -0.586      1.125      0.635     -0.575      1.016      0.630
-    KSI 3     -0.725      0.741      0.963     -0.710      0.670      0.956
+    KSI 3     -0.725      0.741      0.963     -0.710      0.670      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -35236,7 +35183,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       6.969
 
          THETA-EPS   
@@ -35290,9 +35237,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       1.125       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -1.116       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -35312,7 +35259,7 @@
     ETA 9      0.723     -0.739     -0.961      0.709     -0.668     -0.954
     KSI 1      0.988     -0.667     -0.706      0.968     -0.603     -0.702
     KSI 2     -0.586      1.125      0.635     -0.575      1.016      0.630
-    KSI 3     -0.725      0.741      0.963     -0.710      0.670      0.956
+    KSI 3     -0.725      0.741      0.963     -0.710      0.670      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -35336,7 +35283,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       6.969
 
  Analysis of group 2 (gp12)                                                     
@@ -35378,9 +35325,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       1.125       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -1.116       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -35400,7 +35347,7 @@
     ETA 9      0.723     -0.739     -0.961      0.709     -0.668     -0.954
     KSI 1      0.988     -0.667     -0.706      0.968     -0.603     -0.702
     KSI 2     -0.586      1.125      0.635     -0.575      1.016      0.630
-    KSI 3     -0.725      0.741      0.963     -0.710      0.670      0.956
+    KSI 3     -0.725      0.741      0.963     -0.710      0.670      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -35424,7 +35371,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       6.969
 
          THETA-EPS   
@@ -35478,9 +35425,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -35500,7 +35447,7 @@
     ETA 9      0.876     -0.588     -0.961      0.859     -0.603     -0.954
     KSI 1      0.988     -0.539     -0.856      0.968     -0.552     -0.850
     KSI 2     -0.537      0.991      0.573     -0.526      1.016      0.569
-    KSI 3     -0.878      0.590      0.963     -0.861      0.605      0.956
+    KSI 3     -0.878      0.590      0.963     -0.861      0.605      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -35524,7 +35471,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 ES poleff group 1 (gp13)                                   
@@ -35566,9 +35513,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -35588,7 +35535,7 @@
     ETA 9      0.876     -0.588     -0.961      0.859     -0.603     -0.954
     KSI 1      0.988     -0.539     -0.856      0.968     -0.552     -0.850
     KSI 2     -0.537      0.991      0.573     -0.526      1.016      0.569
-    KSI 3     -0.878      0.590      0.963     -0.861      0.605      0.956
+    KSI 3     -0.878      0.590      0.963     -0.861      0.605      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -35612,7 +35559,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -35666,9 +35613,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -35688,7 +35635,7 @@
     ETA 9      0.876     -0.588     -0.961      0.859     -0.603     -0.954
     KSI 1      0.988     -0.539     -0.856      0.968     -0.552     -0.850
     KSI 2     -0.537      0.991      0.573     -0.526      1.016      0.569
-    KSI 3     -0.878      0.590      0.963     -0.861      0.605      0.956
+    KSI 3     -0.878      0.590      0.963     -0.861      0.605      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -35712,7 +35659,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 ES (gp14)                                                  
@@ -35754,9 +35701,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -35776,7 +35723,7 @@
     ETA 9      0.876     -0.588     -0.961      0.859     -0.603     -0.954
     KSI 1      0.988     -0.539     -0.856      0.968     -0.552     -0.850
     KSI 2     -0.537      0.991      0.573     -0.526      1.016      0.569
-    KSI 3     -0.878      0.590      0.963     -0.861      0.605      0.956
+    KSI 3     -0.878      0.590      0.963     -0.861      0.605      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -35800,7 +35747,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -35854,9 +35801,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      1.071       - -        - -        - -       0.090       - - 
+    ETA 4      1.071       - -        - -        - -       0.089       - - 
     ETA 5       - -       0.852       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -35876,7 +35823,7 @@
     ETA 9      0.699     -0.487     -0.961      0.757     -0.419     -0.954
     KSI 1      0.988     -0.380     -0.683      1.071     -0.326     -0.678
     KSI 2     -0.378      0.991      0.475     -0.410      0.852      0.472
-    KSI 3     -0.700      0.489      0.963     -0.759      0.420      0.956
+    KSI 3     -0.700      0.489      0.963     -0.759      0.420      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -35900,7 +35847,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 FI poleff group 1 (gp15)                                   
@@ -35942,9 +35889,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      1.071       - -        - -        - -       0.090       - - 
+    ETA 4      1.071       - -        - -        - -       0.089       - - 
     ETA 5       - -       0.852       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -35964,7 +35911,7 @@
     ETA 9      0.699     -0.487     -0.961      0.757     -0.419     -0.954
     KSI 1      0.988     -0.380     -0.683      1.071     -0.326     -0.678
     KSI 2     -0.378      0.991      0.475     -0.410      0.852      0.472
-    KSI 3     -0.700      0.489      0.963     -0.759      0.420      0.956
+    KSI 3     -0.700      0.489      0.963     -0.759      0.420      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -35988,7 +35935,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -36042,9 +35989,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      1.071       - -        - -        - -       0.090       - - 
+    ETA 4      1.071       - -        - -        - -       0.089       - - 
     ETA 5       - -       0.852       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -36064,7 +36011,7 @@
     ETA 9      0.699     -0.487     -0.961      0.757     -0.419     -0.954
     KSI 1      0.988     -0.380     -0.683      1.071     -0.326     -0.678
     KSI 2     -0.378      0.991      0.475     -0.410      0.852      0.472
-    KSI 3     -0.700      0.489      0.963     -0.759      0.420      0.956
+    KSI 3     -0.700      0.489      0.963     -0.759      0.420      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -36088,7 +36035,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 FI(gp 16)                                                  
@@ -36130,9 +36077,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      1.071       - -        - -        - -       0.090       - - 
+    ETA 4      1.071       - -        - -        - -       0.089       - - 
     ETA 5       - -       0.852       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -36152,7 +36099,7 @@
     ETA 9      0.699     -0.487     -0.961      0.757     -0.419     -0.954
     KSI 1      0.988     -0.380     -0.683      1.071     -0.326     -0.678
     KSI 2     -0.378      0.991      0.475     -0.410      0.852      0.472
-    KSI 3     -0.700      0.489      0.963     -0.759      0.420      0.956
+    KSI 3     -0.700      0.489      0.963     -0.759      0.420      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -36176,7 +36123,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -36230,9 +36177,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.758       - -        - -        - -       0.090       - - 
+    ETA 4      0.758       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -36252,7 +36199,7 @@
     ETA 9      0.831     -0.619     -0.961      0.637     -0.634     -0.954
     KSI 1      0.988     -0.549     -0.812      0.758     -0.563     -0.806
     KSI 2     -0.548      0.991      0.603     -0.420      1.016      0.598
-    KSI 3     -0.833      0.620      0.963     -0.639      0.636      0.956
+    KSI 3     -0.833      0.620      0.963     -0.639      0.636      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -36276,7 +36223,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 FR poleff group 1 (gp17)                                   
@@ -36318,9 +36265,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.758       - -        - -        - -       0.090       - - 
+    ETA 4      0.758       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -36340,7 +36287,7 @@
     ETA 9      0.831     -0.619     -0.961      0.637     -0.634     -0.954
     KSI 1      0.988     -0.549     -0.812      0.758     -0.563     -0.806
     KSI 2     -0.548      0.991      0.603     -0.420      1.016      0.598
-    KSI 3     -0.833      0.620      0.963     -0.639      0.636      0.956
+    KSI 3     -0.833      0.620      0.963     -0.639      0.636      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -36364,7 +36311,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -36428,9 +36375,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.758       - -        - -        - -       0.090       - - 
+    ETA 4      0.758       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -36450,7 +36397,7 @@
     ETA 9      0.831     -0.619     -0.961      0.637     -0.634     -0.954
     KSI 1      0.988     -0.549     -0.812      0.758     -0.563     -0.806
     KSI 2     -0.548      0.991      0.603     -0.420      1.016      0.598
-    KSI 3     -0.833      0.620      0.963     -0.639      0.636      0.956
+    KSI 3     -0.833      0.620      0.963     -0.639      0.636      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -36474,7 +36421,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 FR (gp18)                                                  
@@ -36516,9 +36463,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.758       - -        - -        - -       0.090       - - 
+    ETA 4      0.758       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -36538,7 +36485,7 @@
     ETA 9      0.831     -0.619     -0.961      0.637     -0.634     -0.954
     KSI 1      0.988     -0.549     -0.812      0.758     -0.563     -0.806
     KSI 2     -0.548      0.991      0.603     -0.420      1.016      0.598
-    KSI 3     -0.833      0.620      0.963     -0.639      0.636      0.956
+    KSI 3     -0.833      0.620      0.963     -0.639      0.636      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -36562,7 +36509,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -36626,9 +36573,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      1.084       - -        - -        - -       0.090       - - 
+    ETA 4      1.084       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.845       - -        - -       0.214
@@ -36645,10 +36592,10 @@
     ETA 6     -0.601      0.398      0.921     -0.657      0.410      0.918
     ETA 7     -0.969      0.381      0.601     -1.063      0.391      0.597
     ETA 8      0.377     -0.965     -0.393      0.414     -0.989     -0.391
-    ETA 9      0.531     -0.351     -0.814      0.583     -0.360     -0.808
+    ETA 9      0.531     -0.351     -0.814      0.583     -0.360     -0.809
     KSI 1      0.988     -0.389     -0.613      1.084     -0.398     -0.609
     KSI 2     -0.387      0.991      0.404     -0.425      1.016      0.401
-    KSI 3     -0.629      0.416      0.963     -0.690      0.426      0.956
+    KSI 3     -0.629      0.416      0.963     -0.690      0.426      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -36672,7 +36619,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 AT poleff group 1 (gp19)                                   
@@ -36714,9 +36661,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      1.084       - -        - -        - -       0.090       - - 
+    ETA 4      1.084       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.845       - -        - -       0.214
@@ -36733,10 +36680,10 @@
     ETA 6     -0.601      0.398      0.921     -0.657      0.410      0.918
     ETA 7     -0.969      0.381      0.601     -1.063      0.391      0.597
     ETA 8      0.377     -0.965     -0.393      0.414     -0.989     -0.391
-    ETA 9      0.531     -0.351     -0.814      0.583     -0.360     -0.808
+    ETA 9      0.531     -0.351     -0.814      0.583     -0.360     -0.809
     KSI 1      0.988     -0.389     -0.613      1.084     -0.398     -0.609
     KSI 2     -0.387      0.991      0.404     -0.425      1.016      0.401
-    KSI 3     -0.629      0.416      0.963     -0.690      0.426      0.956
+    KSI 3     -0.629      0.416      0.963     -0.690      0.426      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -36760,7 +36707,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -36814,9 +36761,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      1.084       - -        - -        - -       0.090       - - 
+    ETA 4      1.084       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.845       - -        - -       0.214
@@ -36833,10 +36780,10 @@
     ETA 6     -0.601      0.398      0.921     -0.657      0.410      0.918
     ETA 7     -0.969      0.381      0.601     -1.063      0.391      0.597
     ETA 8      0.377     -0.965     -0.393      0.414     -0.989     -0.391
-    ETA 9      0.531     -0.351     -0.814      0.583     -0.360     -0.808
+    ETA 9      0.531     -0.351     -0.814      0.583     -0.360     -0.809
     KSI 1      0.988     -0.389     -0.613      1.084     -0.398     -0.609
     KSI 2     -0.387      0.991      0.404     -0.425      1.016      0.401
-    KSI 3     -0.629      0.416      0.963     -0.690      0.426      0.956
+    KSI 3     -0.629      0.416      0.963     -0.690      0.426      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -36860,7 +36807,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 (gp20)                                                     
@@ -36902,9 +36849,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      1.084       - -        - -        - -       0.090       - - 
+    ETA 4      1.084       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.845       - -        - -       0.214
@@ -36921,10 +36868,10 @@
     ETA 6     -0.601      0.398      0.921     -0.657      0.410      0.918
     ETA 7     -0.969      0.381      0.601     -1.063      0.391      0.597
     ETA 8      0.377     -0.965     -0.393      0.414     -0.989     -0.391
-    ETA 9      0.531     -0.351     -0.814      0.583     -0.360     -0.808
+    ETA 9      0.531     -0.351     -0.814      0.583     -0.360     -0.809
     KSI 1      0.988     -0.389     -0.613      1.084     -0.398     -0.609
     KSI 2     -0.387      0.991      0.404     -0.425      1.016      0.401
-    KSI 3     -0.629      0.416      0.963     -0.690      0.426      0.956
+    KSI 3     -0.629      0.416      0.963     -0.690      0.426      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -36948,7 +36895,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -37002,9 +36949,9 @@
     ETA 1      1.092       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       1.267      0.039       - -        - - 
-    ETA 4      1.158       - -        - -        - -       0.090       - - 
+    ETA 4      1.158       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       1.403       - - 
+    ETA 6       - -        - -       0.957       - -       1.394       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -37024,9 +36971,9 @@
     ETA 9      0.619     -0.798     -1.264      0.657     -0.818     -0.954
     KSI 1      1.092     -0.526     -0.721      1.158     -0.539     -0.544
     KSI 2     -0.579      0.991      1.023     -0.615      1.016      0.772
-    KSI 3     -0.621      0.800      1.267     -0.658      0.820      0.956
+    KSI 3     -0.621      0.800      1.267     -0.658      0.820      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
-    KSI 5       - -        - -        - -       0.034      0.030      0.526
+    KSI 5       - -        - -        - -       0.034      0.030      0.529
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Covariance Matrix of ETA and KSI        
@@ -37048,7 +36995,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 GR poleff group 1 (gp 21)                                  
@@ -37090,9 +37037,9 @@
     ETA 1      1.092       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       1.267      0.039       - -        - - 
-    ETA 4      1.158       - -        - -        - -       0.090       - - 
+    ETA 4      1.158       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       1.403       - - 
+    ETA 6       - -        - -       0.957       - -       1.394       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -37112,9 +37059,9 @@
     ETA 9      0.619     -0.798     -1.264      0.657     -0.818     -0.954
     KSI 1      1.092     -0.526     -0.721      1.158     -0.539     -0.544
     KSI 2     -0.579      0.991      1.023     -0.615      1.016      0.772
-    KSI 3     -0.621      0.800      1.267     -0.658      0.820      0.956
+    KSI 3     -0.621      0.800      1.267     -0.658      0.820      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
-    KSI 5       - -        - -        - -       0.034      0.030      0.526
+    KSI 5       - -        - -        - -       0.034      0.030      0.529
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Covariance Matrix of ETA and KSI        
@@ -37136,7 +37083,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -37200,9 +37147,9 @@
     ETA 1      1.092       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       1.267      0.039       - -        - - 
-    ETA 4      1.158       - -        - -        - -       0.090       - - 
+    ETA 4      1.158       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       1.403       - - 
+    ETA 6       - -        - -       0.957       - -       1.394       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -37222,9 +37169,9 @@
     ETA 9      0.619     -0.798     -1.264      0.657     -0.818     -0.954
     KSI 1      1.092     -0.526     -0.721      1.158     -0.539     -0.544
     KSI 2     -0.579      0.991      1.023     -0.615      1.016      0.772
-    KSI 3     -0.621      0.800      1.267     -0.658      0.820      0.956
+    KSI 3     -0.621      0.800      1.267     -0.658      0.820      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
-    KSI 5       - -        - -        - -       0.034      0.030      0.526
+    KSI 5       - -        - -        - -       0.034      0.030      0.529
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Covariance Matrix of ETA and KSI        
@@ -37246,7 +37193,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 GR (gp22)                                                  
@@ -37288,9 +37235,9 @@
     ETA 1      1.092       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       1.267      0.039       - -        - - 
-    ETA 4      1.158       - -        - -        - -       0.090       - - 
+    ETA 4      1.158       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       1.403       - - 
+    ETA 6       - -        - -       0.957       - -       1.394       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -37310,9 +37257,9 @@
     ETA 9      0.619     -0.798     -1.264      0.657     -0.818     -0.954
     KSI 1      1.092     -0.526     -0.721      1.158     -0.539     -0.544
     KSI 2     -0.579      0.991      1.023     -0.615      1.016      0.772
-    KSI 3     -0.621      0.800      1.267     -0.658      0.820      0.956
+    KSI 3     -0.621      0.800      1.267     -0.658      0.820      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
-    KSI 5       - -        - -        - -       0.034      0.030      0.526
+    KSI 5       - -        - -        - -       0.034      0.030      0.529
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Covariance Matrix of ETA and KSI        
@@ -37334,7 +37281,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -37398,9 +37345,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -37420,7 +37367,7 @@
     ETA 9      0.655     -0.506     -0.961      0.642     -0.519     -0.954
     KSI 1      0.988     -0.448     -0.640      0.968     -0.459     -0.636
     KSI 2     -0.446      0.991      0.493     -0.437      1.016      0.490
-    KSI 3     -0.657      0.508      0.963     -0.644      0.520      0.956
+    KSI 3     -0.657      0.508      0.963     -0.644      0.520      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -37444,7 +37391,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 IE poleff group 1  (gp23)                                  
@@ -37486,9 +37433,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -37508,7 +37455,7 @@
     ETA 9      0.655     -0.506     -0.961      0.642     -0.519     -0.954
     KSI 1      0.988     -0.448     -0.640      0.968     -0.459     -0.636
     KSI 2     -0.446      0.991      0.493     -0.437      1.016      0.490
-    KSI 3     -0.657      0.508      0.963     -0.644      0.520      0.956
+    KSI 3     -0.657      0.508      0.963     -0.644      0.520      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -37532,7 +37479,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -37586,9 +37533,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -37608,7 +37555,7 @@
     ETA 9      0.655     -0.506     -0.961      0.642     -0.519     -0.954
     KSI 1      0.988     -0.448     -0.640      0.968     -0.459     -0.636
     KSI 2     -0.446      0.991      0.493     -0.437      1.016      0.490
-    KSI 3     -0.657      0.508      0.963     -0.644      0.520      0.956
+    KSI 3     -0.657      0.508      0.963     -0.644      0.520      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -37632,7 +37579,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 IE (gp24)                                                  
@@ -37674,9 +37621,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -37696,7 +37643,7 @@
     ETA 9      0.655     -0.506     -0.961      0.642     -0.519     -0.954
     KSI 1      0.988     -0.448     -0.640      0.968     -0.459     -0.636
     KSI 2     -0.446      0.991      0.493     -0.437      1.016      0.490
-    KSI 3     -0.657      0.508      0.963     -0.644      0.520      0.956
+    KSI 3     -0.657      0.508      0.963     -0.644      0.520      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -37720,7 +37667,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -37774,9 +37721,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -37796,7 +37743,7 @@
     ETA 9      0.647     -0.463     -0.961      0.634     -0.475     -0.954
     KSI 1      0.988     -0.408     -0.632      0.968     -0.418     -0.628
     KSI 2     -0.407      0.991      0.451     -0.398      1.016      0.448
-    KSI 3     -0.649      0.464      0.963     -0.636      0.476      0.956
+    KSI 3     -0.649      0.464      0.963     -0.636      0.476      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -37820,7 +37767,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 IL poleffaction expt group 1 (gp25)                        
@@ -37862,9 +37809,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -37884,7 +37831,7 @@
     ETA 9      0.647     -0.463     -0.961      0.634     -0.475     -0.954
     KSI 1      0.988     -0.408     -0.632      0.968     -0.418     -0.628
     KSI 2     -0.407      0.991      0.451     -0.398      1.016      0.448
-    KSI 3     -0.649      0.464      0.963     -0.636      0.476      0.956
+    KSI 3     -0.649      0.464      0.963     -0.636      0.476      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -37908,7 +37855,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -37962,9 +37909,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -37984,7 +37931,7 @@
     ETA 9      0.647     -0.463     -0.961      0.634     -0.475     -0.954
     KSI 1      0.988     -0.408     -0.632      0.968     -0.418     -0.628
     KSI 2     -0.407      0.991      0.451     -0.398      1.016      0.448
-    KSI 3     -0.649      0.464      0.963     -0.636      0.476      0.956
+    KSI 3     -0.649      0.464      0.963     -0.636      0.476      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -38008,7 +37955,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 IL (gp26)                                                  
@@ -38050,9 +37997,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -38072,7 +38019,7 @@
     ETA 9      0.647     -0.463     -0.961      0.634     -0.475     -0.954
     KSI 1      0.988     -0.408     -0.632      0.968     -0.418     -0.628
     KSI 2     -0.407      0.991      0.451     -0.398      1.016      0.448
-    KSI 3     -0.649      0.464      0.963     -0.636      0.476      0.956
+    KSI 3     -0.649      0.464      0.963     -0.636      0.476      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -38096,7 +38043,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -38150,9 +38097,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -38172,7 +38119,7 @@
     ETA 9      0.747     -0.577     -0.961      0.732     -0.592     -0.954
     KSI 1      0.988     -0.541     -0.730      0.968     -0.555     -0.725
     KSI 2     -0.540      0.991      0.562     -0.529      1.016      0.558
-    KSI 3     -0.749      0.578      0.963     -0.734      0.593      0.956
+    KSI 3     -0.749      0.578      0.963     -0.734      0.593      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -38196,7 +38143,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 NL poleff group 1 (gp27)                                   
@@ -38238,9 +38185,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -38260,7 +38207,7 @@
     ETA 9      0.747     -0.577     -0.961      0.732     -0.592     -0.954
     KSI 1      0.988     -0.541     -0.730      0.968     -0.555     -0.725
     KSI 2     -0.540      0.991      0.562     -0.529      1.016      0.558
-    KSI 3     -0.749      0.578      0.963     -0.734      0.593      0.956
+    KSI 3     -0.749      0.578      0.963     -0.734      0.593      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -38284,7 +38231,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -38338,9 +38285,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -38360,7 +38307,7 @@
     ETA 9      0.747     -0.577     -0.961      0.732     -0.592     -0.954
     KSI 1      0.988     -0.541     -0.730      0.968     -0.555     -0.725
     KSI 2     -0.540      0.991      0.562     -0.529      1.016      0.558
-    KSI 3     -0.749      0.578      0.963     -0.734      0.593      0.956
+    KSI 3     -0.749      0.578      0.963     -0.734      0.593      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -38384,7 +38331,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 nl (gp28)                                                  
@@ -38426,9 +38373,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -38448,7 +38395,7 @@
     ETA 9      0.747     -0.577     -0.961      0.732     -0.592     -0.954
     KSI 1      0.988     -0.541     -0.730      0.968     -0.555     -0.725
     KSI 2     -0.540      0.991      0.562     -0.529      1.016      0.558
-    KSI 3     -0.749      0.578      0.963     -0.734      0.593      0.956
+    KSI 3     -0.749      0.578      0.963     -0.734      0.593      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -38472,7 +38419,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -38526,9 +38473,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -38548,7 +38495,7 @@
     ETA 9      0.474     -0.445     -0.961      0.465     -0.456     -0.954
     KSI 1      0.988     -0.551     -0.463      0.968     -0.565     -0.460
     KSI 2     -0.549      0.991      0.433     -0.538      1.016      0.430
-    KSI 3     -0.475      0.446      0.963     -0.466      0.457      0.956
+    KSI 3     -0.475      0.446      0.963     -0.466      0.457      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -38572,7 +38519,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 NO poleff group 1 (gp29)                                   
@@ -38614,9 +38561,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -38636,7 +38583,7 @@
     ETA 9      0.474     -0.445     -0.961      0.465     -0.456     -0.954
     KSI 1      0.988     -0.551     -0.463      0.968     -0.565     -0.460
     KSI 2     -0.549      0.991      0.433     -0.538      1.016      0.430
-    KSI 3     -0.475      0.446      0.963     -0.466      0.457      0.956
+    KSI 3     -0.475      0.446      0.963     -0.466      0.457      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -38660,7 +38607,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -38714,9 +38661,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -38736,7 +38683,7 @@
     ETA 9      0.474     -0.445     -0.961      0.465     -0.456     -0.954
     KSI 1      0.988     -0.551     -0.463      0.968     -0.565     -0.460
     KSI 2     -0.549      0.991      0.433     -0.538      1.016      0.430
-    KSI 3     -0.475      0.446      0.963     -0.466      0.457      0.956
+    KSI 3     -0.475      0.446      0.963     -0.466      0.457      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -38760,7 +38707,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 (gp30)                                                     
@@ -38802,9 +38749,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -38824,7 +38771,7 @@
     ETA 9      0.474     -0.445     -0.961      0.465     -0.456     -0.954
     KSI 1      0.988     -0.551     -0.463      0.968     -0.565     -0.460
     KSI 2     -0.549      0.991      0.433     -0.538      1.016      0.430
-    KSI 3     -0.475      0.446      0.963     -0.466      0.457      0.956
+    KSI 3     -0.475      0.446      0.963     -0.466      0.457      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -38848,7 +38795,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -38902,9 +38849,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -38924,7 +38871,7 @@
     ETA 9      0.733     -0.516     -0.961      0.718     -0.529     -0.954
     KSI 1      0.988     -0.470     -0.716      0.968     -0.482     -0.711
     KSI 2     -0.469      0.991      0.502     -0.460      1.016      0.499
-    KSI 3     -0.735      0.517      0.963     -0.720      0.530      0.956
+    KSI 3     -0.735      0.517      0.963     -0.720      0.530      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -38948,7 +38895,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 PL poleff group 1 (gp31)                                   
@@ -38990,9 +38937,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -39012,7 +38959,7 @@
     ETA 9      0.733     -0.516     -0.961      0.718     -0.529     -0.954
     KSI 1      0.988     -0.470     -0.716      0.968     -0.482     -0.711
     KSI 2     -0.469      0.991      0.502     -0.460      1.016      0.499
-    KSI 3     -0.735      0.517      0.963     -0.720      0.530      0.956
+    KSI 3     -0.735      0.517      0.963     -0.720      0.530      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -39036,7 +38983,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -39090,9 +39037,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -39112,7 +39059,7 @@
     ETA 9      0.733     -0.516     -0.961      0.718     -0.529     -0.954
     KSI 1      0.988     -0.470     -0.716      0.968     -0.482     -0.711
     KSI 2     -0.469      0.991      0.502     -0.460      1.016      0.499
-    KSI 3     -0.735      0.517      0.963     -0.720      0.530      0.956
+    KSI 3     -0.735      0.517      0.963     -0.720      0.530      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -39136,7 +39083,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 PL(gp32)                                                   
@@ -39178,9 +39125,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -39200,7 +39147,7 @@
     ETA 9      0.733     -0.516     -0.961      0.718     -0.529     -0.954
     KSI 1      0.988     -0.470     -0.716      0.968     -0.482     -0.711
     KSI 2     -0.469      0.991      0.502     -0.460      1.016      0.499
-    KSI 3     -0.735      0.517      0.963     -0.720      0.530      0.956
+    KSI 3     -0.735      0.517      0.963     -0.720      0.530      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -39224,7 +39171,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -39278,9 +39225,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -39300,7 +39247,7 @@
     ETA 9      0.807     -0.534     -0.961      0.791     -0.547     -0.954
     KSI 1      0.988     -0.509     -0.789      0.968     -0.522     -0.784
     KSI 2     -0.508      0.991      0.520     -0.498      1.016      0.516
-    KSI 3     -0.809      0.535      0.963     -0.793      0.548      0.956
+    KSI 3     -0.809      0.535      0.963     -0.793      0.548      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -39324,7 +39271,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 PT poleff group 1 (gp33)                                   
@@ -39366,9 +39313,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -39388,7 +39335,7 @@
     ETA 9      0.807     -0.534     -0.961      0.791     -0.547     -0.954
     KSI 1      0.988     -0.509     -0.789      0.968     -0.522     -0.784
     KSI 2     -0.508      0.991      0.520     -0.498      1.016      0.516
-    KSI 3     -0.809      0.535      0.963     -0.793      0.548      0.956
+    KSI 3     -0.809      0.535      0.963     -0.793      0.548      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -39412,7 +39359,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -39466,9 +39413,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -39488,7 +39435,7 @@
     ETA 9      0.807     -0.534     -0.961      0.791     -0.547     -0.954
     KSI 1      0.988     -0.509     -0.789      0.968     -0.522     -0.784
     KSI 2     -0.508      0.991      0.520     -0.498      1.016      0.516
-    KSI 3     -0.809      0.535      0.963     -0.793      0.548      0.956
+    KSI 3     -0.809      0.535      0.963     -0.793      0.548      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -39512,7 +39459,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 PT (gp34)                                                  
@@ -39554,9 +39501,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -39576,7 +39523,7 @@
     ETA 9      0.807     -0.534     -0.961      0.791     -0.547     -0.954
     KSI 1      0.988     -0.509     -0.789      0.968     -0.522     -0.784
     KSI 2     -0.508      0.991      0.520     -0.498      1.016      0.516
-    KSI 3     -0.809      0.535      0.963     -0.793      0.548      0.956
+    KSI 3     -0.809      0.535      0.963     -0.793      0.548      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -39600,7 +39547,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -39656,7 +39603,7 @@
     ETA 3       - -        - -       0.963      0.039       - -        - - 
     ETA 4      0.968       - -        - -        - -      -0.021       - - 
     ETA 5       - -       0.896       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -39676,9 +39623,9 @@
     ETA 9      0.672     -0.542     -0.961      0.659     -0.490     -0.954
     KSI 1      0.988     -0.500     -0.657      0.968     -0.452     -0.652
     KSI 2     -0.498      0.991      0.528     -0.488      0.896      0.524
-    KSI 3     -0.674      0.543      0.963     -0.660      0.491      0.956
+    KSI 3     -0.674      0.543      0.963     -0.660      0.491      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
-    KSI 5       - -        - -        - -      -0.369      1.430      1.617
+    KSI 5       - -        - -        - -      -0.372      1.439      1.628
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Covariance Matrix of ETA and KSI        
@@ -39700,7 +39647,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -      17.856
+    KSI 5       - -      18.093
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 SE poleff group 1 (gp35)                                   
@@ -39744,7 +39691,7 @@
     ETA 3       - -        - -       0.963      0.039       - -        - - 
     ETA 4      0.968       - -        - -        - -      -0.021       - - 
     ETA 5       - -       0.896       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -39764,9 +39711,9 @@
     ETA 9      0.672     -0.542     -0.961      0.659     -0.490     -0.954
     KSI 1      0.988     -0.500     -0.657      0.968     -0.452     -0.652
     KSI 2     -0.498      0.991      0.528     -0.488      0.896      0.524
-    KSI 3     -0.674      0.543      0.963     -0.660      0.491      0.956
+    KSI 3     -0.674      0.543      0.963     -0.660      0.491      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
-    KSI 5       - -        - -        - -      -0.369      1.430      1.617
+    KSI 5       - -        - -        - -      -0.372      1.439      1.628
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Covariance Matrix of ETA and KSI        
@@ -39788,7 +39735,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -      17.856
+    KSI 5       - -      18.093
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -39843,8 +39790,8 @@
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
     ETA 4      0.968       - -        - -        - -      -0.021       - - 
-    ETA 5       - -       0.896       - -        - -       0.000       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 5       - -       0.896       - -        - -       0.080       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -39858,15 +39805,15 @@
     ETA 3     -0.647      0.524      0.929
     ETA 4      0.957     -0.484     -0.636      0.938
     ETA 5     -0.446      0.888      0.473     -0.437      0.803
-    ETA 6     -0.644      0.520      0.921     -0.632      0.470      0.918
+    ETA 6     -0.644      0.520      0.921     -0.632      0.470      0.915
     ETA 7     -0.969      0.490      0.644     -0.950      0.443      0.640
     ETA 8      0.485     -0.965     -0.514      0.475     -0.873     -0.510
     ETA 9      0.672     -0.542     -0.961      0.659     -0.490     -0.954
     KSI 1      0.988     -0.500     -0.657      0.968     -0.452     -0.652
     KSI 2     -0.498      0.991      0.528     -0.488      0.896      0.524
-    KSI 3     -0.674      0.543      0.963     -0.660      0.491      0.956
+    KSI 3     -0.674      0.543      0.963     -0.660      0.491      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
-    KSI 5       - -        - -        - -      -0.008      0.000      0.034
+    KSI 5       - -        - -        - -        - -        - -        - - 
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Covariance Matrix of ETA and KSI        
@@ -39888,7 +39835,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -        - - 
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 SE (gp36)                                                  
@@ -39931,8 +39878,8 @@
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
     ETA 4      0.968       - -        - -        - -      -0.021       - - 
-    ETA 5       - -       0.896       - -        - -       0.000       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 5       - -       0.896       - -        - -       0.080       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -39946,15 +39893,15 @@
     ETA 3     -0.647      0.524      0.929
     ETA 4      0.957     -0.484     -0.636      0.938
     ETA 5     -0.446      0.888      0.473     -0.437      0.803
-    ETA 6     -0.644      0.520      0.921     -0.632      0.470      0.918
+    ETA 6     -0.644      0.520      0.921     -0.632      0.470      0.915
     ETA 7     -0.969      0.490      0.644     -0.950      0.443      0.640
     ETA 8      0.485     -0.965     -0.514      0.475     -0.873     -0.510
     ETA 9      0.672     -0.542     -0.961      0.659     -0.490     -0.954
     KSI 1      0.988     -0.500     -0.657      0.968     -0.452     -0.652
     KSI 2     -0.498      0.991      0.528     -0.488      0.896      0.524
-    KSI 3     -0.674      0.543      0.963     -0.660      0.491      0.956
+    KSI 3     -0.674      0.543      0.963     -0.660      0.491      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
-    KSI 5       - -        - -        - -      -0.008      0.000      0.034
+    KSI 5       - -        - -        - -        - -        - -        - - 
     KSI 6       - -        - -        - -        - -        - -        - - 
 
          Covariance Matrix of ETA and KSI        
@@ -39976,7 +39923,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -        - - 
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -40030,9 +39977,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -40052,7 +39999,7 @@
     ETA 9      0.766     -0.603     -0.961      0.751     -0.618     -0.954
     KSI 1      0.988     -0.519     -0.748      0.968     -0.532     -0.743
     KSI 2     -0.517      0.991      0.588     -0.507      1.016      0.584
-    KSI 3     -0.768      0.605      0.963     -0.753      0.620      0.956
+    KSI 3     -0.768      0.605      0.963     -0.753      0.620      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -40076,7 +40023,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of round 1 SI poleff group 1 (gp37)                                   
@@ -40118,9 +40065,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -40140,7 +40087,7 @@
     ETA 9      0.766     -0.603     -0.961      0.751     -0.618     -0.954
     KSI 1      0.988     -0.519     -0.748      0.968     -0.532     -0.743
     KSI 2     -0.517      0.991      0.588     -0.507      1.016      0.584
-    KSI 3     -0.768      0.605      0.963     -0.753      0.620      0.956
+    KSI 3     -0.768      0.605      0.963     -0.753      0.620      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -40164,7 +40111,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -40218,9 +40165,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -40240,7 +40187,7 @@
     ETA 9      0.766     -0.603     -0.961      0.751     -0.618     -0.954
     KSI 1      0.988     -0.519     -0.748      0.968     -0.532     -0.743
     KSI 2     -0.517      0.991      0.588     -0.507      1.016      0.584
-    KSI 3     -0.768      0.605      0.963     -0.753      0.620      0.956
+    KSI 3     -0.768      0.605      0.963     -0.753      0.620      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -40264,7 +40211,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
  Analysis of group 2 SI (gp38)                                                  
@@ -40306,9 +40253,9 @@
     ETA 1      0.988       - -        - -       0.037       - -        - - 
     ETA 2       - -       0.991       - -       0.030       - -        - - 
     ETA 3       - -        - -       0.963      0.039       - -        - - 
-    ETA 4      0.968       - -        - -        - -       0.090       - - 
+    ETA 4      0.968       - -        - -        - -       0.089       - - 
     ETA 5       - -       1.016       - -        - -       0.080       - - 
-    ETA 6       - -        - -       0.956       - -       0.091       - - 
+    ETA 6       - -        - -       0.957       - -       0.090       - - 
     ETA 7     -0.981       - -        - -        - -        - -       0.194
     ETA 8       - -      -0.974       - -        - -        - -       0.185
     ETA 9       - -        - -      -0.998       - -        - -       0.214
@@ -40328,7 +40275,7 @@
     ETA 9      0.766     -0.603     -0.961      0.751     -0.618     -0.954
     KSI 1      0.988     -0.519     -0.748      0.968     -0.532     -0.743
     KSI 2     -0.517      0.991      0.588     -0.507      1.016      0.584
-    KSI 3     -0.768      0.605      0.963     -0.753      0.620      0.956
+    KSI 3     -0.768      0.605      0.963     -0.753      0.620      0.957
     KSI 4      0.037      0.030      0.039       - -        - -        - - 
     KSI 5       - -        - -        - -       0.034      0.030      0.034
     KSI 6       - -        - -        - -        - -        - -        - - 
@@ -40352,7 +40299,7 @@
                KSI 4      KSI 5      KSI 6   
             --------   --------   --------
     KSI 4      1.000
-    KSI 5       - -       0.375
+    KSI 5       - -       0.380
     KSI 6       - -        - -       0.620
 
          THETA-EPS   
@@ -40367,4 +40314,4 @@
             --------   --------   --------
                0.238      0.277      0.282
 
-                           Time used:    4.531 Seconds
+                           Time used:    4.422 Seconds
