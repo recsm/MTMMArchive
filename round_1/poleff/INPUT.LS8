@@ -791,8 +791,8 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !Extra
-fr ga 3 3 ga 4 1 ga 1 1 te 9 8 ga 6 5
-!ph 6 6
+fr ga 3 3 ga 4 1 ga 1 1 te 9 8 ga 4 5
+!ga 6 5 ph 6 6
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -838,7 +838,8 @@ eq ga 21 4 1 ga 4 1
 eq ga 21 1 1 ga 1 1
 !eq ph 21 6 6 ph 6 6
 eq te 21 9 8 te 9 8
-eq ga 21 6 5 ga 6 5
+!eq ga 21 6 5 ga 6 5
+eq ga 21 4 5 ga 4 5
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
