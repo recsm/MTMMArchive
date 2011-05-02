@@ -572,6 +572,7 @@ eq ph 13 2 1 ph 2 1
 eq ga 13 3 3 ga 3 3
 eq ga 13 2 2 ga 2 2
 eq ga 13 8 2 ga 8 2
+fr te 9 1
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -734,7 +735,7 @@ eq ph 17 2 1 ph 2 1
 !Extra
 eq ga 17 4 1 ga 4 1
 eq ga 17 2 2 ga 2 2
-fr te 9 8
+fr te 9 8 te 5 1
 eq ga 17 3 3 ph 3 3
 
 start .7 te 7 7 te 8 8 te 9 9
