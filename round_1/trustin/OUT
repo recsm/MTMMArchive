@@ -1,6 +1,6 @@
 
                                 DATE:  5/ 3/2011
-                                  TIME: 13:58
+                                  TIME: 14:02
 
 
                                 L I S R E L  8.72
@@ -1074,7 +1074,7 @@
  !extra
  fr ph 4 4
  !fr ga 2 4
- fr te 4 4
+ !fr te 4 4
  !fr ga 3 3
  !fr ga 4 5
  fr ga 9 6
@@ -39987,4 +39987,4 @@
             --------   --------   --------
                0.483      0.173      0.223
 
-                           Time used:    4.078 Seconds
+                           Time used:    4.125 Seconds
