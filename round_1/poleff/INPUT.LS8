@@ -1107,10 +1107,12 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !Extra
-fr ph 5 4
+fr te 6 1
+!fr ph 6 5
 !fr ga 4 5 ga 5 5 ph 5 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+st .0001 ph 6 5 
 out mi iter= 300 adm=off sc
 
 Analysis of group 2 nl (gp28)
@@ -1153,9 +1155,10 @@ eq ph 27 2 1 ph 2 1
 !Extra
 !eq ga 27 4 5 ga 4 5
 !eq ph 27 5 5 ph 5 5
-eq ph 27 5 4 ph 5 4
+!eq ph 27 6 5 ph 6 5
 
 start .7 te 7 7 te 8 8 te 9 9
+st .0001 ph 6 5
 out mi iter= 300 adm=off sc
 
 Analysis of round 1 NO poleff group 1 (gp29)
