@@ -1461,7 +1461,7 @@ free ph 2 1 ph 3 1 ph 3 2
 !Extra
 !ga 5 5 te 6 5 
 
-fr ph 5 5 ga 5 2 te 6 5
+fr ph 5 5 ga 5 2 ph 4 5
 !ga 4 5
 !ph 6 4ga 4 1
 
@@ -1514,6 +1514,7 @@ eq ph 35 5 5 ph 5 5
 !eq ga 35 4 5 ga 4 5
 !eq ga 35 4 1 ga 4 1
 !eq ph 35 6 4 ph 6 4
+eq ph 35 4 5 ph 4 5
 
 start .7 te 7 7 te 8 8 te 9 9
 st .00001 te 9 9
