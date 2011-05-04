@@ -1459,14 +1459,12 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !Extra
-!ga 5 5 te 6 5 
+!ga 5 5 te 6 5 ga 4 5 ph 6 4 ga 4 1 ga 9 6
 
-fr ph 5 5 ga 5 2 ph 4 5 te 6 5
-!ga 4 5
-!ph 6 4ga 4 1
+fr ph 5 5 ga 5 2 ph 4 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
-st .00001 te 4 4 te 5 5 te 6 6
+st .00001 te 4 4 te 5 5
 out mi iter= 300 adm=off sc
 
 Analysis of group 2 SE (gp36)
@@ -1515,9 +1513,10 @@ eq ph 35 5 5 ph 5 5
 !eq ga 35 4 1 ga 4 1
 !eq ph 35 6 4 ph 6 4
 eq ph 35 4 5 ph 4 5
+!eq ga 35 9 6 ga 9 6
 
 start .7 te 7 7 te 8 8 te 9 9
-st .00001 te 9 9
+!st .00001 te 9 9
 out mi iter= 300 adm=off sc
 
 Analysis of round 1 SI poleff group 1 (gp37)
