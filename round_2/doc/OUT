@@ -1,6 +1,6 @@
 
                                 DATE:  5/ 4/2011
-                                  TIME: 18:52
+                                  TIME: 19:07
 
 
                                 L I S R E L  8.72
@@ -1830,6 +1830,9 @@
  value 0 ly 7 7 ly 8 8 ly 9 9
   
  free ph 2 1 ph 3 1 ph 3 2
+  
+ !Extra
+ va 0 ph 6 6
   
  start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
  out mi iter= 300 adm=off sc
@@ -45458,4 +45461,4 @@
             --------   --------   --------
                0.752      0.995      1.145
 
-                           Time used:    7.953 Seconds
+                           Time used:    6.766 Seconds
