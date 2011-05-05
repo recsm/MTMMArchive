@@ -1,6 +1,6 @@
 
                                 DATE:  5/ 5/2011
-                                  TIME: 10:48
+                                  TIME: 10:50
 
 
                                 L I S R E L  8.72
@@ -542,7 +542,7 @@
  free ph 2 1 ph 3 1 ph 3 2
   
  !extra
- fr ph 4 4 ga 2 4 !ga 2 2 !ga 5 2
+ fr ph 4 4 ga 2 4 !ga 2 2 ga 5 2
  fr ga 8 2 ga 3 3 ga 6 3 ga 9 3
   
  start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
@@ -597,7 +597,7 @@
  !extra
  eq ph 11 4 4 ph 4 4
  eq ga 11 2 4 ga 2 4
- !eq ga 11 5 2 ga 5 2
+ eq ga 11 5 2 ga 5 2
  !eq ga 11 2 2 ga 2 2
  eq ga 11 8 2 ga 8 2
  eq ga 11 3 3 ga 3 3
@@ -46307,4 +46307,4 @@
             --------   --------   --------
                0.454      0.168      0.220
 
-                           Time used:   14.929 Seconds
+                           Time used:   14.695 Seconds
