@@ -436,6 +436,7 @@ fr ga 2 4
 fr ga 3 4
 fr ga 7 6
 fr ga 1 1
+
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
