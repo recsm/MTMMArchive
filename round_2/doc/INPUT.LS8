@@ -698,6 +698,7 @@ eq ph 19 2 1 ph 2 1
 !eq ga 19 4 1 ga 4 1
 !eq ga 19 4 5 ga 4 5
 eq ph 19 5 5 ph 5 5
+fr te 9 2
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
