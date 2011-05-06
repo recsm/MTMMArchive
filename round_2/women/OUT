@@ -1,6 +1,6 @@
 
                                 DATE:  5/ 6/2011
-                                  TIME: 20:10
+                                  TIME: 20:22
 
 
                                 L I S R E L  8.51
@@ -651,7 +651,7 @@
                            Number of Observations   635
                            Number of Groups          46
   
- Analysis of round 2 ES women group 1
+ Analysis of round 2 ES women group 1 (gp15)
  Data ni=9 no=502 ma=cm
  km
  1
@@ -683,7 +683,7 @@
  start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
  out mi iter= 300 adm=off sc nd=3
 
- Analysis of round 2 ES women group 1                                           
+ Analysis of round 2 ES women group 1 (gp15)                                    
 
                            Number of Input Variables  9
                            Number of Y - Variables    9
@@ -727,6 +727,7 @@
  eq ph 15 2 1 ph 2 1
  !extra
  eq ph 15 4 4 ph 4 4
+  
  start .7 te 7 7 te 8 8 te 9 9
  out mi iter= 300 adm=off sc
 
@@ -2459,7 +2460,7 @@
     VAR 8      0.050      1.099
     VAR 9      0.361     -0.128      1.875
 
- Analysis of round 2 ES women group 1                                           
+ Analysis of round 2 ES women group 1 (gp15)                                    
 
          Covariance Matrix       
 
@@ -3585,7 +3586,7 @@
                   96         97         98
 
 
- Analysis of round 2 ES women group 1                                           
+ Analysis of round 2 ES women group 1 (gp15)                                    
 
  Parameter Specifications
 
@@ -14875,7 +14876,7 @@
                0.345      0.419      0.378
 
 
- Analysis of round 2 ES women group 1                                           
+ Analysis of round 2 ES women group 1 (gp15)                                    
 
  Number of Iterations =101
 
@@ -15011,7 +15012,7 @@
                             Standardized RMR = 0.0936
                        Goodness of Fit Index (GFI) = 0.970
 
- Analysis of round 2 ES women group 1                                           
+ Analysis of round 2 ES women group 1 (gp15)                                    
 
  Modification Indices and Expected Change
 
@@ -15418,7 +15419,7 @@
     VAR 8       - -        - - 
     VAR 9       - -        - -        - - 
 
- Analysis of round 2 ES women group 1                                           
+ Analysis of round 2 ES women group 1 (gp15)                                    
 
  Within Group Standardized Solution           
 
@@ -15506,7 +15507,7 @@
     KSI 5       - -       1.000
     KSI 6       - -        - -       1.000
 
- Analysis of round 2 ES women group 1                                           
+ Analysis of round 2 ES women group 1 (gp15)                                    
 
  Within Group Completely Standardized Solution
 
@@ -41544,7 +41545,7 @@
             --------   --------   --------
                0.179      0.169      0.283
 
- Analysis of round 2 ES women group 1                                           
+ Analysis of round 2 ES women group 1 (gp15)                                    
 
  Common Metric Standardized Solution           
 
@@ -41632,7 +41633,7 @@
     KSI 5       - -       0.069
     KSI 6       - -        - -       0.033
 
- Analysis of round 2 ES women group 1                                           
+ Analysis of round 2 ES women group 1 (gp15)                                    
 
  Common Metric Completely Standardized Solution
 
@@ -47560,4 +47561,4 @@
             --------   --------   --------
                0.209      0.303      0.161
 
-                           Time used:   11.310 Seconds
+                           Time used:    9.376 Seconds
