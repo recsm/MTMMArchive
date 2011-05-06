@@ -1523,7 +1523,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2  
 
 !Extra
-fr ph 5 5 ga 4 1 ga 5 2 ga 6 3 ga 9 3
+fr ph 5 5 ga 4 1 ga 5 2 ga 6 3 ga 9 3 ga 8 2
 !fr ly 4 4 ly 5 5 ly 6 6 ga 6 3 ga 5 2 ga 4 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -1571,7 +1571,7 @@ eq ga 41 4 1 ga 4 1
 eq ga 41 5 2 ga 5 2
 eq ga 41 6 3 ga 6 3
 eq ga 41 9 3 ga 9 3
-!eq ga 41 4 5 ga 4 5
+eq ga 41 8 2 ga 8 2
 fr te 8 3
 
 start .7 te 7 7 te 8 8 te 9 9
