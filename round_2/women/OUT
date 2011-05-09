@@ -1,6 +1,6 @@
 
                                 DATE:  5/ 9/2011
-                                  TIME: 12:43
+                                  TIME: 12:45
 
 
                                 L I S R E L  8.72
@@ -1287,7 +1287,7 @@
  eq ph 27 2 1 ph 2 1
  !extra
  eq ph 27 4 4 ph 4 4
- eq ph 27 5 5 ph 5 5
+ !eq ph 27 5 5 ph 5 5
  eq ph 27 5 4 ph 5 4
  start .7 te 7 7 te 8 8 te 9 9
  out mi iter= 300 adm=off sc
