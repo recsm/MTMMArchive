@@ -844,7 +844,7 @@ eq ph 21 2 1 ph 2 1
 !Extra
 eq ph 21 5 5 ph 5 5
 eq ga 21 7 1 ga 7 1
-fr te 9 8 te 7 1
+fr te 9 8 te 7 1 te 7 3
 !eq ga 21 1 1 ga 1 1
 eq ga 21 5 2 ga 5 2
 eq ga 21 4 1 ga 4 1
