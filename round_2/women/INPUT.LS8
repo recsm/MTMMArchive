@@ -1269,7 +1269,8 @@ fr ga 6 3
 !fr ga 1 4
 !fr ga 2 4
 !fr ga 3 4
-
+!fr te 5 2
+fr ph 6 6
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -1323,6 +1324,7 @@ eq ga 35 6 3 ga 6 3
 !eq ga 35 1 4 ga 1 4
 !eq ga 35 2 4 ga 2 4 
 !eq ga 35 3 4 ga 3 4
+eq ph 35 6 6 ph 6 6
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
