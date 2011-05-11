@@ -692,7 +692,7 @@ fi ph 6 6
 !free ga 7 6 
 free ga 3 3
 free ga 4 1
-
+va .0001 ph 6 6
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
