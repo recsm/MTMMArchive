@@ -725,7 +725,7 @@ model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 !extra
-fr ga 7 1
+FI ga 7 1
 fr ga 6 3
 !fr ga 3 3
 fr ga 8 2
@@ -733,7 +733,7 @@ fr ga 8 2
 !extra
 fr ph 6 6
 fr ph 5 5
-
+VA .571 GA 7 1
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
