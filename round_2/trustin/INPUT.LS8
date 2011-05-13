@@ -1389,17 +1389,14 @@ sd
 
 model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+!value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-!EXTRA
-FR GA 1 1 GA 2 2 GA 3 3
-FR GA 4 1 GA 5 2 GA 6 3
-FR GA 7 1 GA 8 2 GA 9 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1427,7 +1424,11 @@ sd
 model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+!value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+fr ly 7 7 ly 8 8 ly 9 9
+equal ly 41 1 1 ly 1 1
+equal ly 41 2 2 ly 2 2
+equal ly 41 3 3 ly 3 3
 
 equal te 41 1 1 te 1 1
 equal te 41 2 2 te 2 2
@@ -1439,15 +1440,6 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 41 3 1 ph 3 1
 eq ph 41 3 2 ph 3 2
 eq ph 41 2 1 ph 2 1 
-eq ga 41 1 1 ga 1 1
-eq ga 41 2 2 ga 2 2
-eq ga 41 3 3 ga 3 3
-eq ga 41 4 1 ga 4 1
-eq ga 41 5 2 ga 5 2
-eq ga 41 6 3 ga 6 3
-eq ga 41 7 1 ga 7 1
-eq ga 41 8 2 ga 8 2
-eq ga 41 9 3 ga 9 3
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
