@@ -911,11 +911,11 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !Extra
-fr ph 5 4 ph 6 4 ga 9 6 ga 8 6 ga 5 5
+fr ph 5 4 ph 6 4 ga 9 6 ga 8 6 ga 5 5 ga 2 2
 !ph 4 4 ph 5 5 ph 6 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
-st .0001 te 4 4
+st .0001 te 2 2 te 4 4
 out mi iter= 300 adm=off sc
 
 Analysis of group 2 GR (gp24)
@@ -958,7 +958,7 @@ eq ph 23 5 4 ph 5 4
 eq ph 23 6 4 ph 6 4
 eq ga 23 5 5 ga 5 5
 eq ga 23 8 6 ga 8 6
-
+eq ga 23 2 2 ga 2 2
 !eq ph 23 5 5 ph 5 5
 !eq ph 23 6 6 ph 6 6
 
