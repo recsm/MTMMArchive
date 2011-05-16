@@ -1,6 +1,6 @@
 
                                 DATE:  5/16/2011
-                                  TIME: 17:26
+                                  TIME: 17:28
 
 
                                 L I S R E L  8.72
@@ -508,7 +508,7 @@
  !extra
  fr ph 5 5
  !fr ga 8 2
- fr te 5 5
+ !fr te 5 5
  start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
  out mi iter= 300 adm=off sc
 
@@ -45943,4 +45943,4 @@
             --------   --------   --------
                0.269      0.134      0.286
 
-                           Time used:    5.547 Seconds
+                           Time used:    5.563 Seconds
