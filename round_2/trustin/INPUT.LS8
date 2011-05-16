@@ -617,7 +617,7 @@ eq ph 17 3 2 ph 3 2
 eq ph 17 2 1 ph 2 1 
 !extra
 !eq ga 17 5 5 ga 5 5
-eq te 17 5 5 te 5 5
+!eq te 17 5 5 te 5 5
 !eq ga 17 2 4 ga 2 4
 
 start .7 te 7 7 te 8 8 te 9 9
