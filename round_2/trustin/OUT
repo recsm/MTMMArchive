@@ -1,6 +1,6 @@
 
                                 DATE:  5/16/2011
-                                  TIME: 14:55
+                                  TIME: 14:59
 
 
                                 L I S R E L  8.72
@@ -1080,7 +1080,7 @@
  !eq ph 23 5 5 ph 5 5
  !eq ph 23 6 6 ph 6 6
  !eq ga 23 2 4 ga 2 4
- free te 8 8
+ !free te 8 8
  start .7 te 7 7 te 8 8 te 9 9
  out mi iter= 300 adm=off sc
 
@@ -45774,4 +45774,4 @@
             --------   --------   --------
                0.269      0.139      0.289
 
-                           Time used:    5.516 Seconds
+                           Time used:    5.531 Seconds
