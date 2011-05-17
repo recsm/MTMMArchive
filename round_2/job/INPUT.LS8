@@ -39,6 +39,8 @@ fr ph 4 4
 !fr ph 5 5 
 fr ph 6 6
 
+va .000001 ph 5 5
+
 !fr ga 5 5
 !fr ga 6 5
 !fr ga 2 4 
