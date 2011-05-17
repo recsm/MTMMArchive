@@ -375,9 +375,9 @@ sd
 
 model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
-
+fr ly 5 5 
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
@@ -385,7 +385,6 @@ free ph 2 1 ph 3 1 ph 3 2
 !extra
 !fr ph 5 5
 !fr ga 8 2
-fr te 5 5
 !fr ga 3 4
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -411,13 +410,13 @@ model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
-
+eq ly 11 5 5 ly 5 5
 equal te 11 1 1 te 1 1
 equal te 11 2 2 te 2 2
 equal te 11 3 3 te 3 3
 
 value 1 te 4 4 te 5 5 te 6 6
-value 0 ly 4 4 ly 5 5 ly 6 6  
+value 0 ly 4 4 ly 6 6  
 
 eq ph 11 3 1 ph 3 1
 eq ph 11 3 2 ph 3 2
