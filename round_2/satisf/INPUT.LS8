@@ -1862,6 +1862,7 @@ eq ph 45 2 1 ph 2 1
 
 !Extra
 eq ga 45 3 3 ga 3 3
+fr te 7 1
 
 pd
 start .7 te 7 7 te 8 8 te 9 9
