@@ -1,5 +1,5 @@
 Analysis of round 2 trustin group 1 GB
-Data ng=44 ni=9 no=637 ma=cm
+Data ng=40 ni=9 no=637 ma=cm
 !44 gps prq ya PAS NO!!! 
  km		
 1        
@@ -32,7 +32,8 @@ value 1 ga 1 4 ga 2 4 ga 3 4
 value 1 ga 4 5 ga 5 5 ga 6 5 
 value 1 ga 7 6 ga 8 6 ga 9 6
 
-free ph 2 1 ph 3 1 ph 3 2     
+free ph 2 1 ph 3 1 !
+va .8 ph 3 2     
 value 1 ph 1 1 ph 2 2 ph 3 3
 
 fr ph 4 4 
