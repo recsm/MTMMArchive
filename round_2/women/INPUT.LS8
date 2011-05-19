@@ -35,7 +35,7 @@ value 1 ga 1 4 ga 2 4 ga 3 4
 value 1 ga 4 5 ga 5 5 ga 6 5 
 value 1 ga 7 6 ga 8 6 ga 9 6
 
-free ph 2 1 ph 3 1 ph 3 2     
+free  ph 3 1 ph 3 2     
 value 1 ph 1 1 ph 2 2 ph 3 3
 
 fr ph 4 4 
@@ -1192,7 +1192,8 @@ sd
 
 model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+value 1 ly 1 1 ly 2 2 ly 3 3
+free  ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 
 value 1 te 7 7 te 8 8 te 9 9 
@@ -1223,7 +1224,8 @@ sd
 model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3
+free  ly 7 7 ly 8 8 ly 9 9
 
 equal te 35 1 1 te 1 1
 equal te 35 2 2 te 2 2
