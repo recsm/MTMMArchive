@@ -18,6 +18,7 @@ Data ng=38 ni=9 no=880 ma=cm
  *
  2.181  2.053  2.047  1.280  1.192  1.182   1.00  1.00  1.00
 
+
 model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=fu,fi ga=fu,fi ph=sy,fi
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
@@ -76,6 +77,9 @@ equal te 1 1 1 te 1 1
 equal te 1 2 2 te 2 2
 equal te 1 3 3 te 3 3
 
+!extra
+fr ph 6 6
+
 value 1 te 4 4 te 5 5 te 6 6
 value 0 ly 4 4 ly 5 5 ly 6 6  
 
@@ -111,9 +115,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 6 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -152,10 +153,7 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 
 eq ph 3 3 1 ph 3 1
 eq ph 3 3 2 ph 3 2
-eq ph 3 2 1 ph 2 1
-
-!extra
-eq ph 3 6 6 ph 6 6 
+eq ph 3 2 1 ph 2 1 
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -189,15 +187,8 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
 !extra
-fr ph 4 4
-fr ph 6 6
-fr ga 6 3
-fr ga 8 2
-fr ga 7 1
-fr ga 9 3
-fr ga 3 3
+free ph 4 4 ga 9 6 ga 6 3 ga 8 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -240,12 +231,9 @@ eq ph 5 2 1 ph 2 1
 
 !extra
 eq ph 5 4 4 ph 4 4
-eq ph 5 6 6 ph 6 6
+eq ga 5 9 6 ga 9 6
 eq ga 5 6 3 ga 6 3
 eq ga 5 8 2 ga 8 2
-eq ga 5 7 1 ga 7 1
-eq ga 5 9 3 ga 9 3
-eq ga 5 3 3 ga 3 3
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -279,9 +267,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-!fr ph 4 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -322,9 +307,6 @@ eq ph 7 3 1 ph 3 1
 eq ph 7 3 2 ph 3 2
 eq ph 7 2 1 ph 2 1 
 
-!extra
-!eq ph 7 4 4 ph 4 4
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -357,9 +339,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 4 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -400,9 +379,6 @@ eq ph 9 3 1 ph 3 1
 eq ph 9 3 2 ph 3 2
 eq ph 9 2 1 ph 2 1 
 
-!extra
-eq ph 9 4 4 ph 4 4
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -437,15 +413,8 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 
 free ph 2 1 ph 3 1 ph 3 2   
 
-!extra 
-free ph 6 6
-fr ga 3 4
-fr ga 9 3
-fr ga 8 2
-fr ga 7 1
-fr ga 4 1
-!fr ph 5 5
-!fr ph 5 4
+!extra
+free ga 8 2 ga 4 1 ga 7 1 ga 3 4 ph 6 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -488,13 +457,10 @@ eq ph 11 2 1 ph 2 1
 
 !extra 
 eq ph 11 6 6 ph 6 6
-eq ga 11 3 4 ga 3 4
-eq ga 11 9 3 ga 9 3
 eq ga 11 8 2 ga 8 2
-eq ga 11 7 1 ga 7 1
 eq ga 11 4 1 ga 4 1
-eq ph 11 5 5 ph 5 5
-eq ph 11 5 4 ph 5 4
+eq ga 11 7 1 ga 7 1
+eq ga 11 3 4 ga 3 4
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -531,9 +497,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-fr ph 4 4
-fr ph 5 5
-fr ga 9 3
+fr ga 2 2 ga 9 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -576,9 +540,8 @@ eq ph 13 3 2 ph 3 2
 eq ph 13 2 1 ph 2 1 
 
 !extra
-eq ph 13 4 4 ph 4 4
-eq ph 13 5 5 ph 5 5
-eq ga 13 9 3 ga 9 3
+eq ga 13 2 2 ga 2 2
+eq ga 13 9 3 ga 9 3 
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -614,9 +577,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-fr ph 6 6
-fr ga 8 2
-!fr ph 4 4
+free ga 8 2 ga 1 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc nd=3
@@ -658,9 +619,8 @@ eq ph 15 3 2 ph 3 2
 eq ph 15 2 1 ph 2 1  
 
 !extra
-eq ph 15 6 6 ph 6 6
 eq ga 15 8 2 ga 8 2
-eq ph 15 4 4 ph 4 4
+eq ga 15 1 1 ga 1 1
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -693,13 +653,12 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
-free ph 2 1 ph 3 1 ph 3 2  
+free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-fr ph 4 4 
-!fr ph 5 5
-!fr ph 5 4
-!fr ga 3 3
+!fr ga 2 2
+Fr  ga 8 6 ! ga 3 3 
+fr ph 4 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -741,10 +700,10 @@ eq ph 17 3 2 ph 3 2
 eq ph 17 2 1 ph 2 1 
 
 !extra
+!eq ga 17 2 2 ga 2 2
+eq ga 17 8 6 ga 8 6 
+!eq ga 17 3 3 ga 3 3
 eq ph 17 4 4 ph 4 4
-eq ph 17 5 5 ph 5 5
-eq ph 17 5 4 ph 5 4
-eq ga 17 3 3 ga 3 3
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
@@ -777,13 +736,9 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
-free ph 2 1 ph 3 1 ph 3 2  
-
+free ph 2 1 ph 3 1 ph 3 2   
 !extra
-fr ph 4 4 
-fr ph 5 5
-!fr ph 5 4
-!fr ga 3 3
+free ph 4 4 ga 6 5 ga 8 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -825,10 +780,9 @@ eq ph 19 3 2 ph 3 2
 eq ph 19 2 1 ph 2 1 
 
 !extra
-eq ph 19 4 4 ph 4 4
-eq ph 19 5 5 ph 5 5
-eq ph 19 5 4 ph 5 4
-eq ga 19 3 3 ga 3 3
+eq ph 19 4 4 ph 4 4 
+eq ga 19 6 5 ga 6 5
+eq ga 19 8 6 ga 8 6
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -864,19 +818,13 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-fr ph 4 4
-fr ph 5 4
-fr ph 5 5
-fr ph 6 6
-
-fr ga 9 6
-fr ga 9 3
-!fr ga 3 4
-!fr ga 5 2
-!fr ga 4 1
-!fr ga 5 5
-
-start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+free ph 4 4  
+free ph 5 5 
+free ga 8 2 ph 5 4 ga 5 2 ga 2 4
+free ga 9 3 !ga 9 6
+free ga 3 4
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 ga 8 2
+ 
 out mi iter= 300 adm=off sc
 
 Analysis of group 2 GR (gp22)
@@ -918,15 +866,12 @@ eq ph 21 2 1 ph 2 1
 !extra
 eq ph 21 4 4 ph 4 4
 eq ph 21 5 4 ph 5 4
-eq ph 21 5 5 ph 5 5
-eq ph 21 6 6 ph 6 6
-
-eq ga 21 9 6 ga 9 6
-eq ga 21 9 3 ga 9 3
-eq ga 21 3 4 ga 3 4
+eq ga 21 8 2 ga 8 2
 eq ga 21 5 2 ga 5 2
-eq ga 21 4 1 ga 4 1
-eq ga 21 5 5 ga 5 5
+eq ga 21 2 4 ga 2 4
+eq ga 21 9 3 ga 9 3
+!eq ga 21 9 6 ga 9 6
+eq ga 21 3 4 ga 3 4
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -960,11 +905,9 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
 !extra
-fr ph 4 4
-fr ph 5 5
-fr ph 5 4
+free ga 9 3 !ph 4 4
+fr ga 2 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1006,9 +949,10 @@ eq ph 23 3 2 ph 3 2
 eq ph 23 2 1 ph 2 1  
 
 !extra
-eq ph 23 4 4 ph 4 4
-eq ph 23 5 5 ph 5 5
-eq ph 23 5 4 ph 5 4
+eq ga 23 9 3 ga 9 3
+!eq ga 23 4 5 ga 4 5
+!eq ph 23 4 4 ph 4 4
+eq ga 23 2 2 ga 2 2
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc  
@@ -1044,12 +988,8 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-fr ph 4 4
-fr ph 6 6
-fr ph 5 5
-fr ph 5 4
-!fr ga 8 2
-
+fr ga 5 2 !ga 9 3
+!fr ga 7 1
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -1091,11 +1031,9 @@ eq ph 25 3 2 ph 3 2
 eq ph 25 2 1 ph 2 1 
 
 !extra
-eq ph 25 4 4 ph 4 4
-eq ph 25 6 6 ph 6 6
-eq ph 25 5 5 ph 5 5
-eq ph 25 5 4 ph 5 4
-eq ga 25 8 2 ga 8 2
+eq ga 25 5 2 ga 5 2
+!eq ga 25 9 3 ga 9 3
+!eq ga 25 7 1 ga 7 1
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -1129,11 +1067,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 4 4 
-!fr ph 5 4
-!fr ga 5 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1174,11 +1107,6 @@ eq ph 27 3 1 ph 3 1
 eq ph 27 3 2 ph 3 2
 eq ph 27 2 1 ph 2 1   
 
-!extra
-eq ph 27 4 4 ph 4 4
-eq ph 27 5 4 ph 5 4
-eq ga 27 5 2 ga 5 2
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
 
@@ -1211,12 +1139,10 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
-free ph 2 1 ph 3 1 ph 3 2  
+free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-!fr ga 3 4 
-fr ga 8 2
-fr ga 7 1
+!fr ga 8 2 ga 7 6 ga 9 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1259,9 +1185,9 @@ eq ph 29 3 2 ph 3 2
 eq ph 29 2 1 ph 2 1 
 
 !extra
-eq ga 29 3 4 ga 3 4
-eq ga 29 8 2 ga 8 2
-eq ga 29 7 1 ga 7 1
+!eq ga 29 8 2 ga 8 2
+eq ga 29 7 6 ga 7 6
+eq ga 29 9 6 ga 9 6
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
@@ -1296,16 +1222,8 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9
 
 free ph 2 1 ph 3 1 ph 3 2    
-
 !extra
-fr ph 6 6
-!fr ph 4 4 
-fr ga 9 3
-!fr ga 9 6
-fr ga 7 1
-fr ga 2 2
-!fr ga 8 6
-!fr ga 3 3
+free ga 9 3 ga 7 1 ga 9 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1347,14 +1265,9 @@ eq ph 31 3 2 ph 3 2
 eq ph 31 2 1 ph 2 1 
 
 !extra
-eq ph 31 6 6 ph 6 6
-eq ph 31 4 4 ph 4 4
 eq ga 31 9 3 ga 9 3
-eq ga 31 9 6 ga 9 6
 eq ga 31 7 1 ga 7 1
-eq ga 31 2 2 ga 2 2
-eq ga 31 8 6 ga 8 6
-eq ga 31 3 3 ga 3 3
+eq ga 31 9 6 ga 9 6
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -1387,11 +1300,9 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
-free ph 2 1 ph 3 1 ph 3 2  
-
+free ph 2 1 ph 3 1 ph 3 2   
 !extra
-fr ph 6 6 
-fr ph 5 5
+free ph 6 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1434,7 +1345,6 @@ eq ph 33 2 1 ph 2 1
 
 !extra
 eq ph 33 6 6 ph 6 6
-eq ph 33 5 5 ph 5 5
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
@@ -1468,14 +1378,6 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
-!extra
-fr ph 6 6
-fr ph 5 5
-fr ph 4 4
-fr ga 8 2
-!fr ph 5 4
-fr ga 2 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1517,14 +1419,6 @@ eq ph 35 3 1 ph 3 1
 eq ph 35 3 2 ph 3 2
 eq ph 35 2 1 ph 2 1 
 
-!extra
-eq ph 35 6 6 ph 6 6
-eq ph 35 5 5 ph 5 5
-eq ph 35 4 4 ph 4 4
-eq ga 35 8 2 ga 8 2
-eq ph 35 5 4 ph 5 4
-eq ga 35 2 2 ga 2 2
-
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
 
@@ -1532,21 +1426,21 @@ Analysis of round 1 SI soctrust group 1 (gp37)
 Data ni=9 no=248 ma=cm
 Km
 *
-1 
-0.514957610221314 1 
-0.435006978668013 0.498057068573806 1 
-0.590129350961322 0.503283602863146 0.424381177237954 1 
-0.493208708298583 0.674345828897284 0.5279996923853 0.684658208331441 1 
-0.46164384423739 0.462703840714085 0.635999275351149 0.534702889965111 0.628684301409496 1
-0 0 0 0 0 0 1
-0 0 0 0 0 0 0 1
-0 0 0 0 0 0 0 0 1
+1.00
+ .604 1.00
+ .437  .531 1.00
+ .736  .525  .395   1.00
+ .504  .776  .503  .604    1.00
+ .324  .427  .838  .390     .548     1.00
+ .000  .000 .000    .0     .0        .0   1.00
+ .000  .000  .00   .000    .000     .000  .000   1.00
+ .000  .000  .000  .000    .000     .000  .000   .000   1.00
 me
 *
-3.98421052631579 4.74736842105263 4.23784494086728 2.15936254980080 2.44354838709677 2.20634920634921   0.00  .000   .000
+4.03  4.26  4.81  4.12  4.44  4.88   0.00  .000   .000
  sd
  *
-2.53663812412178 2.57368223232658 2.48573563867896 1.34703451775813 1.33954140049538 1.29243869254345   1.00  1.00  1.00
+ 2.536  2.681 2.578 2.490 2.451 2.600   1.00  1.00  1.00
 
 model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
@@ -1559,14 +1453,10 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-fr ph 6 6
-!fr ph 5 5
-!fr ph 4 4
-
-!fr ga 9 3
-!fr ph 5 4
-fr ga 8 2
-fr ga 5 2
+Free ph 4 4 !ph 5 5   
+fr ga 1 1 !ph 6 6 
+fr ga 9 3 ph 6 4
+fr ga 8 2 ga 6 3 ga 7 1 ga 4 1 ga 5 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1575,21 +1465,21 @@ Analysis of group 2 SI (gp38)
 Data ni=9 no=243 ma=cm
 Km
 *
-1 
-0.531208460016646 1 
-0.416345575292487 0.463683336470004 1 
-0 0 0 1 
-0 0 0 0 1 
-0 0 0 0 0 1 
-0.578249469881592 0.460680410400641 0.411224975030917 0 0 0 1 
-0.565587055218978 0.633402312379447 0.42294203217876 0 0 0 0.616056178209796 1 
-0.375039402004403 0.331571605453747 0.555166150152406 0 0 0 0.430913478578318 0.367368294975854 1
+1.00
+.578    1.00
+.403     .547  1.00
+.0    .0   .0     1.00
+.0    .0   .0     .000 1.00
+.0    .0   .0     .000  .00 1.00
+.667  .398  .310   .000  .00  .00 1.00
+.513  .756  .507  .000  .00  .00   .555 1.00
+.281  .443  .815   .000  .00  .00  .393  .587 1.00
 me
 *
-3.9758389261745 4.60405405405405 4.24295302013423 0.0 0.0 0.0 1.27800829875519 1.40663900414938 1.26446280991736
+3.95  4.14  4.87   .00  .00  .00   4.48 4.72  5.19 
  sd
  *
-2.51969796274925 2.52912342017469 2.46399489403767  1.0 1.0 1.0 0.448949904329548 0.49222867988941 0.441960833422158
+ 2.371 2.693 2.603 1.00 1.00 1.00 2.391  2.492  2.569
  
 model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
@@ -1605,18 +1495,20 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 
 eq ph 37 3 1 ph 3 1
 eq ph 37 3 2 ph 3 2
-eq ph 37 2 1 ph 2 1 
+eq ph 37 2 1 ph 2 1  
 
 !extra
-eq ph 37 6 6 ph 6 6
-eq ph 37 5 5 ph 5 5
 eq ph 37 4 4 ph 4 4
-
+eq ph 37 5 5 ph 5 5
+eq ga 37 1 1 ga 1 1
+eq ph 37 6 6 ph 6 6 
 eq ga 37 9 3 ga 9 3
-eq ph 37 5 4 ph 5 4
+eq ph 37 6 4 ph 6 4
 eq ga 37 8 2 ga 8 2
+eq ga 37 6 3 ga 6 3
+eq ga 37 7 1 ga 7 1
+eq ga 37 4 1 ga 4 1
 eq ga 37 5 2 ga 5 2
 
-pd
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 500 adm=off sc 
