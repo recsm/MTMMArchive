@@ -868,7 +868,7 @@ fr ph 4 4 ph 5 4 ph 5 5
 !ph 6 6
 fr ga 9 6 
 fr ga 9 3 ga 5 2 ga 2 4
-!fr ga 3 4
+fr ga 3 4
 !fr ga 5 2
 !fr ga 4 1
 !fr ga 5 5
