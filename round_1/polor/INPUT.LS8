@@ -1425,11 +1425,11 @@ eq ph 33 2 1 ph 2 1
 
 !extra
 eq ph 33 6 6 ph 6 6
-!eq ph 33 4 4 ph 4 4
+eq ph 33 4 4 ph 4 4
 !eq ga 33 1 4 ga 1 4
 eq ga 33 7 6 ga 7 6
 !eq ga 33 4 1 ga 4 1
-eq ga 33 3 4 ga 3 4
+!eq ga 33 3 4 ga 3 4
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
