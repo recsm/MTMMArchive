@@ -1299,8 +1299,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !extra
 !fr ph 6 6 ph 4 4 
-fr ga 9 3
-!fr ga 9 6
+fr ga 9 3 ga 9 6
 fr ga 7 1 ga 2 2
 !fr ga 8 6 ga 3 3
 
