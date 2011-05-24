@@ -1,5 +1,5 @@
 Analysis of round 2 trustin group 1 GB
-Data ng=44 ni=9 no=637 ma=cm
+Data ng=40 ni=9 no=637 ma=cm
 !44 gps prq ya PAS NO!!! 
  km		
 1        
@@ -16,7 +16,7 @@ me
 sd
 2.31544725761944 2.31309752953060 2.16624820525002 2.29851959579821 2.27352307435166 2.06641373543213 1 1 1  
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=fu,fi ga=fu,fi ph=sy,fi
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=fu,fi ga=fu,fi ph=sy,fi
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -30,15 +30,15 @@ free ga 7 1 ga 8 2 ga 9 3
 
 value 1 ga 1 4 ga 2 4 ga 3 4
 value 1 ga 4 5 ga 5 5 ga 6 5 
-!!value 1 ga 7 6 ga 8 6 ga 9 6
-value 1 ga 7 5 ga 8 5 ga 9 5
+value 1 ga 7 6 ga 8 6 ga 9 6
 
 free ph 2 1 ph 3 1 ph 3 2     
 value 1 ph 1 1 ph 2 2 ph 3 3
 
+!fr ph 6 6
 fr ph 4 4 
 fr ph 5 5 
-!fr ph 6 6
+eq ph 5 5 ph 6 6 ph 6 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 pd
@@ -61,7 +61,7 @@ me
 sd
 2.33010633167174 2.36083745095461 2.16845480212906 1.0   1.0 1.0 2.34804293013880 2.36430526285584 2.16091398457873
 
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -93,7 +93,7 @@ me
 sd
 2.14467912010442 2.37271965091009 2.14799115312448 2.06866264002719 2.26772270743949 2.15735759416997 1 1 1 
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -102,7 +102,9 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
+!extra
+!fr ga 3 4
+fr ga 7 1
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -123,7 +125,7 @@ me
 sd
 2.23937139844946 2.36097692232797 2.2107983021919 1.0 1.0 1.0 2.02133187889360 2.25459350007806 2.08898653201781
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -138,7 +140,9 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 3 3 1 ph 3 1
 eq ph 3 3 2 ph 3 2
 eq ph 3 2 1 ph 2 1 
-
+!extra
+!eq ga 3 3 4 ga 3 4
+eq ga 3 7 1 ga 7 1
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -159,7 +163,7 @@ me
 sd
 2.07459898311057 2.13975325986141 2.00263657186108 2.02316188049064 2.13972054007155 1.97226662357071 1 1 1 
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -168,7 +172,12 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
+!extra
+!fr ga 8 6
+!fr ga 9 6
+!fr ga 3 4
+fr ph 5 5
+eq ph 5 5 ph 6 6 ph 6 5
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -190,7 +199,7 @@ me
 sd
 1.95254784719847 2.11445738341020 1.82930648350903 1.0 1.0 1.0 1.87904833418503 2.00877921916466 1.80299768250790
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -205,7 +214,11 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 5 3 1 ph 3 1
 eq ph 5 3 2 ph 3 2
 eq ph 5 2 1 ph 2 1 
-
+!extra
+!eq ga 5 8 6 ga 8 6
+!eq ga 5 9 6 ga 9 6
+!eq ga 5 3 4 ga 3 4
+eq ph 5 5 5 ph 5 5
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -226,7 +239,7 @@ me
 sd
 2.17102957920516 2.42381589790611 2.13813302153748 2.1484095113079 2.35146451776575 2.08154389002703 1 1 1 
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -235,7 +248,11 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
+!EXTRA
+fr ph 4 4
+fr ga 9 6
+fr ga 8 6
+!fr ga 5 5
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -256,7 +273,7 @@ me
 sd
 2.21599120890968 2.43639374464563 2.13115337975132 1.0 1.0 1.0 2.23744477316547 2.29812947076064 2.24972469262533
 
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -271,7 +288,11 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 7 3 1 ph 3 1
 eq ph 7 3 2 ph 3 2
 eq ph 7 2 1 ph 2 1 
-
+!EXTRA
+eq ph 7 4 4 ph 4 4
+eq ga 7 9 6 ga 9 6
+eq ga 7 8 6 ga 8 6
+!eq ga 7 5 5 ga 5 5
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -292,7 +313,7 @@ me
 sd
 2.38345992420535 2.40037836830904 2.13413857651828 2.33240523653379 2.38728055980052 2.06909717615763 1 1 1 
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -322,7 +343,7 @@ me
 sd
 2.38705660466639 2.44667164812584 2.18581899552422 1.0 1.0 1.0 2.38219819296756 2.43880447461750 2.11980626077441
 
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -358,7 +379,7 @@ me
 sd
 2.21340078041043 2.16816010154191 1.95337910806257 2.24732458168992 2.07919251209857 1.94809367613178 1 1 1
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -388,7 +409,7 @@ me
 sd
 2.06401435741565 2.08714388239694 1.90400900157714 1.0 1.0 1.0 2.08060890344929 1.91717215527382 1.89768221107087
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -424,7 +445,7 @@ me
 sd
 2.37379133570614 2.52609666801135 2.18848949288179 2.34239196241772 2.42251208272798 2.11703746591348 1 1 1 
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -433,7 +454,8 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
+!extra
+fr ga 9 6
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -454,7 +476,7 @@ me
 sd
 2.32108666803808 2.51068467370366 2.11277375341421 1.0 1.0 1.0 2.24781540427116 2.40985372597779 2.14408499483532
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -469,7 +491,8 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 13 3 1 ph 3 1
 eq ph 13 3 2 ph 3 2
 eq ph 13 2 1 ph 2 1 
-
+!extra
+eq ga 13 9 6 ga 9 6
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -490,7 +513,7 @@ me
 sd
 2.17496140299513 2.43500738805221 2.24039589259518 2.08220817464685 2.30456928521818 2.16765922911217 1 1 1
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -520,7 +543,7 @@ me
 sd
 2.23635210713567 2.34619594098793 2.29243489221101 1.0 1.0 1.0 2.07556943830079 2.19371588733117 2.19314313884053
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -556,16 +579,22 @@ me
 sd 
 1.93812082943794 1.89993934688553 2.00590843237005 1.99314269912052 1.91037577552563 1.98354080485555 1 1 1
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
-
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
+!extra
+!fr te 6 3
+fr ga 5 5
+!fr ga 6 5
+fr ga 4 5
+!fr ga 5 2
+!fr ga 1 4
+!fr ga 3 4
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -586,7 +615,7 @@ me
 sd
 2.11097398850015 2.06835308947051 2.0970253999297 1.0  1.0 1.0 2.12113503494662 2.11850190334241 2.14710570142268
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -596,12 +625,16 @@ equal te 17 2 2 te 2 2
 equal te 17 3 3 te 3 3
 
 value 1 te 4 4 te 5 5 te 6 6
-value 0 ly 4 4 ly 5 5 ly 6 6  
-
+value 0 ly 4 4 ly 5 5 ly 6 6 
 eq ph 17 3 1 ph 3 1
 eq ph 17 3 2 ph 3 2
 eq ph 17 2 1 ph 2 1 
-
+!extra
+eq ga 17 5 5 ga 5 5
+!eq ga 17 6 5 ga 6 5
+eq ga 17 4 5 ga 4 5
+!eq ga 17 1 4 ga 1 4
+!eq ga 17 3 4 ga 3 4
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
 
@@ -625,7 +658,7 @@ sd
 *
 2.25521358389982 2.39514553201507 2.16628526843083 2.20935505907952 2.29995611591018 2.09877692062217  1.00  1.00  1.00
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -658,7 +691,7 @@ sd
 *
 2.26175442351138 2.31619400251445 2.12138178474551 1.0 1.0 1.0 2.2070526796572 2.33607991998382 2.05304095500112
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -694,7 +727,7 @@ me
 sd
 2.27179416127641 2.29554112493809 2.24352632853025 2.2686640320916 2.40803851663635 2.22039362227078 1 1 1
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -724,7 +757,7 @@ me
 sd
 2.41696574745 2.46583356608077 2.26086359210201 1.0 1.0 1.0 2.39797971740599 2.42272973584178 2.27152277381908
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -760,7 +793,7 @@ me
 sd
 2.40198310197180 2.63182583304356 2.40810559847377 2.33511021666161 2.50202311833036 2.35764761651432 1 1 1 
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -769,7 +802,15 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
+!extra
+fr ga 5 5
+fr ga 6 5
+fr ga 9 6
+fr ga 7 6
+fr ga 9 3
+!fr ga 1 4
+!fr ga 3 4
+!fr ga 2 4
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -790,7 +831,7 @@ me
 sd
 2.55167506853352 2.66886163326397 2.48295545527924 1.0 1.0 1.0 2.48740397672426 2.52268683252569 2.3912798260723
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -805,7 +846,15 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 23 3 1 ph 3 1
 eq ph 23 3 2 ph 3 2
 eq ph 23 2 1 ph 2 1  
-
+!extra
+eq ga 23 5 5 ga 5 5
+eq ga 23 6 5 ga 6 5
+eq ga 23 9 6 ga 9 6
+eq ga 23 7 6 ga 7 6
+eq ga 23 9 3 ga 9 3
+!eq ga 23 3 4 ga 3 4
+!eq ga 23 1 4 ga 1 4
+!eq ga 23 2 4 ga 2 4
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc  
 
@@ -829,7 +878,7 @@ sd
 *
 2.63696597582344 2.59880142454577 2.33693846881666 2.32452513116704 2.31632514219337 2.18377997516926   1.00  1.00  1.00
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -862,7 +911,7 @@ sd
 *
 2.47251241346655 2.53497643532207 2.49040614164560 1.0 1.0 1.0 2.30772680685461 2.40630032766749 2.34510810896993
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -904,7 +953,7 @@ sd
 2.28434455969021 2.44449871666742 2.22928220009227  2.40539963862931 2.40580667599649 2.20789687637337  1.00  1.00  1.00
 
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -913,6 +962,8 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
+fr ph 5 5 
+eq ph 5 5 ph 6 6 ph 6 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -937,7 +988,7 @@ sd
 *
 2.35558431295712 2.41244705323313 2.17976911581672 1.0 1.0 1.0 2.28939209084259 2.32553884158539 2.1272165468457
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -952,7 +1003,8 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 27 3 1 ph 3 1
 eq ph 27 3 2 ph 3 2
 eq ph 27 2 1 ph 2 1 
-
+!extra
+eq ph 27 5 5 ph 5 5
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
 
@@ -974,7 +1026,7 @@ me
 sd
 2.30919200717366 2.50370322591241 2.23603688649264 2.34182619306441 2.41689196393753 2.15697172393827 1 1 1 
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -1004,7 +1056,7 @@ me
 sd
 2.14336761257562 2.38918292415846 2.17312938519258 1.0 1.0 1.0 2.12695795739551 2.24529365732091 2.13669116778533
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -1043,7 +1095,7 @@ sd
 *
 2.05594850766549 2.11969775493885 1.93683193644868 2.03193098483661 2.14977008021655 2.0113639748456  1.00  1.00  1.00
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -1052,7 +1104,8 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
+!extra
+!fr ga 2 4
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -1076,7 +1129,7 @@ sd
 *
 2.10576137746099 2.06660766577647 1.99190699444513 1.0 1.0 1.0 2.03006575576541 2.06164482399768 1.97043479393098
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -1091,7 +1144,8 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 31 3 1 ph 3 1
 eq ph 31 3 2 ph 3 2
 eq ph 31 2 1 ph 2 1 
-
+!extra
+!eq ga 31 2 4 ga 2 4
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
 
@@ -1115,7 +1169,7 @@ sd
 2.22856874602576 2.40105980559849 1.97022491859113 2.10120730896582 2.27636744272840 1.89053893178495 1 1 1 
 
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -1124,7 +1178,10 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
+!extra
+fr ga 6 5
+!fr ph 4 4
+!fr ga 2 4
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -1145,7 +1202,7 @@ me
 sd
 2.09747188505963 2.11538756794492 1.88518554640811 1.0 1.0 1.0 1.97407071247236 2.12143995488690 1.75760856318490
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -1160,7 +1217,10 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 33 3 1 ph 3 1
 eq ph 33 3 2 ph 3 2
 eq ph 33 2 1 ph 2 1 
-
+!extra
+eq ga 33 6 5 ga 6 5
+!eq ga 33 2 4 ga 2 4
+!eq ph 33 4 4 ph 4 4
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -1182,7 +1242,7 @@ sd
 2.29010412791822 2.38339607895686 1.95612513451136 2.21541953290801 2.3682901778946 1.92312578859156 1 1 1 
 
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -1191,7 +1251,14 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
-
+!extra
+fr ga 9 6
+fr ga 7 6
+fr ga 3 4
+fr ga 1 4
+fr ga 6 5 
+!fr ga 4 5
+!fr ph 4 4
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -1212,7 +1279,7 @@ me
 sd
 2.26176421099214 2.36939855792936 1.78110654051164 1.0 1.0 1.0 2.17776814221301 2.35977407882091 1.73341512472437
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -1227,7 +1294,14 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 35 3 1 ph 3 1
 eq ph 35 3 2 ph 3 2
 eq ph 35 2 1 ph 2 1 
-
+!extra
+eq ga 35 9 6 ga 9 6
+eq ga 35 7 6 ga 7 6
+eq ga 35 3 4 ga 3 4
+eq ga 35 1 4 ga 1 4
+eq ga 35 6 5 ga 6 5
+!eq ga 35 4 5 ga 4 5
+!eq ph 35 4 4 ph 4 4
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -1251,7 +1325,7 @@ sd
 2.37242710243064 2.51463375732835 2.11054516896260 2.38254593367512 2.42503097971942 2.21053090601486 1 1 1
 
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -1281,7 +1355,7 @@ me
 sd
 2.31878798610667 2.36387788478553 2.1616117791809 1.0 1.0 1.0 2.27955654627373 2.29794655664509 2.14248971346064
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -1318,7 +1392,7 @@ sd
 2.28103333512943 2.35677130883168 2.18829555038064 2.19663740029187 2.26741599662995 2.22423496956881 1 1 1 
 
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -1349,7 +1423,7 @@ sd
 2.18735387824518 2.260012070097 2.04033521154436 1.0 1.0 1.0 2.02331767970077 2.19736508481526 2.01333364510698
 
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -1388,7 +1462,7 @@ sd
 *
 3.4816524184679 3.39895670373093 3.13053865402293 3.38044897375291 3.31656840626797 3.09237175944649  1.00  1.00  1.00
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -1397,6 +1471,11 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
+!extra
+fr ga 1 1 ga 2 2 ga 3 3
+fr ga 7 1 ga 8 2 ga 9 3
+fr ga 5 2 ga 4 1
+FR ga 6 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1421,7 +1500,7 @@ sd
 *
 3.48483605536352 3.38284394381473 3.08932860558102 1.0 1.0 1.0 3.39020236234411 3.23735408340907 3.31375194062555
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
@@ -1436,6 +1515,16 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 41 3 1 ph 3 1
 eq ph 41 3 2 ph 3 2
 eq ph 41 2 1 ph 2 1 
+!extra
+eq ga 41 1 1 ga 1 1
+eq ga 41 2 2 ga 2 2
+eq ga 41 3 3 ga 3 3
+eq ga 41 7 1 ga 7 1
+eq ga 41 8 2 ga 8 2
+eq ga 41 9 3 ga 9 3
+eq ga 41 4 1 ga 4 1
+eq ga 41 5 2 ga 5 2
+eq ga 41 6 3 ga 6 3
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -1461,7 +1550,7 @@ sd
 2.75992066133169 2.8011265916632 2.43211990019167 2.62800894020152 2.61081801424801 2.35075010877808  1.00  1.00  1.00
 
 
-model ny=9 ne=9 nk=5  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -1494,7 +1583,7 @@ sd
 *
 2.81601657672769 2.90446277257438 2.50950727526763 1.0 1.0 1.0 2.72146707051840 2.80827242778378 2.46091256529647
  
-model ny=9 ne=9 nk=5 ly=fu,fi te=sy,fi ga=in ph=in
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
