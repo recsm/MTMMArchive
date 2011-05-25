@@ -44,9 +44,7 @@ value .5 ph 3 1
 value .4 ph 3 2     
 value 1 ph 1 1 ph 2 2 ph 3 3
 
-!fi  ph 3 1
-!va .60 ph 2 1 
-!va .10 ph 3 1 
+ 
 
 fr ph 4 4
 fr ph 5 5 
