@@ -365,8 +365,8 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 
 !extra
 !fr ga 6 5
-fr ga 1 4
-!fr ga 2 4
+!fr ga 1 4
+fr ga 2 4
 !fr ga 4 1
 
 value 1 te 7 7 te 8 8 te 9 9 
@@ -411,8 +411,8 @@ equal te 9 2 2 te 2 2
 equal te 9 3 3 te 3 3
 !extra
 !eq ga 9 6 5 ga 6 5
-eq ga 9 1 4 ga 1 4
-!eq ga 9 2 4 ga 2 4
+!eq ga 9 1 4 ga 1 4
+eq ga 9 2 4 ga 2 4
 !eq ga 9 4 1 ga 4 1
 value 1 te 4 4 te 5 5 te 6 6
 value 0 ly 4 4 ly 5 5 ly 6 6 
