@@ -1166,7 +1166,7 @@ fr ph 4 4
 
 !extra
 fr ga 8 2
-!fr ga 3 3
+fr ga 3 3
 fr ga 1 4
 fr ga 5 2
 !fr ga 2 2
@@ -1214,7 +1214,7 @@ eq ph 25 4 4 ph 4 4
 
 !extra
 eq ga 25 8 2 ga 8 2
-!eq ga 25 3 3 ga 3 3
+eq ga 25 3 3 ga 3 3
 eq ga 25 1 4 ga 1 4
 eq ga 25 5 2 ga 5 2
 !eq ga 25 2 2 ga 2 2
