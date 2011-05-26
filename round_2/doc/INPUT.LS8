@@ -1617,11 +1617,11 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !Extra
 !fr ph 5 5 ga 5 2 ga 6 3 ga 7 1 ga 8 2 ga 9 3 te 2 1
-fr ly 4 4 ly 5 5 ly 6 6 
-!ga 4 5 ga 5 5 ga 6 5
-!ga 6 3 ga 5 2 ga 4 1 
-!fr ph 5 5
-!ga 4 1
+
+fr ly 4 4 ly 5 5 ly 6 6 ga 6 5
+
+!ga 4 5 ga 5 5 ga 6 5 ga 6 3 ga 5 2 ga 4 1 
+!fr ph 5 5 ga 4 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 !st .0001 te 6 6
