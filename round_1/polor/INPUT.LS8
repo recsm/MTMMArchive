@@ -733,14 +733,13 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 fr ga 6 3
 !fr ga 3 3
 fr ga 8 2
-fr ph 6 6
+fi ph 6 6
 !fr ph 5 5
-!va .0001 ph 6 6
+va .0001 ph 6 6
 FR PH 4 4
 fr ga 1 4 
 fr ga 3 3 
 fr ga 5 5
-
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
@@ -799,6 +798,7 @@ eq ga 17 1 4 ga 1 4
 eq ga 17 3 3 ga 3 3 
 eq ga 17 1 4 ga 1 4
 eq ga 17 5 5 ga 5 5
+
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
 
