@@ -938,7 +938,7 @@ eq ga 21 4 1 ga 4 1
 !eq ga 21 4 5 ga 4 5
 eq ph 21 4 4 ph 4 4
 EQ GA 21 1 4 GA 1 4
-fr te 8 2
+fr te 5 2
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
