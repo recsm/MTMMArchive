@@ -954,8 +954,8 @@ fr ga 1 4
 
 fr ga 9 3
 
-fr ga 8 2
-!fr ga 5 2
+!fr ga 8 2
+fr ga 5 2
 !fr ga 6 5
 fr ga 3 3
 !fr ga 2 2 
@@ -1011,7 +1011,7 @@ eq ga 21 1 4 ga 1 4
 
 eq ga 21 9 3 ga 9 3
 
-eq ga 21 8 2 ga 8 2
+!eq ga 21 8 2 ga 8 2
 
 eq ga 21 6 3 ga 6 3
 !eq ga 21 7 6 ga 7 6
@@ -1020,11 +1020,10 @@ eq ga 21 3 3 ga 3 3
 
 !eq ga 21 2 2 ga 2 2
 !eq ga 21 2 4 ga 2 4
-!eq ga 21 5 2 ga 5 2
+eq ga 21 5 2 ga 5 2
 !eq ga 21 6 5 ga 6 5
 !extra
-!eq te 21 6 3 te 6 3
-!eq te 21 8 2 te 8 2
+!eq te 21 6 3 te 6 3!eq te 21 8 2 te 8 2
 !eq te 21 9 3 te 9 3
 !fr te 6 6
 !eq te 21 3 3 te 3 3
