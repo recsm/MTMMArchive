@@ -778,7 +778,7 @@ eq ph 19 5 5 ph 5 5
 eq ga 19 5 5 ga 5 5
 eq ga 19 7 1 ga 7 1
 !eq ga 19 9 3 ga 9 3
-fr te 9 2 te 8 3
+fr te 9 2 te 8 3 te 9 3
 eq ga 19 1 1 ga 1 1
 
 start .7 te 7 7 te 8 8 te 9 9
