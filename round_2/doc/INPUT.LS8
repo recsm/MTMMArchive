@@ -1447,7 +1447,7 @@ eq ph 39 2 1 ph 2 1
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
-Analysis of round 2 UA doc group 1 !Group nr changed (gp41)
+Analysis of round 2 UA doc group 1 (gp nr ch) (gp41)
 Data ni=9 no=690 ma=cm
 Km
 *
@@ -1526,13 +1526,14 @@ eq ph 41 2 1 ph 2 1
 !extra
 !eq ph 41 6 4 ph 6 4
 !eq ph 41 4 4 ph 4 4 
-eq ph 41 5 4 ph 5 4
-eq ga 41 1 4 ga 1 4
-eq ga 41 7 6 ga 7 6
-eq ga 41 1 1 ga 1 1
-eq ga 41 2 2 ga 2 2 
+!eq ph 41 5 4 ph 5 4
+!eq ga 41 1 4 ga 1 4
+!eq ga 41 7 6 ga 7 6
+!eq ga 41 1 1 ga 1 1
+!eq ga 41 2 2 ga 2 2 
 eq ga 41 3 3 ga 3 3
-eq ga 41 6 3 ga 6 3
+!eq ga 41 6 3 ga 6 3
+fr te 7 1 te 8 2 te 9 3 
 
 pd
 start .7 te 7 7 te 8 8 te 9 9
