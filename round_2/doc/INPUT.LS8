@@ -1,5 +1,5 @@
 Analysis of round 2 doc group 1 GB
-Data ng=44 ni=9 no=627 ma=cm
+Data ng=42 ni=9 no=627 ma=cm
 !44 gps prq ya PAS NO!!! 
  km		
 1        
@@ -1585,104 +1585,9 @@ eq ph 39 5 5 ph 5 5
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
-Analysis of round 2 TR doc group 1 (gp41)
-Data ni=9 no=615 ma=cm
-Km
-*
-1        
--0.181748213472455 1       
--0.0592362075248303 0.346136322074855 1      
-0.0617851449884566 0.0195824250656844 -0.00726611858197284 1     
-0.0620698132630725 -0.00554100284014411 -0.0390611773258448 0.937908375336082 1    
-0.0709657700937913 -0.0191996196264597 -0.0876409348945532 0.940037864551264 0.961914158437136 1   
-0 0 0 0 0 0 1  
-0 0 0 0 0 0 0 1 
-0 0 0 0 0 0 0 0 1
-me
-*
-2.41798941798942 2.54251700680272 2.40314136125654 2.78608695652174 2.95254237288136 2.9878892733564  0.00  .000   .000
-sd
-*
-1.02265547422829 1.20754095294207 1.19430052790790 4.13590732910375 4.09701352708966 4.14363332075895  1.00  1.00  1.00
 
-model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
-
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
-fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
-
-value 1 te 7 7 te 8 8 te 9 9 
-value 0 ly 7 7 ly 8 8 ly 9 9 
-
-free ph 2 1 ph 3 1 ph 3 2  
-
-!Extra
-!fr ph 5 5 ga 5 2 ga 6 3 ga 7 1 ga 8 2 ga 9 3 te 2 1
-
-fr ly 4 4 ly 5 5 ly 6 6
-!ga 7 1 ga 8 2 ga 9 3
-va 0 ph 5 5
-
-!ga 4 5 ga 5 5 ga 6 5 ga 6 3 ga 5 2 ga 4 1 
-!fr ph 5 5 ga 4 1
-
-start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
-!st .0001 te 5 5 te 4 4 ph 5 5
-out mi iter= 300 adm=off sc
-
-Analysis of group 2 TR (gp42)
-Data ni=9 no=615 ma=cm
-Km
-*
-1        
--0.047163897960832 1       
-0.0295690121856611 0.344355794932641 1      
-0 0 0 1     
-0 0 0 0 1    
-0 0 0 0 0 1   
--0.412361721913991 0.0808216783932754 0.0297450629015045 0 0 0 1  
--0.00203584338351629 -0.582541511217454 -0.171364416389366 0 0 0 -0.0195409835032554 1 
--0.00631733006027061 -0.288119568870124 -0.5466859920292 0 0 0 -0.0506919344072959 0.372138825170485 1
-me
-*
-2.42652329749104 2.61188811188811 2.42142857142857 0.0 0.0 0.0 2.69965277777778 3.07692307692308 3.13636363636364
-sd
-*
-1.02437742637395 1.26646021357679 1.27487265290077 1.0 1.0 1.0 1.02239270133779 1.06431731088562 1.07296309395389
- 
-model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
-
-fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
-
-equal te 41 1 1 te 1 1
-equal te 41 2 2 te 2 2
-equal te 41 3 3 te 3 3
-
-value 1 te 4 4 te 5 5 te 6 6
-value 0 ly 4 4 ly 5 5 ly 6 6  
-
-eq ph 41 3 1 ph 3 1
-eq ph 41 3 2 ph 3 2
-eq ph 41 2 1 ph 2 1 
-
-!Extra 
-eq ph 41 5 5 ph 5 5
-eq ga 41 4 1 ga 4 1
-eq ga 41 5 2 ga 5 2
-eq ga 41 6 3 ga 6 3
-eq ga 41 9 3 ga 9 3
-eq ga 41 8 2 ga 8 2
-eq ga 41 7 1 ga 7 1
-!fr te 8 3
-eq ga 41 5 4 ga 4 5
-eq ga 41 5 5 ga 5 5
-eq ga 41 6 5 ga 6 5
-
-start .7 te 7 7 te 8 8 te 9 9
-!st .0001 te 8 8 
-out mi iter= 300 adm=off sc 
-
-Analysis of round 2 UA doc group 1 (gp43)
+Analysis of round 2 UA doc group 1 (gp41)
+!group number changed
 Data ni=9 no=690 ma=cm
 Km
 *
@@ -1719,9 +1624,10 @@ fr ph 6 4 te 6 5 ga 3 3 te 3 2 ga 1 1
 !ph 4 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+st .0001 te 2 2
 out mi iter= 300 adm=off sc
 
-Analysis of group 2 UA (gp44)
+Analysis of group 2 UA (gp42)
 Data ni=9 no=677 ma=cm
 Km
 *
@@ -1746,24 +1652,24 @@ model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
 
-equal te 43 1 1 te 1 1
-equal te 43 2 2 te 2 2
-equal te 43 3 3 te 3 3
+equal te 41 1 1 te 1 1
+equal te 41 2 2 te 2 2
+equal te 41 3 3 te 3 3
 
 value 1 te 4 4 te 5 5 te 6 6
 value 0 ly 4 4 ly 5 5 ly 6 6  
 
-eq ph 43 3 1 ph 3 1
-eq ph 43 3 2 ph 3 2
-eq ph 43 2 1 ph 2 1 
+eq ph 41 3 1 ph 3 1
+eq ph 41 3 2 ph 3 2
+eq ph 41 2 1 ph 2 1 
 
 !Extra
-eq ph 43 6 4 ph 6 4
-!eq ph 43 4 4 ph 4 4
+eq ph 41 6 4 ph 6 4
+!eq ph 41 4 4 ph 4 4
 fr te 8 2 te 9 3 te 7 1
-eq ga 43 3 3 ga 3 3
-eq ga 43 1 1 ga 1 1
-!eq ga 43 8 2 ga 8 2
+eq ga 41 3 3 ga 3 3
+eq ga 41 1 1 ga 1 1
+!eq ga 41 8 2 ga 8 2
 fr te 9 2
 
 pd
