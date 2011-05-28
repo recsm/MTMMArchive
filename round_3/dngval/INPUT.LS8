@@ -1,5 +1,5 @@
 Analysis of GB round 3 dngval group 1
-Data ng=69  ni=12 no=844 ma=cm
+Data ng=63  ni=12 no=844 ma=cm
 km
 *
 1           
@@ -42,15 +42,16 @@ value 1 ga 10 7 ga 11 7 ga 12 7
 free ph 2 1 ph 3 1 ph 3 2     
 value 1 ph 1 1 ph 2 2 ph 3 3
 
-!fi ph 3 1 
-!fi ph 2 1
-!va -.3 ph 3 1
-!va .5 ph 2 1
+fi ph 3 1 
+fi ph 2 1
+va .2 ph 3 1
+va .5 ph 2 1
 
 fr ph 4 4
-fr ph 5 5 
+!fr ph 5 5 
 fr ph 6 6 
 fr ph 7 7
+va .0001 ph 5 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -131,9 +132,8 @@ value 1 te 4 4 te 5 5 te 6 6 te 7 7 te 8 8 te 9 9
 value 0 ly 4 4 ly 5 5 ly 6 6 ly 7 7 ly 8 8 ly 9 9 
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
+pd
 out mi iter= 300 adm=off sc 
-
-
 Analysis of BE round 3 dngval group 1 (gp4)
 Data  ni=12 no=567 ma=cm
 km
@@ -168,7 +168,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2     
 
 !xtra
-fr ga 3 3
+!fr ga 3 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -213,7 +213,7 @@ eq ph 4 3 1 ph 3 1
  eq ph 4 2 1 ph 2 1
 
 !extra
-eq ga 4 ga 3 3 ga 3 3 
+!eq ga 4 ga 3 3 ga 3 3 
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
@@ -260,11 +260,10 @@ eq ph 4 3 2 ph 3 2
 eq ph 4 2 1 ph 2 1
 
 !extra
-eq ga 4 3 3 ga 3 3
+!eq ga 4 3 3 ga 3 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
-
 
 Analysis of BG round 3 dngval group 1 (gp7)
 Data  ni=12 no=523 ma=cm
@@ -300,7 +299,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2 
 
 !extra
-free ph 7 7    
+free ga 7 1 te 4 1   
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -345,7 +344,8 @@ eq ph 7 3 1 ph 3 1
  eq ph 7 2 1 ph 2 1
 
 !extra
-eq ph 7 7 7 ph 7 7
+eq ga 7 7 1 ga 7 1
+fr ph 6 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
@@ -392,11 +392,11 @@ eq ph 7 3 2 ph 3 2
 eq ph 7 2 1 ph 2 1
 
 !extra
-eq ph 7 7 7 ph 7 7
-
+eq ga 7 7 1 ga 7 1
+fr ph 7 7
+fr ph 2 1
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
-
 Analysis of CH round 3 dngval group 1 (gp10)
 Data  ni=12 no=574 ma=cm
 km
@@ -432,7 +432,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !extra
 free ga 3 3
-free  ga 6 3 ga 9 3 !ga 12 3 
+free  ga 6 3 ga 9 3 ga 12 7 
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -481,7 +481,7 @@ eq ga 10 3 3 ga 3 3
 eq ga 10 6 3 ga 6 3
 eq ga 10 9 3 ga 9 3
 !eq ga 10 12 3 ga 12 3 
-
+eq ga 10 12 7 ga 12 7 
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
@@ -531,12 +531,12 @@ eq ph 10 2 1 ph 2 1
 eq ga 10 3 3 ga 3 3 
 eq ga 10 6 3 ga 6 3
 eq ga 10 9 3 ga 9 3
-!eq ga 10 12 3 ga 12 3 
-
-
+!eq ga 10 12 3 ga 12 3
+eq ga 10 12 7 ga 12 7 
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
+
 
 Analysis of CY round 3 dngval group 1 (gp13)
 Data  ni=12 no=302 ma=cm
@@ -676,9 +676,6 @@ eq ga 13 6 3 ga 6 3
 eq ga 13 9 3 ga 9 3
 !eq ga 13 12 3 ga 12 3 
 
-
-
-
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
 
@@ -771,7 +768,7 @@ eq ga 16 9 3 ga 9 3
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
 
-
+ 
 Analysis of group 3 DE (gp18)
 Data ni=12 no=995 ma=cm
 km
@@ -817,9 +814,6 @@ eq ga 16 3 3 ga 3 3
 eq ga 16 6 3 ga 6 3
 eq ga 16 9 3 ga 9 3
 !eq ga 16 12 3 ga 12 3 
-
-
-
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
@@ -911,7 +905,6 @@ eq ga 19 6 3 ga 6 3
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
 
-
 Analysis of group 3 DK (gp21)
 Data ni=12 no=470 ma=cm
 km
@@ -960,7 +953,6 @@ eq ga 19 6 3 ga 6 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
-
 Analysis of EE round 3 dngval group 1 (gp22)
 Data  ni=12 no=530 ma=cm
 km
@@ -1218,7 +1210,6 @@ eq ga 25 6 3 ga 6 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
-
 Analysis of FI round 3 dngval group 1 (gp28)
 Data  ni=12 no=209 ma=cm
 km
@@ -1355,7 +1346,6 @@ eq ga 28 6 3 ga 6 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
-
 Analysis of FR round 3 dngval group 1 (gp31)
 Data  ni=12 no=675 ma=cm
 km
@@ -1493,7 +1483,6 @@ eq ga 31 2 2 ga 2 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
-
 Analysis of AT round 3 dngval group 1 (gp34)
 Data  ni=12 no=884 ma=cm
 km
@@ -1615,8 +1604,7 @@ eq ph 34 2 1 ph 2 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
-
-Analysis of IE round 3 dngval group 1 (gp37)
+ Analysis of IE round 3 dngval group 1 (gp37)
 Data  ni=12 no=465 ma=cm
 km
 *
@@ -1647,7 +1635,10 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 value 1 te 7 7 te 8 8 te 9 9 te 10 10 te 11 11 te 12 12
 value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 
-free ph 2 1 ph 3 1 ph 3 2     
+free ph 2 1 ph 3 1 ph 3 2 
+    
+!extra
+fr ph 6 6 
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1690,6 +1681,9 @@ value 0 ly 4 4 ly 5 5 ly 6 6 ly 10 10 ly 11 11 ly 12 12
 eq ph 37 3 1 ph 3 1
  eq ph 37 3 2 ph 3 2
  eq ph 37 2 1 ph 2 1
+
+!extra
+eq ph 37 6 6 ph 6 6 
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
@@ -1735,9 +1729,11 @@ eq ph 37 3 1 ph 3 1
 eq ph 37 3 2 ph 3 2
 eq ph 37 2 1 ph 2 1
 
+!extra
+eq ph 37 6 6 ph 6 6 
+
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
-
 Analysis of LV round 3 dngval group 1 (gp40)
 Data  ni=12 no=660 ma=cm
 km
@@ -1770,6 +1766,8 @@ value 1 te 7 7 te 8 8 te 9 9 te 10 10 te 11 11 te 12 12
 value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 
 free ph 2 1 ph 3 1 ph 3 2     
+!extra
+free ph 5 5 ph 6 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1812,6 +1810,10 @@ value 0 ly 4 4 ly 5 5 ly 6 6 ly 10 10 ly 11 11 ly 12 12
 eq ph 40 3 1 ph 3 1
  eq ph 40 3 2 ph 3 2
  eq ph 40 2 1 ph 2 1
+
+!exta
+eq ph 40 5 5 ph 5 5
+eq ph 40 6 6 ph 6 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
@@ -1857,6 +1859,10 @@ eq ph 40 3 1 ph 3 1
 eq ph 40 3 2 ph 3 2
 eq ph 40 2 1 ph 2 1
 
+!exta
+eq ph 40 5 5 ph 5 5
+eq ph 40 6 6 ph 6 6
+
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
 
@@ -1894,7 +1900,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2     
 
 !extra
-free ga 3 3 ga 6 3 
+free ga 3 3 ga 6 3 ph 5 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1941,7 +1947,7 @@ eq ph 43 3 1 ph 3 1
 !extra 
 eq ga 43 3 3 ga 3 3 
 eq ga 43 6 3 ga 6 3 
-
+eq ph 43 5 5 ph 5 5
 
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
@@ -1991,12 +1997,11 @@ eq ph 43 2 1 ph 2 1
 !extra 
 eq ga 43 3 3 ga 3 3 
 eq ga 43 6 3 ga 6 3 
-
+eq ph 43 5 5 ph 5 5
 
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
-
 Analysis of NO round 3 dngval group 1 (gp46)
 Data  ni=12 no=155 ma=cm
 km
@@ -2270,7 +2275,6 @@ eq ga 49 6 3 ga 6 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
-
 Analysis of PT round 3 dngval group 1 (gp52)
 Data  ni=12 no=776 ma=cm
 km
@@ -2305,7 +2309,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2     
 
 !extra
-fr ph 7 7
+fr ph 7 7 ph 5 5 ga 9 3 ga 11 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -2351,6 +2355,9 @@ eq ph 52 3 1 ph 3 1
 
 !extra
 eq ph 52 7 7 ph 7 7
+eq ph 52 5 5 ph 5 5 
+eq ga 52 9 3 ga 9 3
+eq ga 52 11 2 ga 11 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
@@ -2398,6 +2405,9 @@ eq ph 52 2 1 ph 2 1
 
 !extra
 eq ph 52 7 7 ph 7 7
+eq ph 52 5 5 ph 5 5 
+eq ga 52 9 3 ga 9 3
+eq ga 52 11 2 ga 11 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
@@ -2532,7 +2542,6 @@ eq ph 55 7 7 ph 7 7
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
-
 Analysis of RU round 3 dngval group 1 (gp58)
 Data  ni=12 no=806 ma=cm
 km
@@ -2778,7 +2787,6 @@ eq ph 61 2 1 ph 2 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
-
 Analysis of SK round 3 dngval group 1 (gp64)
 Data  ni=12 no=594 ma=cm
 km
@@ -3032,6 +3040,9 @@ eq ph 67 2 1 ph 2 1
 pd
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
+
+
+
 
 
 
