@@ -120,7 +120,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 1 1 1 te 1 1
 equal te 1 2 2 te 2 2
@@ -238,7 +239,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3
+va -1  ly 10 10 ly 11 11 ly 12 12
 
 equal te 4 1 1 te 1 1
 equal te 4 2 2 te 2 2
@@ -366,7 +368,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 7 1 1 te 1 1
 equal te 7 2 2 te 2 2
@@ -419,7 +422,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2     
 
 !extra
-free ga 3 3 ga 6 3
+free te 6 3 
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -464,8 +467,7 @@ eq ph 10 3 1 ph 3 1
  eq ph 10 2 1 ph 2 1
 
 !extra 
-eq ga 10 3 3 ga 3 3
-eq ga 10 6 3 ga 6 3 
+free te 9 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
@@ -497,7 +499,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 10 1 1 te 1 1
 equal te 10 2 2 te 2 2
@@ -511,8 +514,7 @@ eq ph 10 3 2 ph 3 2
 eq ph 10 2 1 ph 2 1
 
 !extra 
-eq ga 10 3 3 ga 3 3 
-eq ga 10 6 3 ga 6 3 
+free te 12 3
 
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
@@ -552,7 +554,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2     
 
 !extra
-free ga 3 3 ga 6 3
+free te 6 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -597,8 +599,7 @@ eq ph 13 3 2 ph 3 2
 eq ph 13 2 1 ph 2 1
 
 !extra 
-eq ga 13 3 3 ga 3 3 
-eq ga 13 6 3 ga 6 3 
+free te 9 3 
 
 
 
@@ -632,7 +633,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 13 1 1 te 1 1
 equal te 13 2 2 te 2 2
@@ -646,8 +648,7 @@ eq ph 13 3 2 ph 3 2
 eq ph 13 2 1 ph 2 1
 
 !extra 
-eq ga 13 3 3 ga 3 3 
-eq ga 13 6 3 ga 6 3 
+free te 12 3
 
 
 
@@ -767,7 +768,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 16 1 1 te 1 1
 equal te 16 2 2 te 2 2
@@ -902,7 +904,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 19 1 1 te 1 1
 equal te 19 2 2 te 2 2
@@ -1029,7 +1032,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 22 1 1 te 1 1
 equal te 22 2 2 te 2 2
@@ -1158,7 +1162,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3
+va -1  ly 10 10 ly 11 11 ly 12 12
 
 equal te 25 1 1 te 1 1
 equal te 25 2 2 te 2 2
@@ -1294,7 +1299,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 28 1 1 te 1 1
 equal te 28 2 2 te 2 2
@@ -1431,7 +1437,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3
+va -1  ly 10 10 ly 11 11 ly 12 12
 
 equal te 31 1 1 te 1 1
 equal te 31 2 2 te 2 2
@@ -1558,7 +1565,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3
+va -1  ly 10 10 ly 11 11 ly 12 12
 
 equal te 34 1 1 te 1 1
 equal te 34 2 2 te 2 2
@@ -1679,7 +1687,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 37 1 1 te 1 1
 equal te 37 2 2 te 2 2
@@ -1800,7 +1809,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3
+va -1  ly 10 10 ly 11 11 ly 12 12
 
 equal te 40 1 1 te 1 1
 equal te 40 2 2 te 2 2
@@ -1930,7 +1940,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 43 1 1 te 1 1
 equal te 43 2 2 te 2 2
@@ -2066,7 +2077,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 46 1 1 te 1 1
 equal te 46 2 2 te 2 2
@@ -2202,7 +2214,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 49 1 1 te 1 1
 equal te 49 2 2 te 2 2
@@ -2335,7 +2348,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 52 1 1 te 1 1
 equal te 52 2 2 te 2 2
@@ -2465,7 +2479,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3
+va -1  ly 10 10 ly 11 11 ly 12 12
 
 equal te 55 1 1 te 1 1
 equal te 55 2 2 te 2 2
@@ -2589,7 +2604,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 58 1 1 te 1 1
 equal te 58 2 2 te 2 2
@@ -2712,7 +2728,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3 
+va -1 ly 10 10 ly 11 11 ly 12 12
 
 equal te 61 1 1 te 1 1
 equal te 61 2 2 te 2 2
@@ -2839,7 +2856,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3
+va -1  ly 10 10 ly 11 11 ly 12 12
 
 equal te 64 1 1 te 1 1
 equal te 64 2 2 te 2 2
@@ -2963,7 +2981,8 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 10 10 ly 11 11 ly 12 12
+value 1 ly 1 1 ly 2 2 ly 3 3
+va -1  ly 10 10 ly 11 11 ly 12 12
 
 equal te 67 1 1 te 1 1
 equal te 67 2 2 te 2 2
