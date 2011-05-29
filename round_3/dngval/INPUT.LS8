@@ -405,10 +405,11 @@ eq ph 7 2 1 ph 2 1
 !eq ga 7 1 1 ga 1 1
 fr ph 7 7
 fr ph 2 1
-
+fr te 3 12
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
+
 Analysis of CH round 3 dngval group 1 (gp10)
 Data  ni=12 no=574 ma=cm
 km
@@ -443,7 +444,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2     
 
 !extra
-free ga 3 3
+!free ga 3 3
 free  ga 6 3 ga 9 3 ga 12 7 
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -489,7 +490,7 @@ eq ph 10 3 1 ph 3 1
  eq ph 10 2 1 ph 2 1
 
 !extra 
-eq ga 10 3 3 ga 3 3 
+!eq ga 10 3 3 ga 3 3 
 eq ga 10 6 3 ga 6 3
 eq ga 10 9 3 ga 9 3
 !eq ga 10 12 3 ga 12 3 
@@ -540,7 +541,7 @@ eq ph 10 3 2 ph 3 2
 eq ph 10 2 1 ph 2 1
 
 !extra 
-eq ga 10 3 3 ga 3 3 
+!eq ga 10 3 3 ga 3 3 
 eq ga 10 6 3 ga 6 3
 eq ga 10 9 3 ga 9 3
 !eq ga 10 12 3 ga 12 3
