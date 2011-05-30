@@ -2462,7 +2462,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2     
 
 !extra
-fr ph 7 7 te 6 3
+fr ph 7 7 ga 6 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -2507,7 +2507,10 @@ eq ph 55 3 2 ph 3 2
 eq ph 55 2 1 ph 2 1
 
 !extra
-eq ph 55 7 7 ph 7 7 te 9 3
+eq ph 55 7 7 ph 7 7  
+eq ga 55 6 3 ga 6 3
+free te 9 3
+
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
@@ -2554,10 +2557,13 @@ eq ph 55 3 2 ph 3 2
 eq ph 55 2 1 ph 2 1
 
 !extra
-eq ph 55 7 7 ph 7 7 te 12 3
+eq ph 55 7 7 ph 7 7  
+eq ga 55 6 3 ga 6 3
+free te 12 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
+
 Analysis of RU round 3 dngval group 1 (gp58)
 Data  ni=12 no=806 ma=cm
 km
