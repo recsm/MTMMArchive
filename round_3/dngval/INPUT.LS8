@@ -2286,7 +2286,7 @@ eq ph 49 2 1 ph 2 1
 !extra 
 !eq ga 49 3 3 ga 3 3 
 !eq ga 49 6 3 ga 6 3 
-free te 12 3
+free ga 12 3
 
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
