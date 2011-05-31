@@ -544,7 +544,7 @@ eq ph 10 3 2 ph 3 2
 eq ph 10 2 1 ph 2 1
 
 !extra 
-fre te 3 12
+!fre te 3 12
 eq ga 10 12 7 ga 12 7 
 eq ga 10 9 3 ga 9 3
 eq ga 10 6 3 ga 6 3
