@@ -796,7 +796,7 @@ free ph 2 1
 va .0001 ph 3 1 ph 3 2   
 
 !extra 
-fr ga 6 3 ! ga 2 2 ph 4 4
+fr ga 3 3  !ga 2 2 ph 4 4
 
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -838,7 +838,7 @@ eq ph 23 3 2 ph 3 2
 eq ph 23 2 1 ph 2 1  
 
 !extra 
-eq ga 23 6 3 ga 6 3
+eq ga 23 3 3 ga 3 3
 !eq ga 23 2 2 ga 2 2 
 !eq ph 23 4 4 ph 4 4
 fr te 8 2
