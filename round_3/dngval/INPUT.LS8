@@ -2605,7 +2605,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !extra
 free ga 6 3 ga 9 3 !ga 12 3
-free ga 1 1
+free  ga 1 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
