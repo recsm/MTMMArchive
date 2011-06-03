@@ -1598,7 +1598,7 @@ eq ph 41 2 1 ph 2 1
 !eq ga 41 2 2 ga 2 2 
 eq ga 41 3 3 ga 3 3
 !eq ga 41 6 3 ga 6 3
-fr te 7 1 te 8 2 te 9 3 
+fr te 7 1 te 8 2 te 9 3 te 9 2
 
 pd
 start .7 te 7 7 te 8 8 te 9 9
