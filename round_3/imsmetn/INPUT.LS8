@@ -2431,7 +2431,7 @@ eq ph 55 3 2 ph 3 2
 eq ph 55 2 1 ph 2 1
 
 !exra
-fr te 7 1 te 8 2 ga 9 3
+fr te 7 1 te 8 2 ga 9 3 te 9 3
 eq ph 55 6 4 ph 6 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
