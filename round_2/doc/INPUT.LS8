@@ -351,6 +351,7 @@ free ph 2 1 ph 3 1 ph 3 2
 fr te 6 5 te 3 1 ga 5 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+!st .0001 te 2 2
 out mi iter= 300 adm=off sc
 
 Analysis of group 2 DE (gp10)
@@ -391,8 +392,10 @@ eq ph 9 5 5 ph 5 5
 eq ph 9 6 6 ph 6 6
 eq ga 9 5 2 ga 5 2
 !fr te 7 2
+fr te 9 8
 
 start .7 te 7 7 te 8 8 te 9 9
+st .0001 te 8 8
 out mi iter= 300 adm=off sc 
 
 Analysis of round 2 DK doc group 1 (gp11)
