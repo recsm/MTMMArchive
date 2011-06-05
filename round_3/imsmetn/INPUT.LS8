@@ -2455,7 +2455,7 @@ eq ph 55 3 2 ph 3 2
 eq ph 55 2 1 ph 2 1
 
 !exra
-fr te 7 1 te 8 2  ga 9 3
+fr te 7 1 te 8 2  ga 9 3 te 2 1
 eq ph 55 6 4 ph 6 4
 eq ph 55 7 4 ph 7 4
 
@@ -2506,7 +2506,7 @@ eq ph 55 2 1 ph 2 1
 !extra
 eq ph 55 6 4 ph 6 4
 eq ga 55 9 3 ga 9 3
-fr te 10 1 te 2 1
+fr te 10 1 
 eq ph 55 7 4 ph 7 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
