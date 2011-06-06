@@ -2851,7 +2851,7 @@ eq ph 64 2 1 ph 2 1
 
 !extra
 eq ga 64 3 3 ga 3 3
-
+eq ga 64 7 6 ga 7 6
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
 
