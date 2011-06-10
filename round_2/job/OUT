@@ -1,6 +1,6 @@
 
-                                DATE:  5/27/2011
-                                  TIME: 13:45
+                                DATE:  6/10/2011
+                                  TIME:  9:16
 
 
                          LISREL 8.80 (STUDENT EDITION)
@@ -1544,6 +1544,7 @@
   
  !fr ga 5 2
  !fr ga 8 2
+ !fr ga 2 2
   
  start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
  out mi iter= 300 adm=off sc
@@ -1596,6 +1597,7 @@
   
  eq ga 31 5 2 ga 5 2
  eq ga 31 8 2 ga 8 2
+ eq ga 31 2 2 ga 2 2
   
  start .7 te 7 7 te 8 8 te 9 9
  out mi iter= 300 adm=off sc
@@ -44922,4 +44924,4 @@
             --------   --------   --------
                0.620      0.179      0.344
 
-                           Time used:    7.562 Seconds
+                           Time used:    7.250 Seconds
