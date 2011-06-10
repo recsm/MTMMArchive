@@ -2,7 +2,7 @@ Analysis of round 2 satisf group 1 GB
 Data ng=46 ni=9 no=627 ma=cm
 !46 gps prq ya NO!!! mis en dernier
  km	
-*	
+*	
 1        
 0.58761476511586 1       
 0.539198208918416 0.683250410466039 1      
@@ -756,7 +756,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !Extra
 !fr ga 5 5 ga 3 3 ga 7 6 
-fr ph 6 6 ph 5 5 ga 3 3 ga 7 6 ph 6 4
+fr ph 6 6 ph 5 5 ga 3 3 ga 7 6 ph 6 4 ga 1 4
 !ph 6 4 ph 5 4 ga 2 2 ga 8 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -810,6 +810,7 @@ eq ga 19 2 2 ga 2 2
 eq ga 19 8 2 ga 8 2
 eq ph 19 5 5 ph 5 5
 eq ph 19 6 4 ph 6 4
+eq ga 19 1 4 ga 1 4
 
 start .7 te 7 7 te 8 8 te 9 9
 st .0001 te 7 7
