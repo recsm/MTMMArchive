@@ -1410,7 +1410,6 @@ eq ph 35 5 5 ph 5 5
 eq ga 35 9 6 ga 9 6
 eq ga 35 9 3 ga 9 3 
 eq ga 35 3 4 ga 3 4
-!eq ga 35 9 3 ga 6 3
 eq ph 35 4 4 ph 4 4
 
 

@@ -1,6 +1,6 @@
 
                                 DATE:  6/13/2011
-                                  TIME: 13:25
+                                  TIME: 13:28
 
 
                                 L I S R E L  8.72
@@ -1785,7 +1785,6 @@
  eq ga 35 9 6 ga 9 6
  eq ga 35 9 3 ga 9 3
  eq ga 35 3 4 ga 3 4
- !eq ga 35 9 3 ga 6 3
  eq ph 35 4 4 ph 4 4
   
   
@@ -48989,4 +48988,4 @@
             --------   --------   --------
                0.472      0.198      0.150
 
-                           Time used:   10.156 Seconds
+                           Time used:   10.781 Seconds
