@@ -1,6 +1,6 @@
 
                                 DATE:  6/13/2011
-                                  TIME: 20:47
+                                  TIME: 20:50
 
 
                                 L I S R E L  8.72
@@ -330,8 +330,6 @@
  va 1 lx 2 5
  va 0 td 1 1
  va 0 td 2 2
-  
-  
   
  !start .5 all
  start .7 te 7 7 te 8 8 te 9 9
@@ -6986,4 +6984,4 @@
    ETA 11        - -        - -        - -      -0.06      -0.06
    ETA 12        - -        - -        - -      -0.20       0.13
 
-                           Time used:    0.686 Seconds
+                           Time used:    0.671 Seconds
