@@ -1906,7 +1906,7 @@ va 0 td 1 1
 va 0 td 2 2
 
 !extra
-fre be 8 11
+fre be 8 11 be 7 10
 
 !start .5 all
 start .7 te 7 7 te 8 8 te 9 9
