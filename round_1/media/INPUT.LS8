@@ -209,7 +209,7 @@ va 1 lx 1 4 lx 2 5
 va 0 td 1 1 td 2 2
 
 !extra 
-!fr te 5 2
+fr te 5 2
 
 
 !start .5 all
@@ -285,7 +285,7 @@ va 0 td 1 1
 va 0 td 2 2
 
 !extra
-fr te 8 2
+!fr te 8 2
 
 
 
