@@ -1,6 +1,6 @@
 
                                 DATE:  6/13/2011
-                                  TIME: 13:28
+                                  TIME: 13:32
 
 
                                 L I S R E L  8.72
@@ -1731,7 +1731,6 @@
   
  !extra
  free ph 5 5 ga 9 6 ga 9 3
- ! ga 3 4
   
  start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
  st .0001 te 4 4
@@ -48988,4 +48987,4 @@
             --------   --------   --------
                0.472      0.198      0.150
 
-                           Time used:   10.781 Seconds
+                           Time used:    9.984 Seconds
