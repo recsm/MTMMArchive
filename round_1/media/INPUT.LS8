@@ -1,5 +1,5 @@
 Experiment=1, name=media, country=AT, sb_group=1 (gp1)
-data ng=6 ni=11 no=1273 ma=cm 
+data ng=8 ni=11 no=1273 ma=cm 
 !add ng= number of group in first group
 
 KM
