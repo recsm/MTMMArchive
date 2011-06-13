@@ -1630,6 +1630,9 @@ va 1 lx 2 5
 va 0 td 1 1
 va 0 td 2 2
 
+!extra
+fr be 8 11 
+
 !start .5 all
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 1000 adm=off sc ns
@@ -1690,7 +1693,8 @@ va 1 lx 1 4 lx 2 5
 va 0 td 1 1 td 2 2
 
 !extra
-fr te 8 7 !te 2 1
+!fr te 8 7 !te 2 1
+fr te 6 4
 
 !start .5 all
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
