@@ -1556,6 +1556,9 @@ fr ga 10 5 ga 11 5 ga 12 5
 va 1 lx 1 4 lx 2 5
 va 0 td 1 1 td 2 2
 
+!extra
+fr te 2 1 
+
 !start .5 all
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1685,6 +1688,9 @@ fr ga 10 5 ga 11 5 ga 12 5
 
 va 1 lx 1 4 lx 2 5
 va 0 td 1 1 td 2 2
+
+!extra
+fr te 8 7 !te 2 1
 
 !start .5 all
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
