@@ -1833,6 +1833,7 @@ va 0 td 1 1 td 2 2
 
 !extra
 fre te 6 4
+fre be 8 11 be 7 10
 
 !start .5 all
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -1906,7 +1907,8 @@ va 0 td 1 1
 va 0 td 2 2
 
 !extra
-fre be 8 11 be 7 10
+eq be 27 8 11 be 8 11 
+eq be 27 7 10 be 7 10
 
 !start .5 all
 start .7 te 7 7 te 8 8 te 9 9
@@ -2098,7 +2100,7 @@ va 1 lx 1 4 lx 2 5
 va 0 td 1 1 td 2 2
 
 !extra
-!fr be 8 11
+fr be 2 11
 
 !start .5 all
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -2172,7 +2174,7 @@ va 0 td 1 1
 va 0 td 2 2
 
 !extra
-!eq be 31 5 11 be 5 11
+eq be 31 2 11 be 2 11
 !eq be 31 8 11 be 8 11
 
 !start .5 all
