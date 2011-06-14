@@ -900,7 +900,7 @@ fr ga 4 5
 !fr ga 4 4
 !fr ga 1 1
 fr ph 6 4
-!fr ga 4 1
+fr ga 4 1
 
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -952,7 +952,7 @@ eq ga 21 4 5 ga 4 5
 !eq ga 21 4 4 ga 4 4
 !eq ga 21 1 1 ga 1 1
 eq ph 21 6 4 ph 6 4
-!eq ga 21 4 1 ga 4 1
+eq ga 21 4 1 ga 4 1
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
