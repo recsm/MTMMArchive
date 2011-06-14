@@ -1,6 +1,6 @@
 
                                 DATE:  6/14/2011
-                                  TIME:  9:34
+                                  TIME:  9:41
 
 
                                 L I S R E L  8.72
@@ -2549,6 +2549,9 @@
   
  va 1 lx 1 4 lx 2 5
  va 0 td 1 1 td 2 2
+  
+ !extra
+ fr te 8 2
   
  !start .5 all
  start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
@@ -5996,13 +5999,23 @@
 
                tvtot      rdtot    nwsptot      test1      test2      test3
             --------   --------   --------   --------   --------   --------
-                 420        421        422        423        424        425
+    tvtot        420
+    rdtot          0        421
+  nwsptot          0          0        422
+    test1          0          0          0        423
+    test2          0          0          0          0        424
+    test3          0          0          0          0          0        425
+   test19          0          0          0          0          0          0
+   test20          0        426          0          0          0          0
+   test21          0          0          0          0          0          0
 
          THETA-EPS   
 
               test19     test20     test21
             --------   --------   --------
-                   0          0          0
+   test19          0
+   test20          0          0
+   test21          0          0          0
 
 
  Experiment=1, name=media, country=PT, sb_group=2 (gp34)                        
@@ -6078,7 +6091,7 @@
 
               test19     test20     test21
             --------   --------   --------
-                 426        427        428
+                 427        428        429
 
 
  Experiment=1, name=media, country=SE, sb_group=1 (gp35)                        
@@ -6099,7 +6112,7 @@
 
                tvtot      rdtot    nwsptot      test1      test2      test3
             --------   --------   --------   --------   --------   --------
-                 444        445        446        447        448        449
+                 445        446        447        448        449        450
 
          THETA-EPS   
 
@@ -6129,9 +6142,9 @@
     ETA 7          0          0          0          0          0
     ETA 8          0          0          0          0          0
     ETA 9          0          0          0          0          0
-   ETA 10          0          0          0        429        430
-   ETA 11          0          0          0        431        432
-   ETA 12          0          0          0        433        434
+   ETA 10          0          0          0        430        431
+   ETA 11          0          0          0        432        433
+   ETA 12          0          0          0        434        435
 
          PHI         
 
@@ -6140,8 +6153,8 @@
     KSI 1         13
     KSI 2          0         14
     KSI 3          0          0         15
-    KSI 4          0          0          0        435
-    KSI 5          0          0          0        436        437
+    KSI 4          0          0          0        436
+    KSI 5          0          0          0        437        438
 
          PSI         
 
@@ -6167,21 +6180,21 @@
     ETA 7          0
     ETA 8          0          0
     ETA 9          0          0          0
-   ETA 10          0          0          0        438
-   ETA 11          0          0          0        439        440
-   ETA 12          0          0          0        441        442        443
+   ETA 10          0          0          0        439
+   ETA 11          0          0          0        440        441
+   ETA 12          0          0          0        442        443        444
 
          THETA-EPS   
 
                tvtot      rdtot    nwsptot      test1      test2      test3
             --------   --------   --------   --------   --------   --------
-                 444        445        446          0          0          0
+                 445        446        447          0          0          0
 
          THETA-EPS   
 
               test19     test20     test21
             --------   --------   --------
-                 450        451        452
+                 451        452        453
 
 
  Experiment=1, name=media, country=SI, sb_group=1 (gp37)                        
@@ -6202,7 +6215,7 @@
 
                tvtot      rdtot    nwsptot      test1      test2      test3
             --------   --------   --------   --------   --------   --------
-                 468        469        470        471        472        473
+                 469        470        471        472        473        474
 
          THETA-EPS   
 
@@ -6262,9 +6275,9 @@
     ETA 7          0          0          0          0          0
     ETA 8          0          0          0          0          0
     ETA 9          0          0          0          0          0
-   ETA 10          0          0          0        453        454
-   ETA 11          0          0          0        455        456
-   ETA 12          0          0          0        457        458
+   ETA 10          0          0          0        454        455
+   ETA 11          0          0          0        456        457
+   ETA 12          0          0          0        458        459
 
          PHI         
 
@@ -6273,8 +6286,8 @@
     KSI 1         13
     KSI 2          0         14
     KSI 3          0          0         15
-    KSI 4          0          0          0        459
-    KSI 5          0          0          0        460        461
+    KSI 4          0          0          0        460
+    KSI 5          0          0          0        461        462
 
          PSI         
 
@@ -6300,21 +6313,21 @@
     ETA 7          0
     ETA 8          0          0
     ETA 9          0          0          0
-   ETA 10          0          0          0        462
-   ETA 11          0          0          0        463        464
-   ETA 12          0          0          0        465        466        467
+   ETA 10          0          0          0        463
+   ETA 11          0          0          0        464        465
+   ETA 12          0          0          0        466        467        468
 
          THETA-EPS   
 
                tvtot      rdtot    nwsptot      test1      test2      test3
             --------   --------   --------   --------   --------   --------
-                 468        469        470          0          0          0
+                 469        470        471          0          0          0
 
          THETA-EPS   
 
               test19     test20     test21
             --------   --------   --------
-                 474        475        476
+                 475        476        477
  
 
 
@@ -50460,11 +50473,11 @@
 
                         Global Goodness of Fit Statistics
 
-                            Degrees of Freedom = 2032
+                            Degrees of Freedom = 2031
                Minimum Fit Function Chi-Square = 2709.52 (P = 0.0)
        Normal Theory Weighted Least Squares Chi-Square = 2720.04 (P = 0.0)
-                Estimated Non-centrality Parameter (NCP) = 688.04
-            90 Percent Confidence Interval for NCP = (556.24 ; 827.89)
+                Estimated Non-centrality Parameter (NCP) = 689.04
+            90 Percent Confidence Interval for NCP = (557.22 ; 828.91)
  
                         Minimum Fit Function Value = 0.11
                 Population Discrepancy Function Value (F0) = 0.029
@@ -50480,20 +50493,20 @@
  
     Chi-Square for Independence Model with 2090 Degrees of Freedom = 47237.81
                            Independence AIC = 48073.81
-                               Model AIC = 3672.04
+                               Model AIC = 3674.04
                              Saturated AIC = 5016.00
                            Independence CAIC = 51874.09
-                               Model CAIC = 7999.63
+                               Model CAIC = 8010.72
                             Saturated CAIC = 27817.69
  
                           Normed Fit Index (NFI) = 0.94
                         Non-Normed Fit Index (NNFI) = 0.98
                      Parsimony Normed Fit Index (PNFI) = 0.92
                         Comparative Fit Index (CFI) = 0.98
-                        Incremental Fit Index (IFI) = 0.99
+                        Incremental Fit Index (IFI) = 0.98
                          Relative Fit Index (RFI) = 0.94
  
-                            Critical N (CN) = 19420.79
+                            Critical N (CN) = 19411.57
  
 
 
@@ -65792,4 +65805,4 @@
    ETA 11        - -        - -        - -      -0.06      -0.02
    ETA 12        - -        - -        - -      -0.25       0.09
 
-                           Time used:   38.361 Seconds
+                           Time used:   38.657 Seconds
