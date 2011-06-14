@@ -21,12 +21,12 @@ sd
 
 model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=fu,fi ga=fu,fi ph=sy,fi
 
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+value 1 ly 1 1 ly 2 2 ly 3 3 
+value -1 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9 
-
 free ga 1 1 ga 2 2 ga 3 3
 free ga 4 1 ga 5 2 ga 6 3 
 free ga 7 1 ga 8 2 ga 9 3
