@@ -192,8 +192,8 @@ equal ph 1 2 2 ph 2 2
 equal ph 1 3 3 ph 3 3
 
 !variance empl et polint
-!fr ph 4 4 ph 5 5
-!fr ph 5 4
+fr ph 4 4 ph 5 5
+fr ph 5 4
 
 !empl and polint on traits
 fr ga 10 4 ga 11 4 ga 12 4
