@@ -195,7 +195,7 @@ eq ph 1 6 6 ph 6 6
 free ph 2 1 ph 3 1 ph 3 2   
 
 !fr ph 6 6
-fr ph 5 5
+!fr ph 5 5
 
 !fr ph 6 4
 
@@ -461,7 +461,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 fr ph 6 6
 
-fr ph 5 5
+!fr ph 5 5
 
 !fr ph 5 4
 
