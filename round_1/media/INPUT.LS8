@@ -2075,9 +2075,6 @@ fr ga 10 5 ga 11 5 ga 12 5
 va 1 lx 1 4 lx 2 5
 va 0 td 1 1 td 2 2
 
-!extra
-fre be 2 11 be 8 11
-
 !start .5 all
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -2149,10 +2146,6 @@ va 1 lx 2 5
 va 0 td 1 1
 va 0 td 2 2
 
-!extra
-eq be 31 2 11 be 2 11
-eq be 31 8 11 be 8 11
-
 !start .5 all
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 1000 adm=off sc ns
@@ -2212,6 +2205,7 @@ fr ga 10 5 ga 11 5 ga 12 5
 va 1 lx 1 4 lx 2 5
 va 0 td 1 1 td 2 2
 
+!extra
 
 
 !start .5 all
@@ -2284,6 +2278,9 @@ va 1 lx 1 4
 va 1 lx 2 5
 va 0 td 1 1
 va 0 td 2 2
+
+!extra 
+
 
 !start .5 all
 start .7 te 7 7 te 8 8 te 9 9
