@@ -525,7 +525,7 @@ eq ga 13 2 2 ga 2 2
 eq ga 13 8 2 ga 8 2
 eq ga 13 5 2 ga 5 2
 eq ph 13 5 5 ph 5 5
-!fr te 8 2
+fr te 8 2
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
