@@ -745,6 +745,7 @@ fr ph 4 4 ph 5 4
 fr ga 7 6  
 !fr ga 5 5 ga 4 1 ga 5 2 ga 2 4 
 fr ga 1 1  ga 1 4 ga 6 5 ga 7 1
+fr te 4 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
