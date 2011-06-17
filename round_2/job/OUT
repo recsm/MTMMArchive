@@ -1,6 +1,6 @@
 
                                 DATE:  6/17/2011
-                                  TIME: 10:55
+                                  TIME: 11:02
 
 
                                 L I S R E L  8.72
@@ -673,12 +673,8 @@
  eq ph 13 3 2 ph 3 2
  eq ph 13 2 1 ph 2 1
   
- eq ph 13 4 4 ph 4 4
- eq ga 13 8 2 ga 8 2
- eq ga 13 8 6 ga 8 6
-  
-  
  !extra
+ eq ph 13 4 4 ph 4 4
  !eq ph 13 6 6 ph 6 6
  eq ga 13 2 2 ga 2 2
  eq ga 13 8 2 ga 8 2
