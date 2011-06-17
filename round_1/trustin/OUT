@@ -1,6 +1,6 @@
 
                                 DATE:  6/17/2011
-                                  TIME: 18:49
+                                  TIME: 18:57
 
 
                                 L I S R E L  8.72
@@ -1459,8 +1459,8 @@
   
  free ph 2 1 ph 3 1 ph 3 2
  !extra
- fr ga 2 4 ga 9 6
- !fr ph 6 6
+ fr ga 2 4 ga 1 1 ga 9 6
+ !fr ph 6 6 ga 9 3
  fr ph 4 4 ph 5 4
  fr ga 1 1 ga 3 3
   
@@ -1522,6 +1522,7 @@
  eq ph 27 5 4 ph 5 4
  eq ga 27 1 1 ga 1 1
  eq ga 27 3 3 ga 3 3
+ !eq ga 27 9 3 ga 9 3
  start .7 te 7 7 te 8 8 te 9 9
  out mi iter= 300 adm=off sc
 
