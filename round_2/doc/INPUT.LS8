@@ -1,5 +1,5 @@
 Analysis of round 2 doc group 1 GB
-Data ng=44 ni=9 no=627 ma=cm
+Data ng=42 ni=9 no=627 ma=cm
 !44 gps prq ya PAS NO!!! 
  km		
 1        
@@ -103,6 +103,9 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 
 free ph 2 1 ph 3 1 ph 3 2   
 
+!Extra
+fr te 6 5 ga 8 2 ga 1 1
+
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -139,6 +142,11 @@ eq ph 3 3 1 ph 3 1
 eq ph 3 3 2 ph 3 2
 eq ph 3 2 1 ph 2 1 
 
+!Extra
+eq ga 3 8 2 ga 8 2
+eq ga 3 1 1 ga 1 1
+fr te 9 2
+
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -168,6 +176,8 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
+!Extra
+fr ga 9 3 ph 5 5 ga 8 2 te 6 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -205,6 +215,11 @@ eq ph 5 3 1 ph 3 1
 eq ph 5 3 2 ph 3 2
 eq ph 5 2 1 ph 2 1 
 
+!Extra
+eq ga 5 9 3 ga 9 3
+eq ph 5 5 5 ph 5 5
+eq ga 5 8 2 ga 8 2
+  
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -236,7 +251,9 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-free ph 5 5 ph 5 4
+!free ph 5 5 
+!ph 5 4
+fr ga 7 1 te 6 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -275,8 +292,10 @@ eq ph 7 3 2 ph 3 2
 eq ph 7 2 1 ph 2 1 
 
 !extra
-eq ph 7 5 5 ph 5 5
-eq ph 7 5 4 ph 5 4
+!eq ph 7 5 5 ph 5 5
+!eq ph 7 5 4 ph 5 4
+eq ga 7 7 1 ga 7 1
+fr te 9 2 te 7 1
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -309,7 +328,8 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-free ga 4 5 ph 5 5
+free te 6 5 te 3 1 ga 5 2
+!ga45 ph 5 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -350,6 +370,8 @@ eq ph 9 2 1 ph 2 1
 !extra
 eq ga 9 4 5 ga 4 5
 eq ph 9 5 5 ph 5 5 
+eq ga 9 5 2 ga 5 2
+fr te 9 8
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -380,6 +402,9 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
+
+!Extra 
+fr ga 5 2 ga 8 2 ga 1 1 ga 9 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -417,6 +442,13 @@ eq ph 11 3 1 ph 3 1
 eq ph 11 3 2 ph 3 2
 eq ph 11 2 1 ph 2 1 
 
+!Extra
+eq ga 11 5 2 ga 5 2
+eq ga 11 8 2 ga 8 2
+eq ga 11 1 1 ga 1 1
+eq ga 11 9 3 ga 9 3
+fr te 9 2
+
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -448,7 +480,8 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-fr ga 4 5 ph 5 5
+!fr ga 4 5 ph 5 5
+fr te 6 5 ga 3 3 te 4 1 ga 1 1 te 5 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -489,6 +522,9 @@ eq ph 13 2 1 ph 2 1
 !extra
 eq ga 13 4 5 ga 4 5
 eq ph 13 5 5 ph 5 5
+eq ga 13 3 3 ga 3 3
+eq ga 13 1 1 ga 1 1
+fr te 8 3
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -520,10 +556,13 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 
 free ph 2 1 ph 3 1 ph 3 2   
 
+!Extra
+fr ga 4 1 ga 9 3 ga 7 1 ga 8 2
+
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc nd=3
 
-Analysis of group 2 ES (gp 16)
+Analysis of group 2 ES (gp16)
 Data ni=9 no=535 ma=cm
 km
 1        
@@ -555,6 +594,12 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 15 3 1 ph 3 1
 eq ph 15 3 2 ph 3 2
 eq ph 15 2 1 ph 2 1  
+
+!Extra
+eq ga 15 4 1 ga 4 1
+eq ga 15 9 3 ga 9 3
+eq ga 15 7 1 ga 7 1
+eq ga 15 8 2 ga 8 2
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -622,6 +667,7 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 17 3 1 ph 3 1
 eq ph 17 3 2 ph 3 2
 eq ph 17 2 1 ph 2 1 
+fr te 9 8
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
@@ -657,7 +703,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-free ph 5 5
+free ph 5 5 ga 5 2 te 4 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -700,11 +746,14 @@ eq ph 19 2 1 ph 2 1
 
 !extra
 eq ph 19 5 5 ph 5 5
+eq ga 19 5 2 ga 5 2
+fr te 9 2 te 9 3
+
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
-Analysis of round 2 AT doc group 1 (gp 21)
+Analysis of round 2 AT doc group 1 (gp21)
 Data ni=9 no=787 ma=cm
 km		
 1        
@@ -732,7 +781,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-!eq ph 19 5 5 ph 5 5
+fr ga 7 1 te 6 5 ga 4 1 ga 5 2 ga 3 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -771,7 +820,11 @@ eq ph 21 3 2 ph 3 2
 eq ph 21 2 1 ph 2 1 
 
 !extra
-free te 9 8
+free te 9 8 te 7 1 te 7 3
+eq ga 21 7 1 ga 7 1
+eq ga 21 4 1 ga 4 1
+eq ga 21 5 2 ga 5 2
+eq ga 21 3 3 ga 3 3
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -804,7 +857,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-free ga 4 1
+free ga 4 1 ga 9 3 ga 1 1 te 6 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -843,7 +896,10 @@ eq ph 23 3 2 ph 3 2
 eq ph 23 2 1 ph 2 1  
 
 !extra
-eq ga23 4 1 ga 4 1
+eq ga 23 4 1 ga 4 1
+eq ga 23 9 3 ga 9 3 
+eq ga 23 1 1 ga 1 1
+fr te 9 1 te 9 2
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc  
@@ -877,6 +933,9 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
+
+!Extra
+fr te 6 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -917,6 +976,9 @@ eq ph 25 3 1 ph 3 1
 eq ph 25 3 2 ph 3 2
 eq ph 25 2 1 ph 2 1 
 
+!Extra
+fr te 9 2 te 7 2 te 2 1
+
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -955,7 +1017,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !extra 
 va -1 ly 1 1
-free ph 5 5 ga 9 3
+free ph 5 5 ga 9 3 ga 4 1 ga 8 2 te 6 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1000,6 +1062,9 @@ eq ph 27 2 1 ph 2 1
 va -1 ly 1 1
 eq ph 27 5 5 ph 5 5
 eq ga 27 9 3 ga 9 3
+eq ga 27 4 1 ga 4 1
+eq ga 27 8 2 ga 8 2
+fr te 9 7
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
@@ -1030,7 +1095,10 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 value 1 te 7 7 te 8 8 te 9 9 
 value 0 ly 7 7 ly 8 8 ly 9 9
 
-free ph 2 1 ph 3 1 ph 3 2    
+free ph 2 1 ph 3 1 ph 3 2
+
+!Extra
+fr te 6 5 ga 9 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1068,6 +1136,10 @@ eq ph 29 3 1 ph 3 1
 eq ph 29 3 2 ph 3 2
 eq ph 29 2 1 ph 2 1 
 
+!Extra
+eq ga 29 9 3 ga 9 3
+fr te 8 3
+
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -1100,6 +1172,9 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
+
+!Extra
+fr ga 3 3 te 6 5 ga 6 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1140,6 +1215,11 @@ eq ph 31 3 1 ph 3 1
 eq ph 31 3 2 ph 3 2
 eq ph 31 2 1 ph 2 1 
 
+!Extra
+eq ga 31 3 3 ga 3 3
+fr te 9 7
+eq ga 31 6 3 ga 6 3
+
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc
 
@@ -1172,6 +1252,9 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
+
+!Extra
+fr ga 7 1 ga 9 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1209,6 +1292,11 @@ eq ph 33 3 1 ph 3 1
 eq ph 33 3 2 ph 3 2
 eq ph 33 2 1 ph 2 1 
 
+!Extra
+eq ga 33 7 1 ga 7 1
+eq ga 33 9 3 ga 9 3
+fr te 9 2
+
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -1242,9 +1330,8 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-free ga 4 5 !ph 5 5
-fr ga 6 3 ga 5 2 ga 4 1
-fr ga 7 1
+!free ga 4 5 ph 5 5 ga 6 3 
+fr ga 5 2 ga 4 1 ga 7 1 te 6 5 ga 2 2 te 4 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1288,6 +1375,8 @@ eq ga 35 6 3 ga 6 3
 eq ga 35 5 2 ga 5 2
 eq ga 35 4 1 ga 4 1
 eq ga 35 7 1 ga 7 1
+eq ga 35 2 2 ga 2 2
+fr te 9 8
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -1323,7 +1412,10 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-free ga 6 3 ga 5 2 ga 4 1
+!free ga 6 3 ga 5 2 ga 4 1
+fr te 4 1 te 5 2 te 6 3 te 6 2 te 5 3 te 6 5 ph 5 4
+!ga 1 1
+
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1365,6 +1457,9 @@ eq ph 37 2 1 ph 2 1
 eq ga 37 6 3 ga 6 3
 eq ga 37 5 2 ga 5 2
 eq ga 37 4 1 ga 4 1
+!eq ga 37 1 1 ga 1 1
+fr te 8 7
+eq ph 37 5 4 ph 5 4
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -1396,6 +1491,9 @@ value 1 te 7 7 te 8 8 te 9 9
 value 0 ly 7 7 ly 8 8 ly 9 9 
 
 free ph 2 1 ph 3 1 ph 3 2   
+
+!Extra
+fr ga 7 1 ga 6 3 te 6 5 ga 5 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1434,90 +1532,16 @@ eq ph 39 3 1 ph 3 1
 eq ph 39 3 2 ph 3 2
 eq ph 39 2 1 ph 2 1 
 
-start .7 te 7 7 te 8 8 te 9 9
-out mi iter= 300 adm=off sc 
-
-Analysis of round 2 TR doc group 1 (gp41)
-Data ni=9 no=615 ma=cm
-Km
-*
-1        
--0.181748213472455 1       
--0.0592362075248303 0.346136322074855 1      
-0.0617851449884566 0.0195824250656844 -0.00726611858197284 1     
-0.0620698132630725 -0.00554100284014411 -0.0390611773258448 0.937908375336082 1    
-0.0709657700937913 -0.0191996196264597 -0.0876409348945532 0.940037864551264 0.961914158437136 1   
-0 0 0 0 0 0 1  
-0 0 0 0 0 0 0 1 
-0 0 0 0 0 0 0 0 1
-me
-*
-2.41798941798942 2.54251700680272 2.40314136125654 2.78608695652174 2.95254237288136 2.9878892733564  0.00  .000   .000
-sd
-*
-1.02265547422829 1.20754095294207 1.19430052790790 4.13590732910375 4.09701352708966 4.14363332075895  1.00  1.00  1.00
-
-model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
-
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
-fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
-
-value 1 te 7 7 te 8 8 te 9 9 
-value 0 ly 7 7 ly 8 8 ly 9 9 
-
-free ph 2 1 ph 3 1 ph 3 2  
- 
-!extra
-free ph 5 5 ga 6 3 ga 5 2
-
-start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
-out mi iter= 300 adm=off sc
-
-Analysis of group 2 TR (gp42)
-Data ni=9 no=615 ma=cm
-Km
-*
-1        
--0.047163897960832 1       
-0.0295690121856611 0.344355794932641 1      
-0 0 0 1     
-0 0 0 0 1    
-0 0 0 0 0 1   
--0.412361721913991 0.0808216783932754 0.0297450629015045 0 0 0 1  
--0.00203584338351629 -0.582541511217454 -0.171364416389366 0 0 0 -0.0195409835032554 1 
--0.00631733006027061 -0.288119568870124 -0.5466859920292 0 0 0 -0.0506919344072959 0.372138825170485 1
-me
-*
-2.42652329749104 2.61188811188811 2.42142857142857 0.0 0.0 0.0 2.69965277777778 3.07692307692308 3.13636363636364
-sd
-*
-1.02437742637395 1.26646021357679 1.27487265290077 1.0 1.0 1.0 1.02239270133779 1.06431731088562 1.07296309395389
- 
-model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
-
-fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
-
-equal te 41 1 1 te 1 1
-equal te 41 2 2 te 2 2
-equal te 41 3 3 te 3 3
-
-value 1 te 4 4 te 5 5 te 6 6
-value 0 ly 4 4 ly 5 5 ly 6 6  
-
-eq ph 41 3 1 ph 3 1
-eq ph 41 3 2 ph 3 2
-eq ph 41 2 1 ph 2 1 
-
-!extra
-eq ph 41 5 5 ph 5 5 
-eq ga 41 6 3 ga 6 3
-eq ga 41 5 2 ga 5 2
+!Extra
+eq ga 39 7 1 ga 7 1
+eq ga 39 6 3 ga 6 3
+fr te 8 3 te 8 2
+eq ga 39 5 2 ga 5 2
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
-Analysis of round 2 UA doc group 1 (gp43)
+Analysis of round 2 UA doc group 1 (gp nr ch) (gp41)
 Data ni=9 no=690 ma=cm
 Km
 *
@@ -1549,15 +1573,15 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-!free ph 6 4 
-free ph 5 4 ga 1 4 ga 7 6 ga 1 1
-!ph 4 4
-free ga 2 2 ga 3 3 te 5 2 ga 6 3
+!free ph 6 4 ph 5 4 ga 1 4 fr ga 7 6 
+!ga 1 1 ph 4 4 ga 2 2 ga 3 3 te 5 2 ga 6 3
+
+fr te 6 5 ga 3 3 te 3 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
-Analysis of group 2 UA (gp44)
+Analysis of group 2 UA (gp42)
 Data ni=9 no=677 ma=cm
 Km
 *
@@ -1582,27 +1606,28 @@ model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
 fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
 
-equal te 43 1 1 te 1 1
-equal te 43 2 2 te 2 2
-equal te 43 3 3 te 3 3
+equal te 41 1 1 te 1 1
+equal te 41 2 2 te 2 2
+equal te 41 3 3 te 3 3
 
 value 1 te 4 4 te 5 5 te 6 6
 value 0 ly 4 4 ly 5 5 ly 6 6  
 
-eq ph 43 3 1 ph 3 1
-eq ph 43 3 2 ph 3 2
-eq ph 43 2 1 ph 2 1 
+eq ph 41 3 1 ph 3 1
+eq ph 41 3 2 ph 3 2
+eq ph 41 2 1 ph 2 1 
 
 !extra
-!eq ph 43 6 4 ph 6 4
-!eq ph 43 4 4 ph 4 4 
-eq ph 43 5 4 ph 5 4
-eq ga 43 1 4 ga 1 4
-eq ga 43 7 6 ga 7 6
-eq ga 43 1 1 ga 1 1
-eq ga 43 2 2 ga 2 2 
-eq ga 43 3 3 ga 3 3
-eq ga 43 6 3 ga 6 3
+!eq ph 41 6 4 ph 6 4
+!eq ph 41 4 4 ph 4 4 
+!eq ph 41 5 4 ph 5 4
+!eq ga 41 1 4 ga 1 4
+!eq ga 41 7 6 ga 7 6
+!eq ga 41 1 1 ga 1 1
+!eq ga 41 2 2 ga 2 2 
+eq ga 41 3 3 ga 3 3
+!eq ga 41 6 3 ga 6 3
+fr te 7 1 te 8 2 te 9 3 te 9 2 te 8 3
 
 pd
 start .7 te 7 7 te 8 8 te 9 9
