@@ -40,8 +40,8 @@ value 1 ga 7 6 ga 8 6 ga 9 6
 value 1 ga 10 7 ga 11 7 ga 12 7
 
 free ph 3 1 ph 3 2 ph 2 1
-value .2 ph 3 1
-!value .5 ph 2 1
+!value .2 ph 3 1
+value .44 ph 2 1
 value .37 ph 3 2     
 value 1 ph 1 1 ph 2 2 ph 3 3
 
