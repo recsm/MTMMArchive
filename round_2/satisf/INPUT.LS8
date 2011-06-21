@@ -110,6 +110,9 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 
 free ph 2 1 ph 3 1 ph 3 2   
 
+!Extra
+fr ga 4 1 ga 8 6
+
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -145,6 +148,10 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 3 3 1 ph 3 1
 eq ph 3 3 2 ph 3 2
 eq ph 3 2 1 ph 2 1 
+
+!Extra
+eq ga 3 4 1 ga 4 1
+eq ga 3 8 6 ga 8 6
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -334,7 +341,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !Extra
-fr ga 3 3 ga 7 6 ph 5 5 
+fr ga 3 3 ga 7 6 ph 5 5 ga 9 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -376,6 +383,7 @@ eq ph 9 2 1 ph 2 1
 eq ph 9 5 5 ph 5 5
 eq ga 9 3 3 ga 3 3
 eq ga 9 7 6 ga 7 6
+eq ga 9 9 6 ga 9 6
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -562,10 +570,11 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !Extra
-fr ga 6 5 ga 4 5 ph 5 4
+fr ga 6 5 ga 4 5 ph 5 4 
+!te 5 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
-st .0001 te 2 2
+!st .0001 te 2 2
 out mi iter= 300 adm=off sc nd=3
 
 Analysis of group 2 ES (gp 16)
@@ -877,7 +886,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !extra
-!free ph 4 4 ga 2 2 ph54 ph 6 4
+!free ph 4 4 ga 2 2 ph54 ph 6 4 
 !fr ga 1 1 ga 6 5 ga 4 5 ga 9 6 ga 5 5 ph 6 6 ph 4 4
 fr ph 5 4 ph 6 4 ga 3 4 ga 5 5 ga 2 2 ga 8 6 ga 1 1
 
@@ -966,7 +975,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 free ph 2 1 ph 3 1 ph 3 2   
 
 !Extra
-fr ga 9 3 ga 1 1 ga 2 2 ga 6 3
+fr ga 9 3 ga 1 1 ga 2 2 ga 6 3 ga 6 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -1008,10 +1017,11 @@ eq ph 25 3 2 ph 3 2
 eq ph 25 2 1 ph 2 1 
 
 !Extra
- eq ga 25 9 3 ga 9 3
- eq ga 25 1 1 ga 1 1
- eq ga 25 2 2 ga 2 2
- eq ga 25 6 3 ga 6 3
+eq ga 25 9 3 ga 9 3
+eq ga 25 1 1 ga 1 1
+eq ga 25 2 2 ga 2 2
+eq ga 25 6 3 ga 6 3
+eq ga 25 6 5 ga 6 5
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
@@ -1591,6 +1601,9 @@ value 0 ly 7 7 ly 8 8 ly 9 9
 
 free ph 2 1 ph 3 1 ph 3 2   
 
+!Extra
+fr ph 5 5 ph 6 6
+
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
@@ -1632,6 +1645,10 @@ value 0 ly 4 4 ly 5 5 ly 6 6
 eq ph 41 3 1 ph 3 1
 eq ph 41 3 2 ph 3 2
 eq ph 41 2 1 ph 2 1 
+
+!Extra
+eq ph 41 5 5 ph 5 5
+eq ph 41 6 6 ph 6 6
 
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
