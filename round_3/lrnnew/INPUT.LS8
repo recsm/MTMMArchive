@@ -81,7 +81,8 @@ model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
 value 1 ly 1 1 ly 2 2 ly 3 3 
-value -1 ly 7 7 ly 8 8 ly 9 9
+!value -1 
+fr ly 7 7 ly 8 8 ly 9 9
 
 equal te 1 1 1 te 1 1
 equal te 1 2 2 te 2 2
