@@ -630,7 +630,7 @@ eq ph 15 3 2 ph 3 2
 eq ph 15 2 1 ph 2 1  
 
 !extra
-!fr te 3 2
+fr te 7 1
 !eq ga 15 1 1 ga 1 1 
 !eq ga 15 4 1 ga 4 1 
 !eq ga 15 7 1 ga 7 1 
