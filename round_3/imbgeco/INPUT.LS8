@@ -2964,7 +2964,7 @@ free ph 2 1 ph 3 1 ph 3 2
 fr ph 6 6
 fr ga 3 4
 fr te 5 2
-fr ga 5 5
+!fr ga 5 5
 fr ga 10 1
 fr ph 4 4
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
@@ -3014,7 +3014,7 @@ eq ph 67 3 1 ph 3 1
 eq ph 67 6 6 ph 6 6
 eq ga 67 3 4 ga 3 4
 eq te 67 5 2 te 5 2
-eq ga 67 5 5 ga 5 5
+!eq ga 67 5 5 ga 5 5
 eq ga 67 10 1 ga 10 1
 eq ph 67 4 4 ph 4 4
 
@@ -3065,7 +3065,7 @@ eq ph 67 2 1 ph 2 1
 eq ph 67 5 5 ph 5 5
 eq ph 67 6 6 ph 6 6
 eq ga 67 3 4 ga 3 4
-eq ga 67 5 5 ga 5 5
+!eq ga 67 5 5 ga 5 5
 eq ga 67 10 1 ga 10 1
 eq ph 67 4 4 ph 4 4
 
