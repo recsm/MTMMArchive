@@ -1231,8 +1231,8 @@ sd
 
 model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
-!value -1 ly 4 4 ly 5 5 ly 6 6
+value 1 ly 1 1 ly 2 2 ly 3 3 !ly 4 4 ly 5 5 ly 6 6
+value -1 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 
 value 1 te 7 7 te 8 8 te 9 9 
@@ -1400,7 +1400,8 @@ sd
 
 model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+value 1 ly 1 1 ly 2 2 ly 3 3 
+value -1 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 
 value 1 te 7 7 te 8 8 te 9 9 
@@ -1467,7 +1468,8 @@ sd
 
 model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+value 1 ly 1 1 ly 2 2 ly 3 3 
+value -1 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 
 value 1 te 7 7 te 8 8 te 9 9
@@ -1542,7 +1544,8 @@ sd
 
 model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
 
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+value 1 ly 1 1 ly 2 2 ly 3 3 
+value -1 ly 4 4 ly 5 5 ly 6 6
 fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 
 value 1 te 7 7 te 8 8 te 9 9 
@@ -1590,6 +1593,83 @@ eq ph 41 3 2 ph 3 2
 eq ph 4 2 1 ph 2 1 
 
 pd
+start .7 te 7 7 te 8 8 te 9 9
+out mi iter= 300 adm=off sc 
+
+
+Analysis of round 2 UA women group 1 (gp43)
+Data ni=9 no=690 ma=cm
+Km
+*
+1        
+0.147655749978284 1       
+0.273600991913806 0.0491632528646859 1      
+-0.357470626270805 -0.0183020723919288 -0.133598937296611 1     
+-0.000582948102236075 -0.155748143495150 0.138150364697905 0.196163593196079 1    
+-0.0986968690764683 0.125067934728548 -0.327345584758945 0.165256591367635 0.0067696134656993 1   
+0 0 0 0 0 0 1  
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 1
+me
+*
+2.11578947368421 1.63676470588235 2.80089820359281 3.32383808095952 3.38269794721408 2.50827067669173   0.00  .000   .000
+sd
+*
+1.02092874275367 0.813437298816542 1.32246162108665 1.05555229734085 1.09404732679641 1.09228159521723   1.00  1.00  1.00
+
+
+model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
+
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
+fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+
+value 1 te 7 7 te 8 8 te 9 9 
+value 0 ly 7 7 ly 8 8 ly 9 9 
+
+free ph 2 1 ph 3 1 ph 3 2   
+!extra
+fr ph 4 4
+
+start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+out mi iter= 300 adm=off sc
+
+Analysis of group 2 UA (gp44)
+Data ni=9 no=677 ma=cm
+Km
+*
+1        
+0.0878602558543347 1       
+0.244160624504951 -0.076641488422647 1      
+0 0 0 1     
+0 0 0 0 1    
+0 0 0 0 0 1   
+0.479150257049346 -0.00483197937151059 0.143378716407916 0 0 0 1  
+-0.0010422872295509 0.406140933724518 -0.0969210251640128 0 0 0 0.148558056117247 1 
+0.179394677361693 -0.138435261572618 0.558003220039566 0 0 0 0.266285295268192 -0.099092919441009 1
+me
+*
+2.09360374414977 1.69148936170213 2.74418604651163 0.0 0.0 0.0 2.30165912518854 1.93815987933635 2.93966817496229
+sd
+*
+1.00962847076831 0.856857325074329 1.28463851507001 1.0 1.0 1.0 1.06981954527839 1.14405368951401 1.43203883926304
+ 
+model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
+
+fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
+value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
+
+equal te 43 1 1 te 1 1
+equal te 43 2 2 te 2 2
+equal te 43 3 3 te 3 3
+
+value 1 te 4 4 te 5 5 te 6 6
+value 0 ly 4 4 ly 5 5 ly 6 6  
+
+eq ph 43 3 1 ph 3 1
+eq ph 43 3 2 ph 3 2
+eq ph 43 2 1 ph 2 1 
+!extra
+eq ph 43 4 4 ph 4 4
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
 
@@ -1668,81 +1748,5 @@ eq ph 41 2 1 ph 2 1
 eq ph 41 5 5 ph 5 5 
 eq ph 41 6 6 ph 6 6 
 eq ga 41 8 6 ga 8 6
-start .7 te 7 7 te 8 8 te 9 9
-out mi iter= 300 adm=off sc 
-
-Analysis of round 2 UA women group 1 (gp43)
-Data ni=9 no=690 ma=cm
-Km
-*
-1        
-0.147655749978284 1       
-0.273600991913806 0.0491632528646859 1      
--0.357470626270805 -0.0183020723919288 -0.133598937296611 1     
--0.000582948102236075 -0.155748143495150 0.138150364697905 0.196163593196079 1    
--0.0986968690764683 0.125067934728548 -0.327345584758945 0.165256591367635 0.0067696134656993 1   
-0 0 0 0 0 0 1  
-0 0 0 0 0 0 0 1 
-0 0 0 0 0 0 0 0 1
-me
-*
-2.11578947368421 1.63676470588235 2.80089820359281 3.32383808095952 3.38269794721408 2.50827067669173   0.00  .000   .000
-sd
-*
-1.02092874275367 0.813437298816542 1.32246162108665 1.05555229734085 1.09404732679641 1.09228159521723   1.00  1.00  1.00
-
-
-model ny=9 ne=9 nk=6  ly=fu,fi te=sy,fi ps=sy,fi be=in ga=in ph=in
-
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 4 4 ly 5 5 ly 6 6
-fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
-
-value 1 te 7 7 te 8 8 te 9 9 
-value 0 ly 7 7 ly 8 8 ly 9 9 
-
-free ph 2 1 ph 3 1 ph 3 2   
-!extra
-fr ph 4 4
-
-start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
-out mi iter= 300 adm=off sc
-
-Analysis of group 2 UA (gp44)
-Data ni=9 no=677 ma=cm
-Km
-*
-1        
-0.0878602558543347 1       
-0.244160624504951 -0.076641488422647 1      
-0 0 0 1     
-0 0 0 0 1    
-0 0 0 0 0 1   
-0.479150257049346 -0.00483197937151059 0.143378716407916 0 0 0 1  
--0.0010422872295509 0.406140933724518 -0.0969210251640128 0 0 0 0.148558056117247 1 
-0.179394677361693 -0.138435261572618 0.558003220039566 0 0 0 0.266285295268192 -0.099092919441009 1
-me
-*
-2.09360374414977 1.69148936170213 2.74418604651163 0.0 0.0 0.0 2.30165912518854 1.93815987933635 2.93966817496229
-sd
-*
-1.00962847076831 0.856857325074329 1.28463851507001 1.0 1.0 1.0 1.06981954527839 1.14405368951401 1.43203883926304
- 
-model ny=9 ne=9 nk=6 ly=fu,fi te=sy,fi ga=in ph=in
-
-fr te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
-value 1 ly 1 1 ly 2 2 ly 3 3 ly 7 7 ly 8 8 ly 9 9
-
-equal te 43 1 1 te 1 1
-equal te 43 2 2 te 2 2
-equal te 43 3 3 te 3 3
-
-value 1 te 4 4 te 5 5 te 6 6
-value 0 ly 4 4 ly 5 5 ly 6 6  
-
-eq ph 43 3 1 ph 3 1
-eq ph 43 3 2 ph 3 2
-eq ph 43 2 1 ph 2 1 
-!extra
-eq ph 43 4 4 ph 4 4
 start .7 te 7 7 te 8 8 te 9 9
 out mi iter= 300 adm=off sc 
