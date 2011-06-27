@@ -48,10 +48,10 @@ va .2 ph 3 1
 va .5 ph 2 1
 
 fr ph 4 4
-!fr ph 5 5 
+fr ph 5 5 
 fr ph 6 6 
 fr ph 7 7
-va .0001 ph 5 5
+!va .0001 ph 5 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
