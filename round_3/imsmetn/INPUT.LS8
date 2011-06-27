@@ -340,9 +340,7 @@ eq ph 7 3 1 ph 3 1
  eq ph 7 2 1 ph 2 1
 
 !extra
-eq ph 7 5 4 ph 5 4
-!eq ph 7 6 6 ph 6 6
-!eq ga 7 9 3 ga 9 3
+ 
 eq ga 7 11 7 ga 11 7
  eq ga 7 3 3 ga 3 3
 eq ga 7 6 3 ga 6 3 
@@ -394,9 +392,7 @@ eq ph 7 3 2 ph 3 2
 eq ph 7 2 1 ph 2 1
 
 !extra
-!eq ph 7 5 5 ph 5 5
-!eq ph 7 6 6 ph 6 6
-eq ph 7 5 4 ph 5 4
+ 
 !eq ga 7 9 3 ga 9 3
 eq ga 7 11 7 ga 11 7
  
