@@ -1462,7 +1462,7 @@ eq ga 31 1 1 ga 1 1
 eq ga 31 8 2 ga 8 2
 eq ph 31 5 4 ph 5 4
 eq ph 31 5 5 ph 5 5
-!fr ly 2 2
+fr ly 2 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 !st .0001 te 2 2
