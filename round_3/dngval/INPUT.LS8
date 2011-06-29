@@ -270,7 +270,7 @@ eq ph 4 3 2 ph 3 2
 eq ph 4 2 1 ph 2 1
 
 !extra
-!fr te 3 12
+fr te 11 2
 !eq ga 3 11 2 ga 11 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
