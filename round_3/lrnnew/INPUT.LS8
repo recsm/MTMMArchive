@@ -52,6 +52,7 @@ value 1 ph 1 1 ph 2 2 ph 3 3
 fr ph 6 6 
 fr ph 7 7
 
+va .0001 ph 4 4 ph 5 5
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
 
