@@ -2624,11 +2624,11 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2     
 
 !extra
-!free ga 6 3 ga 9 3 !ga 12 3
-!free ga 1 1
-fr ga 5 2 ga 7 1
+!free ga 6 3 ga 9 3 ga 12 3 ga 1 1
+fr ga 5 2 ga 7 1 ga 11 2
 
 start .5 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
+st .001 te 4 4
 out mi iter= 300 adm=off sc
 
 Analysis of group 2 RU (gp59)
@@ -2667,13 +2667,13 @@ value 1 te 4 4 te 5 5 te 6 6 te 10 10 te 11 11 te 12 12
 value 0 ly 4 4 ly 5 5 ly 6 6 ly 10 10 ly 11 11 ly 12 12 
 
 eq ph 58 3 1 ph 3 1
- eq ph 58 3 2 ph 3 2
- eq ph 58 2 1 ph 2 1
+eq ph 58 3 2 ph 3 2
+eq ph 58 2 1 ph 2 1
 
 !extra
 eq ga 58 9 3 ga 9 3
 eq ga 58 6 3 ga 6 3
-!eq ga 58 12 3 ga 12 3
+eq ga 58 11 2 ga 11 2
 eq ga 58 1 1 ga 1 1
 eq ga 58 5 2 ga 5 2
 eq ga 58 7 1 ga 7 1
@@ -2725,13 +2725,14 @@ eq ph 58 2 1 ph 2 1
 !extra
 eq ga 58 9 3 ga 9 3
 eq ga 58 6 3 ga 6 3
-!eq ga 58 12 3 ga 12 3
+eq ga 58 11 2 ga 11 2
 eq ga 58 1 1 ga 1 1
 !free te 11 2
 eq ga 58 5 2 ga 5 2
 eq ga 58 7 1 ga 7 1
  
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
+st .001 te 11 11
 out mi iter= 300 adm=off sc 
 
 !Analysis of SE round 3 dngval group 1 (gp61) : SE not analysed, pb (noone answer the same day)
