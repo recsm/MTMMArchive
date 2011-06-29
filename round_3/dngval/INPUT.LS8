@@ -876,7 +876,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2     
 
 !extra
-fr ph 7 7 te 6 3 
+fr ph 7 7 te 6 3 ga 2 2
 !ga 12 3 ga 2 2
 !ga 3 3
 
