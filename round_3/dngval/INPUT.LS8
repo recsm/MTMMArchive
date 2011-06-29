@@ -928,7 +928,7 @@ eq ga 19 3 3 ga 3 3
 eq ga 19 6 3 ga 6 3 
 eq ga 19 12 3 ga 12 3
 eq ga 19 2 2 ga 2 2
-
+fr te 12 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
