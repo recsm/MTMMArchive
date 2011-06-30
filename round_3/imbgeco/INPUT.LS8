@@ -851,7 +851,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 19 1 1 te 1 1
@@ -974,7 +974,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 22 1 1 te 1 1
@@ -1224,7 +1224,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 28 1 1 te 1 1
@@ -1357,7 +1357,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 31 1 1 te 1 1
@@ -1488,7 +1488,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 34 1 1 te 1 1
@@ -1611,7 +1611,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 37 1 1 te 1 1
@@ -1739,7 +1739,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 40 1 1 te 1 1
@@ -1876,7 +1876,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 43 1 1 te 1 1
@@ -2008,7 +2008,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 46 1 1 te 1 1
@@ -2131,7 +2131,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 49 1 1 te 1 1
@@ -2257,7 +2257,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 52 1 1 te 1 1
@@ -2391,7 +2391,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 55 1 1 te 1 1
@@ -2516,7 +2516,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 58 1 1 te 1 1
@@ -2653,7 +2653,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 61 1 1 te 1 1
@@ -2776,7 +2776,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 64 1 1 te 1 1
@@ -2903,7 +2903,7 @@ sd
 model ny=12 ne=12 nk=7 ly=fu,fi te=sy,fi ps=in be=in ga=in ph=in
 
 fr te 1 1 te 2 2 te 3 3  te 7 7 te 8 8 te 9 9 
-value 1 ly 1 1 ly 2 2 ly 3 3
+value 1 ly 1 1 ly 2 2 ly 3 3 
 value -1 ly 7 7 ly 8 8 ly 9 9
 
 equal te 67 1 1 te 1 1
