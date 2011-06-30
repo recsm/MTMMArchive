@@ -2545,8 +2545,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !wxtra
 fr te 6 4 ga 7 1
-free ga 10 7
-eq ga 55 9 3 ga 9 3
+free ga 10 7 
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
