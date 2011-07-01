@@ -2959,8 +2959,9 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2     
 !extra
 !fr ph 5 5 
-fr ph 6 6
-fr ga 3 4
+!fr ph 6 6
+fr ph 4 4
+!fr ga 3 4
 fr te 5 2
 fr ga 5 5
 fr ga 10 1
@@ -3008,8 +3009,9 @@ eq ph 67 3 1 ph 3 1
  eq ph 67 2 1 ph 2 1
 !extra
 !eq ph 67 5 5 ph 5 5
-eq ph 67 6 6 ph 6 6
-eq ga 67 3 4 ga 3 4
+!eq ph 67 6 6 ph 6 6
+eq ph 67 4 4 ph 4 4
+!eq ga 67 3 4 ga 3 4
 eq te 67 5 2 te 5 2
 eq ga 67 5 5 ga 5 5
 eq ga 67 10 1 ga 10 1
@@ -3057,9 +3059,10 @@ eq ph 67 3 1 ph 3 1
 eq ph 67 3 2 ph 3 2
 eq ph 67 2 1 ph 2 1
 !extra
-eq ph 67 5 5 ph 5 5
-eq ph 67 6 6 ph 6 6
-eq ga 67 3 4 ga 3 4
+eq ph 67 4 4 ph 4 4
+!eq ph 67 5 5 ph 5 5
+!eq ph 67 6 6 ph 6 6
+!eq ga 67 3 4 ga 3 4
 eq ga 67 5 5 ga 5 5
 eq ga 67 10 1 ga 10 1
 pd
