@@ -361,7 +361,7 @@ eq ph 7 5 5 ph 5 5
 eq ph 7 6 6 ph 6 6
 eq ph 7 7 7 ph 7 7
 eq ga 7 2 2 ga 2 2
-fr te 9 3 te 7 1
+fr te 9 3 te 7 1 te 9 7
 
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
