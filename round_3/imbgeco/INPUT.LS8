@@ -1257,7 +1257,7 @@ eq ph 28 3 1 ph 3 1
  eq ph 28 2 1 ph 2 1
 
 !extra
-eq ph 28 4 4 ph 4 4
+!eq ph 28 4 4 ph 4 4
 eq ga 28 4 5 ga 4 5
 eq ga 28 5 5 ga 5 5
 eq ga 28 3 4 ga 3 4
@@ -1306,7 +1306,10 @@ eq ph 28 3 2 ph 3 2
 eq ph 28 2 1 ph 2 1
 
 !extra
-eq ph 28 4 4 ph 4 4
+!eq ph 28 4 4 ph 4 4
+eq ga 28 4 5 ga 4 5
+eq ga 28 5 5 ga 5 5
+eq ga 28 3 4 ga 3 4
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
