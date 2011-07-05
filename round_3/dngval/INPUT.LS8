@@ -2908,8 +2908,12 @@ eq ph 61 3 1 ph 3 1
 eq ph 61 3 2 ph 3 2
 eq ph 61 2 1 ph 2 1
 
+!Extra
+fr te 11 2
+
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
+
 Analysis of SK round 3 dngval group 1 (gp64)
 Data  ni=12 no=594 ma=cm
 km
