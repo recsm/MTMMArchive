@@ -1523,6 +1523,7 @@ eq ga 31 3 3 ga 3 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
+
 Analysis of AT round 3 dngval group 1 (gp34)
 Data  ni=12 no=884 ma=cm
 km
@@ -1604,6 +1605,7 @@ eq ph 34 2 1 ph 2 1
 !extra
 free te 9 3
 eq ga 34 11 7 ga 11 7
+eq ph 34 5 5 ph 5 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
@@ -1652,6 +1654,8 @@ eq ph 34 2 1 ph 2 1
 !extra
 !free te 12 3
 eq ga 34 11 7 ga 11 7
+eq ph 34 5 5 ph 5 5
+fr te 2 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
