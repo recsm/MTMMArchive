@@ -1384,6 +1384,7 @@ eq ph 28 2 1 ph 2 1
 !eq ga 28 3 3 ga 3 3 
 !eq ga 28 6 3 ga 6 3 
 !free te 12 3
+fr te 3 1
 
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
