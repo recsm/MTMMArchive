@@ -1063,7 +1063,7 @@ eq ph 22 3 1 ph 3 1
  eq ph 22 2 1 ph 2 1
 
 !extra
-free te 9 3
+!free te 9 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
