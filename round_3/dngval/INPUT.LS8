@@ -992,7 +992,7 @@ eq ga 19 3 3 ga 3 3
 eq ga 19 6 3 ga 6 3 
 eq ga 19 12 3 ga 12 3
 eq ga 19 2 2 ga 2 2
-fr te 12 3 te 1 1
+fr te 12 3 te 1 1 te 3 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
@@ -1124,7 +1124,7 @@ eq ph 22 2 1 ph 2 1
 
 !extra
 !eq ph 22 7 7 ph 7 7
-fr te 12 3
+fr te 12 3 te 11 10
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
@@ -1346,8 +1346,6 @@ eq ph 28 3 1 ph 3 1
 eq ga 28 3 3 ga 3 3 
 eq ga 28 6 3 ga 6 3 
 
-
-
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
 
@@ -1395,11 +1393,11 @@ eq ph 28 2 1 ph 2 1
 !extra 
 eq ga 28 3 3 ga 3 3 
 eq ga 28 6 3 ga 6 3 
-
-
+fr te 3 1
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
+
 Analysis of FR round 3 dngval group 1 (gp31)
 Data  ni=12 no=675 ma=cm
 km
@@ -1598,7 +1596,7 @@ free ph 2 1 ph 3 1 ph 3 2
 
 !Extra
 !fr ph 5 5 ga 11 7 ga 1 1 ga 2 2
-fr te 6 3 ga 11 7 !ga 1 1
+fr te 6 3 ga 11 7 ph 5 5
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
