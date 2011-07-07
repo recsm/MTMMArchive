@@ -3155,7 +3155,7 @@ eq ga 67 1 1 ga 1 1
 eq ga 67 2 2 ga 2 2
 eq ga 67 3 3 ga 3 3
 eq ga 67 8 6 ga 8 6
-eq ph 67 5 5 ga 5 5
+eq ph 67 5 5 ph 5 5
  
 pd
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
