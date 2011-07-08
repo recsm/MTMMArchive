@@ -1646,6 +1646,7 @@ eq ph 34 2 1 ph 2 1
  !extra
 eq ph 34 4 4 ph 4 4 
 eq ph 34 6 6 ph 6 6
+fr te 11 10
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
