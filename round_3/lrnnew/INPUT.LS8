@@ -742,7 +742,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2     
 
 !extra
-free ga 5 2 ph 5 5 ga 11 2 ga 4 1
+free ga 5 2 ph 5 5 ga 11 2 ga 4 1 ga 12 7
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -792,6 +792,7 @@ eq ga 16 5 2 ga 5 2
 eq ph 16 5 5 ph 5 5
 eq ga 16 11 2 ga 11 2
 eq ga 16 4 1 ga 4 1
+eq ga 16 12 7 ga 12 7
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
@@ -842,6 +843,7 @@ eq ga 16 5 2 ga 5 2
 eq ph 16 5 5 ph 5 5 
 eq ga 16 11 2 ga 11 2
 eq ga 16 4 1 ga 4 1
+eq ga 16 12 7 ga 12 7
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
@@ -2237,7 +2239,10 @@ fr te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6
 value 1 te 7 7 te 8 8 te 9 9 te 10 10 te 11 11 te 12 12
 value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 
-free ph 2 1 ph 3 1 ph 3 2     
+free ph 2 1 ph 3 1 ph 3 2  
+
+!extra
+fr ga 2 2   
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -2284,6 +2289,7 @@ eq ph 49 3 1 ph 3 1
 
 !Extra
 fr te 8 7 te 7 1
+eq ga 49 2 2 ga 2 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
@@ -2331,6 +2337,7 @@ eq ph 49 2 1 ph 2 1
 
 !Extra
 !fr te 11 10
+eq ga 49 2 2 ga 2 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
@@ -2644,7 +2651,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2     
 
 !extra
-free ph 7 7 ph 4 4 ph 5 5
+free ph 7 7 ph 4 4 ph 5 5 ga 7 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -2695,6 +2702,7 @@ eq ph 58 7 7 ph 7 7
 !extra
 eq ph 58 4 4 ph 4 4
 eq ph 58 5 5 ph 5 5
+eq ga 58 7 6 ga 7 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
@@ -2746,6 +2754,7 @@ eq ph 58 7 7 ph 7 7
 !extra
 eq ph 58 4 4 ph 4 4
 eq ph 58 5 5 ph 5 5
+eq ga 58 7 6 ga 7 6
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
