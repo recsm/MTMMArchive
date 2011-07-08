@@ -1227,6 +1227,9 @@ eq ga 25 12 7 ga 12 7
 eq ga 25 3 3 ga 3 3
 eq ph 25 5 5 ph 5 5
 
+!extra
+fr te 8 2
+
 start .7 te 1 1 te 2 2 te 3 3 te 7 7 te 8 8 te 9 9
 out iter= 300 adm=off sc 
 
@@ -1721,7 +1724,7 @@ value 0 ly 7 7 ly 8 8 ly 9 9 ly 10 10 ly 11 11 ly 12 12
 free ph 2 1 ph 3 1 ph 3 2     
 
 !extra 
-free ph 7 7 ph 5 5
+free ph 7 7 ph 5 5 te 5 2
 
 start .7 te 1 1 te 2 2 te 3 3 te 4 4 te 5 5 te 6 6 
 out mi iter= 300 adm=off sc
@@ -2483,6 +2486,7 @@ eq ph 52 5 5 ph 5 5
 eq ga 52 10 1 ga 10 1
 eq ga 52 2 2 ga 2 2
 eq ga 52 7 1 ga 7 1
+fr te 12 3
 
 start .7 te 1 1 te 2 2 te 3 3 te 10 10 te 11 11 te 12 12 
 out mi iter= 300 adm=off sc 
